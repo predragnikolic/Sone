@@ -77,6 +77,11 @@
             "scope": "constant.other.placeholder",
             "foreground": "var(blue)"
         },
+        {
+            "name": "True Null False",
+            "scope": "constant.language",
+            "foreground": "var(purple)"
+        },
         // Entity
         {
             "name": "Entity",
@@ -112,7 +117,8 @@
         {
             "name": "Keyword",
             "scope": "keyword.control",
-            "foreground": ["var(green)", "var(blue)"]
+            "foreground": ["var(green)", "var(blue)"],
+            "font_style": "bold"
         },
         {
             "name": "Keyword",
@@ -150,6 +156,99 @@
             "name": "Untracked gitgutter",
             "scope": "markup.untracked.git_gutter",
             "foreground": "var(h-b)"
+        },
+        // Markdown
+        {
+            "name": "----",
+            "scope": "markup.heading",
+            "foreground": "var(pure-white)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Markdown Italic",
+            "scope": "markup.italic",
+            "foreground": "var(pure-white)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Markdown Bold",
+            "scope": "markup.bold",
+            "foreground": "var(pure-white)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Markdown Strikethrough",
+            "scope": "markup.strikethrough",
+            "foreground": "var(pure-white)",
+        },
+        // Markdown Lists
+        {
+            "name": "Markdown Numbered List",
+            "scope": "markup.list.numbered.bullet",
+            "foreground": "var(pure-white)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Markdown Unnumbered List",
+            "scope": "punctuation.definition.list_item",
+            "foreground": "var(pure-white)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Markdown Link",
+            "scope": "markup.underline.link",
+            "foreground": ["var(blue)", "var(green)"],
+            "font_style": "bold"
+        },
+        {
+            "name": "Markdown Link Description",
+            "scope": "meta.link.inline.description",
+            "foreground": "var(pure-white)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Markdown Link Reference",
+            "scope": "meta.link.reference.description",
+            "foreground": "var(pure-white)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Markdown Image Description",
+            "scope": "meta.image.inline.description",
+            "foreground": "var(pure-white)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Markdown Image Reference",
+            "scope": "meta.image.reference.description",
+            "foreground": "var(pure-white)",
+            "font_style": "bold"
+        },
+        // Markdown Code blocks
+        {
+            "name": "Markdown Inline Block",
+            "scope": "markup.raw.inline",
+            "foreground": "var(pure-white)",
+            "font_style": "bold",
+            "background": "var(h-s)"
+        },
+        {
+            "name": "Markdown Code Block",
+            "scope": "markup.raw.code-fence",
+            "background": "var(h-s)"
+        },
+        {
+            "name": "Markdown Blockquote",
+            "scope": "punctuation.definition.blockquote",
+            "foreground": "var(h-s)",
+            "font_style": "bold",
+            "background": "var(h-b)"
+        },
+        {
+            "name": "Markdown --- *** ",
+            "scope": "punctuation.definition.thematic-break",
+            "foreground": "var(pure-white)",
+            "font_style": "bold",
         },
         // Meta
         {
