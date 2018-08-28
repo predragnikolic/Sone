@@ -16,6 +16,7 @@
         "purple": "#9977FF",
         "yellow": "#FFEF94",
 
+        "danger": "#FF2C6D",
         "accent": "var(green)",
     },
     "globals": {
@@ -110,7 +111,7 @@
         {
             "name": "Invalid",
             "scope": "invalid",
-            "foreground": "var(red)"
+            "foreground": "var(danger)"
         },
         // Keyword
         {
@@ -144,7 +145,7 @@
         {
             "name": "Deleted",
             "scope": "markup.deleted",
-            "foreground": "var(red)"
+            "foreground": "var(danger)"
         },
         {
             "name": "Changed",
