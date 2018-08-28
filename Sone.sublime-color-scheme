@@ -11,7 +11,6 @@
 
 
         "red": "#FF5040",
-        "pink": "#FF7799",
         "green": "#2AFF95",
         "blue": "#7799FF",
         "purple": "#9977FF",
@@ -92,7 +91,7 @@
         {
             "name": "Tag",
             "scope": "entity.name.tag",
-            "foreground": ["var(blue)", "var(pink)"],
+            "foreground": ["var(blue)", "var(purple)"],
             "font_style": "bold"
         },
         {
