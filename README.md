@@ -1,4 +1,4 @@
-# Sone Color Scheme - Sublime Color Scheme
+# Sone Color Scheme - Sublime Text 3
 Simple and Unique, a sublime color scheme like no other.
 
 ![Sone Color Scheme Screen shot](img/screenshot.png)
