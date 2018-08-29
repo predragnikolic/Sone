@@ -152,10 +152,30 @@
             "scope": "markup.changed",
             "foreground": "var(yellow)"
         },
+        // Git Gutter Plutgin
         {
             "name": "Untracked gitgutter",
             "scope": "markup.untracked.git_gutter",
             "foreground": "var(h-b)"
+        },
+        // Git Diff View Plugin
+        {
+            "name": "Git Diff View Deleted",
+            "scope": "text.grf markup.deleted",
+            "foreground": ["var(danger)", "#FF6769"],
+            "font_style": "bold"
+        },
+        {
+            "name": "Git Diff View Inserted",
+            "scope": "source.diff markup.inserted.diff",
+            "foreground": ["var(green)", "#70FFE8"],
+            "font_style": "bold"
+        },
+        {
+            "name": "Git Diff View Deleted",
+            "scope": "source.diff markup.deleted.diff",
+            "foreground": ["var(danger)", "#FF6769"],
+            "font_style": "bold"
         },
         // Markdown
         {
