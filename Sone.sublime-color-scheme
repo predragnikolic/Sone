@@ -121,9 +121,15 @@
             "font_style": "bold"
         },
         {
-            "name": "Keyword",
+            "name": "Keyword For Spread",
             "scope": "keyword.operator.spread",
             "foreground": ["var(blue)", "var(green)"]
+        },
+        {
+            "name": "Import JS Modules",
+            "scope": "keyword.operator.module",
+            "foreground": ["var(green)", "var(blue)"],
+            "font_style": "bold"
         },
         {
             "name": "Css @Media",

@@ -3,6 +3,8 @@ Simple and Unique, a sublime color scheme like no other.
 
 ![Sone Color Scheme Screen shot](img/screenshot.png)
 
+
+
 ## Installation 
 
 * Clone this repository to `sublime-text-3/Packages` folder.
