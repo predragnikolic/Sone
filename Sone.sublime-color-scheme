@@ -33,7 +33,7 @@
         "gutter_foreground": "var(h-b)",
         // Selection
         "selection": "#2e2a27", // can't be var(h-s), because of caret 
-        "selection_border_width": "1",
+        "selection_border_width": "2",
         "inactive_selection": "var(h-i)",
         // Find
         "highlight": "var(h-s)",
@@ -90,6 +90,12 @@
             "font_style": "bold"
         },
         {
+            "name": "Entity Function",
+            "scope": "entity.name.function",
+            "foreground": ["#B0CFFF", "var(blue)"],
+            "font_style": "bold"
+        },
+        {
             "name": "Tag",
             "scope": "entity.name.tag",
             "foreground": ["var(blue)", "var(purple)"],
@@ -132,9 +138,21 @@
             "font_style": "bold"
         },
         {
+            "name": "Is Not In Pyton",
+            "scope": "keyword.operator.logical",
+            "foreground": ["var(green)", "var(blue)"],
+            "font_style": "bold"
+        },
+        {
             "name": "Css @Media",
             "scope": "source.css keyword.control",
             "foreground": ["var(red)", "var(yellow)"],
+            "font_style": "bold"
+        },
+        {
+            "name": "PHP use, new",
+            "scope": "keyword.other",
+            "foreground": ["var(green)", "var(blue)"],
             "font_style": "bold"
         },
         {
@@ -290,6 +308,12 @@
             "foreground": "var(pure-white)"
         },
         // Punctuation
+        
+        {
+            "name": "PHp ->",
+            "scope": "punctuation.accessor.arrow",
+            "foreground": "var(pure-white)"
+        },
         {
             "name": "@ Annotation",
             "scope": "punctuation.definition.annotation",
@@ -301,6 +325,24 @@
             "scope": "variable.annotation",
             "font_style": "bold",
             "foreground": "var(pure-white)"
+        },
+        {
+            "name": "Js Object Key Literal",
+            "scope": "meta.object-literal.key",
+            "foreground": "var(pure-white)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Function call",
+            "scope": "meta.function-call support.function",
+            "font_style": "bold",
+            "foreground": ["#B0CFFF", "var(blue)"],
+        }, 
+        {
+            "name": "Function call 2",
+            "scope": "meta.function-call variable.function",
+            "font_style": "bold",
+            "foreground": ["#B0CFFF", "var(blue)"],
         },
         // Variable
         {
@@ -339,10 +381,42 @@
             "font_style": "bold",
             "foreground": "var(pure-white)"
         },
+        {
+            "name": "This, Self",
+            "scope": "variable.language",
+            "font_style": "italic",
+            "foreground": "var(pure-white)"
+        },
         // Storage
         {
             "name": "Private Public Mut Keywords",
             "scope": "storage.modifier",
+            "font_style": "bold",
+            "foreground": "var(pure-white)"
+        },
+        {
+            "name": "Php extends",
+            "scope": "storage.modifier.extends",
+            "font_style": "bold",
+            "foreground": ["var(blue)", "var(white)"]
+        },
+
+        {
+            "name": "Class Keywords",
+            "scope": "storage.type.class",
+            "foreground": ["var(blue)", "var(white)"],
+            "font_style": "bold"
+        },
+        {
+            "name": "Interface Keywords",
+            "scope": "storage.type.interface",
+            "foreground": ["var(blue)", "var(white)"],
+            "font_style": "bold"
+        },
+        {
+            "name": "Trait Keywords",
+            "scope": "storage.type.trait",
+            "foreground": ["var(blue)", "var(white)"],
             "font_style": "bold"
         },
         // String
@@ -356,6 +430,12 @@
         {
             "name": "Support",
             "scope": "support.class",
+            "foreground": "var(pure-white)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Inheritance",
+            "scope": "entity.other.inherited-class",
             "foreground": "var(pure-white)",
             "font_style": "bold"
         },
@@ -374,7 +454,7 @@
         {
             "name": "Rust macros",
             "scope": "support.macro",
-            "foreground": "var(pure-white)",
+            "foreground": ["#B0CFFF", "var(blue)"],
             "font_style": "bold"
         },
     ]
