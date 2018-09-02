@@ -334,7 +334,7 @@
         },
         {
             "name": "Function call",
-            "scope": "meta.function-call support.function",
+            "scope": "support.function",
             "font_style": "bold",
             "foreground": ["#B0CFFF", "var(blue)"],
         }, 
@@ -436,12 +436,6 @@
         {
             "name": "Inheritance",
             "scope": "entity.other.inherited-class",
-            "foreground": "var(pure-white)",
-            "font_style": "bold"
-        },
-        {
-            "name": "Call Functions From Objects",
-            "scope": "support.function",
             "foreground": "var(pure-white)",
             "font_style": "bold"
         },
