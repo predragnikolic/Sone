@@ -87,11 +87,16 @@
             "name": "Entity",
             "scope": "entity.name",
             "foreground": "var(pure-white)",
-            "font_style": "bold"
         },
         {
             "name": "Entity Function",
             "scope": "entity.name.function",
+            "foreground": ["#B0CFFF", "var(blue)"],
+            "font_style": "bold"
+        },
+        {
+            "name": "Entity Function Python",
+            "scope": "entity.name.function meta.generic-name.python",
             "foreground": ["#B0CFFF", "var(blue)"],
             "font_style": "bold"
         },
@@ -147,7 +152,6 @@
             "name": "Css @Media",
             "scope": "source.css keyword.control",
             "foreground": ["var(red)", "var(yellow)"],
-            "font_style": "bold"
         },
         {
             "name": "PHP use, new",
@@ -187,26 +191,24 @@
             "name": "Git Diff View Deleted",
             "scope": "text.grf markup.deleted",
             "foreground": ["var(danger)", "#FF6769"],
-            "font_style": "bold"
+            
         },
         {
             "name": "Git Diff View Inserted",
             "scope": "source.diff markup.inserted.diff",
             "foreground": ["var(green)", "#70FFE8"],
-            "font_style": "bold"
         },
         {
             "name": "Git Diff View Deleted",
             "scope": "source.diff markup.deleted.diff",
             "foreground": ["var(danger)", "#FF6769"],
-            "font_style": "bold"
+            
         },
         // Markdown
         {
             "name": "----",
             "scope": "markup.heading",
             "foreground": "var(pure-white)",
-            "font_style": "bold"
         },
         {
             "name": "Markdown Italic",
@@ -218,7 +220,6 @@
             "name": "Markdown Bold",
             "scope": "markup.bold",
             "foreground": "var(pure-white)",
-            "font_style": "bold"
         },
         {
             "name": "Markdown Strikethrough",
@@ -229,51 +230,43 @@
         {
             "name": "Markdown Numbered List",
             "scope": "markup.list.numbered.bullet",
-            "foreground": "var(pure-white)",
-            "font_style": "bold"
+            "foreground": "var(pure-white)",  
         },
         {
             "name": "Markdown Unnumbered List",
             "scope": "punctuation.definition.list_item",
             "foreground": "var(pure-white)",
-            "font_style": "bold"
         },
         {
             "name": "Markdown Link",
             "scope": "markup.underline.link",
             "foreground": ["var(blue)", "var(green)"],
-            "font_style": "bold"
         },
         {
             "name": "Markdown Link Description",
             "scope": "meta.link.inline.description",
             "foreground": "var(pure-white)",
-            "font_style": "bold"
         },
         {
             "name": "Markdown Link Reference",
             "scope": "meta.link.reference.description",
             "foreground": "var(pure-white)",
-            "font_style": "bold"
         },
         {
             "name": "Markdown Image Description",
             "scope": "meta.image.inline.description",
             "foreground": "var(pure-white)",
-            "font_style": "bold"
         },
         {
             "name": "Markdown Image Reference",
             "scope": "meta.image.reference.description",
             "foreground": "var(pure-white)",
-            "font_style": "bold"
         },
         // Markdown Code blocks
         {
             "name": "Markdown Inline Block",
             "scope": "markup.raw.inline",
-            "foreground": "var(pure-white)",
-            "font_style": "bold",
+            "foreground": "var(pure-white)",   
             "background": "var(h-s)"
         },
         {
@@ -285,26 +278,22 @@
             "name": "Markdown Blockquote",
             "scope": "punctuation.definition.blockquote",
             "foreground": "var(h-s)",
-            "font_style": "bold",
             "background": "var(h-b)"
         },
         {
             "name": "Markdown --- *** ",
             "scope": "punctuation.definition.thematic-break",
             "foreground": "var(pure-white)",
-            "font_style": "bold",
         },
         // Meta
         {
             "name": "Python Variables",
             "scope": "meta.generic-name",
-            "font_style": "bold",
             "foreground": "var(pure-white)"
         },
         {
             "name": "Js Class Property",
             "scope": "meta.property",
-            "font_style": "bold",
             "foreground": "var(pure-white)"
         },
         // Punctuation
@@ -317,20 +306,18 @@
         {
             "name": "@ Annotation",
             "scope": "punctuation.definition.annotation",
-            "font_style": "bold",
             "foreground": "var(purple)"
         },
         {
             "name": "Function Annotation",
-            "scope": "variable.annotation",
-            "font_style": "bold",
+            "scope": "variable.annotation",         
             "foreground": "var(pure-white)"
         },
         {
             "name": "Js Object Key Literal",
             "scope": "meta.object-literal.key",
             "foreground": "var(pure-white)",
-            "font_style": "bold"
+            
         },
         {
             "name": "Function call",
@@ -348,37 +335,31 @@
         {
             "name": "Variable",
             "scope": "variable.other",
-            "font_style": "bold",
             "foreground": "var(pure-white)"
         },
         {
             "name": "Variable",
             "scope": "punctuation.definition.variable",
-            "font_style": "bold",
             "foreground": ["var(blue)", "var(white)"]
         },
         {
             "name": "Arguments",
             "scope": "variable.parameter",
-            "font_style": "bold",
             "foreground": "var(pure-white)"
         },
         {
             "name": "Calling Function Method",
             "scope": "variable.function",
-            "font_style": "bold",
-            "foreground": "var(pure-white)"
+            "font_style": "bold"
         },
         {
             "name": "Instanciating Classes In Js",
             "scope": "variable.type",
-            "font_style": "bold",
             "foreground": "var(pure-white)"
         },
         {
             "name": "Class Attributes And Properties",
             "scope": "variable.other.member",
-            "font_style": "bold",
             "foreground": "var(pure-white)"
         },
         {
@@ -397,7 +378,6 @@
         {
             "name": "Php extends",
             "scope": "storage.modifier.extends",
-            "font_style": "bold",
             "foreground": ["var(blue)", "var(white)"]
         },
 
@@ -430,26 +410,22 @@
         {
             "name": "Support",
             "scope": "support.class",
-            "foreground": "var(pure-white)",
-            "font_style": "bold"
+            "foreground": "var(pure-white)",    
         },
         {
             "name": "Inheritance",
             "scope": "entity.other.inherited-class",
-            "foreground": "var(pure-white)",
-            "font_style": "bold"
+            "foreground": "var(pure-white)",  
         },
         {
             "name": "Css Property Names",
             "scope": "support.type",
-            "foreground": "var(pure-white)",
-            "font_style": "bold"
+            "foreground": "var(pure-white)",  
         },
         {
             "name": "Rust macros",
             "scope": "support.macro",
-            "foreground": ["#B0CFFF", "var(blue)"],
-            "font_style": "bold"
+            "foreground": ["#B0CFFF", "var(blue)"],  
         },
     ]
 }
