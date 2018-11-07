@@ -33,11 +33,12 @@
         "gutter_foreground": "var(h-b)",
         // Selection
         "selection": "#2e2a27", // can't be var(h-s), because of caret 
+        "selection_border": "#9977FF44",
         "selection_border_width": "2",
         "inactive_selection": "var(h-i)",
         // Find
         "highlight": "var(h-s)",
-        "find_highlight": "var(accent)",
+        "find_highlight": "var(purple)",
         "find_highlight_foreground": "var(h-s)",
         // Guides
         "guide": "var(h-s)",
