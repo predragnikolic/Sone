@@ -395,6 +395,18 @@
             "font_style": "bold"
         },
         {
+            "name": "Implementation Keywords",
+            "scope": "storage.type.impl",
+            "foreground": ["var(blue)", "var(white)"],
+            "font_style": "bold"
+        },
+        {
+            "name": "Struct Keywords",
+            "scope": "storage.type.struct",
+            "foreground": ["var(blue)", "var(white)"],
+            "font_style": "bold"
+        },
+        {
             "name": "Trait Keywords",
             "scope": "storage.type.trait",
             "foreground": ["var(blue)", "var(white)"],
@@ -427,6 +439,7 @@
             "name": "Rust macros",
             "scope": "support.macro",
             "foreground": ["#B0CFFF", "var(blue)"],  
+            "font_style": "bold"
         },
     ]
 }
