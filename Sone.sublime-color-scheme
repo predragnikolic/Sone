@@ -413,9 +413,15 @@
             "font_style": "bold"
         },
         // String
+        
         {
             "name": "String",
             "scope": "string",
+            "foreground": "var(white)"
+        },
+        {
+            "name": "Quotes",
+            "scope": "punctuation.definition.string",
             "foreground": "var(pure-white)"
         },
         // Support
