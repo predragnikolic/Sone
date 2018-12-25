@@ -612,7 +612,7 @@
     {
         "class": "scroll_area_control",
         "parents": [{"class": "sidebar_container"}],
-        "content_margin": [0, -16, 0, 10]
+        "content_margin": [0, 8, 0, 10]
     },
     {
         "class": "scroll_bar_control",
