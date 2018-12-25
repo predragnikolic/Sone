@@ -2,13 +2,12 @@
     "name": "Sone Color Scheme",
     "variables": {
         "pure-white": "#ffffff",
-        "white": "#D2C1B0",
-        "black": "#272320",
+        "white": "#c8c8e0",
+        "black": "#393939",
 
         "h-i": "#ffffff03", // inactive highlight
         "h-s": "#ffffff10", // small highlight
         "h-b": "#ffffff40", // big highlight
-
 
         "red": "#FF5040",
         "green": "#2AFF95",
@@ -32,8 +31,8 @@
         // Gutter
         "gutter_foreground": "var(h-b)",
         // Selection
-        "selection": "#2e2a27", // can't be var(h-s), because of caret 
-        "selection_border": "#9977FF44",
+        "selection": "color(var(black) blend(#fff 96%))", // can't be var(h-s), because of caret 
+        "selection_border": "#9977FF77",
         "selection_border_width": "2",
         "inactive_selection": "var(h-i)",
         // Find
