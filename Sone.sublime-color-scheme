@@ -16,13 +16,13 @@
         "yellow": "#FFEF94",
 
         "danger": "#FF2C6D",
-        "accent": "var(green)",
+        "accent": "var(purple)",
     },
     "globals": {
         // Global Settings
         "background": "var(black)",
         "foreground": "var(white)",
-        "caret": "var(accent)",
+        "caret": "var(green)",
         "line_highlight": "var(h-s)",
         // Accents
         "misspelling": "var(red)",
@@ -45,9 +45,9 @@
         "stack_guide": "var(h-s)",
         // Brackets
         "brackets_options": "underline",
-        "brackets_foreground": "var(accent)",
+        "brackets_foreground": "var(green)",
         "bracket_contents_options":  "underline",
-        "bracket_contents_foreground": "var(accent)",
+        "bracket_contents_foreground": "var(green)",
         // Tags
         "tags_options": "underline",
         "tags_foreground": "var(accent)",
