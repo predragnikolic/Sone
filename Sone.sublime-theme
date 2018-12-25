@@ -10,10 +10,10 @@
         "class": "sidebar_tree",
         "row_padding": [4, 4, 4, 4],
         "indent": 20,
-        "indent_offset": 0,
+        "indent_offset": 8,
         "indent_top_level": false,
         "dark_content": false,
-        "spacer_rows": true
+        "spacer_rows": false
     },
     {
         "class": "tree_row",
@@ -34,11 +34,9 @@
     },
     {
         "class": "sidebar_heading",
-        "fg": [128, 128, 128],
+        "fg": [128, 128, 128, 0.0],
         "font.size": 13,
-        "font.bold": true,
-        "shadow_color": [255, 255, 255, 0.36],
-        "shadow_offset": [0, 1]
+        "font.bold": false,
     },
     {
         "class": "sidebar_label",
@@ -173,7 +171,7 @@
         "class": "tab_control",
         "layer0.texture": "Sone/common/tab_shadow.png",
         "layer0.inner_margin": [19, 0, 19, 0],
-        "layer0.opacity": 1.0,
+        "layer0.opacity": 0.2,
         "layer1.texture": "Sone/common/tab.png",
         "layer1.inner_margin": [19, 0, 19, 0],
         "layer1.opacity": 1.0,
@@ -633,7 +631,7 @@
     {
         "class": "scroll_area_control",
         "parents": [{"class": "sidebar_container"}],
-        "content_margin": [0, -20, 0, 10]
+        "content_margin": [0, -16, 0, 10]
     },
     {
         "class": "scroll_bar_control",
@@ -1036,4 +1034,5 @@
         "shadow_color": [255, 255, 255, 0.18],
         "shadow_offset": [0, 1]
     },
+
 ]
