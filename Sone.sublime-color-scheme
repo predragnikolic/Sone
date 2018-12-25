@@ -15,7 +15,7 @@
         "purple": "#9977FF",
         "yellow": "#FFEF94",
 
-        "danger": "#FF2C6D",
+        "danger": "#FC5F8F",
         "accent": "var(purple)",
     },
     "globals": {
