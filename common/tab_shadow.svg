@@ -16,7 +16,7 @@
    viewBox="0 0 56 45.333332"
    sodipodi:docname="tab_shadow.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   inkscape:export-filename="/home/predrag/.config/sublime-text-3/Packages/Sone/common/tab_shadow.png"
+   inkscape:export-filename="/home/predrag/.config/sublime-text-3/Packages/Sone/common/tab.png"
    inkscape:export-xdpi="72"
    inkscape:export-ydpi="72">
   <metadata
@@ -27,7 +27,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -36,15 +36,15 @@
     <filter
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
-       id="filter856"
-       x="-0.045333333"
-       width="1.0906667"
-       y="-0.051"
-       height="1.102">
+       id="filter849"
+       x="-0.041142857"
+       width="1.0822857"
+       y="-0.0576"
+       height="1.1152">
       <feGaussianBlur
          inkscape:collect="always"
-         stdDeviation="0.85"
-         id="feGaussianBlur858" />
+         stdDeviation="0.96"
+         id="feGaussianBlur851" />
     </filter>
   </defs>
   <sodipodi:namedview
@@ -57,7 +57,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1366"
-     inkscape:window-height="738"
+     inkscape:window-height="768"
      id="namedview4"
      showgrid="true"
      showguides="false"
@@ -67,20 +67,41 @@
      inkscape:snap-center="false"
      inkscape:snap-text-baseline="false"
      inkscape:snap-page="true"
-     inkscape:zoom="7.3622296"
-     inkscape:cx="14.466072"
-     inkscape:cy="29.893271"
+     inkscape:zoom="5.2058825"
+     inkscape:cx="14.74434"
+     inkscape:cy="39.405609"
      inkscape:window-x="0"
-     inkscape:window-y="30"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2">
     <inkscape:grid
        type="xygrid"
        id="grid14" />
   </sodipodi:namedview>
-  <path
-     style="fill:#4d4d4d;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:1;filter:url(#filter856)"
-     d="m 5,45.333332 c 0,0 10,0 10,-20 C 15,5.3333321 27,5.3333321 27,5.3333321 c 0,0 13,0 13,19.9999999 0,20 10,20 10,20 z"
-     id="path19"
-     inkscape:connector-curvature="0" />
+  <g
+     id="g843"
+     style="fill:#666666;filter:url(#filter849)">
+    <path
+       inkscape:connector-curvature="0"
+       id="path19"
+       d="m 5,45.333332 c 0,0 10,0 10,-20 C 15,5.3333321 27,5.3333321 27,5.3333321 c 0,0 13,0 13,19.9999999 0,20 10,20 10,20 z"
+       style="fill:#666666;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path19-3"
+       d="m 11,45.333332 c 0,0 10,0 10,-20 C 21,5.3333321 33,5.3333321 33,5.3333321 c 0,0 13,0 13,19.9999999 0,20 10,20 10,20 z"
+       style="fill:#666666;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path19-6"
+       d="m 3e-7,45.333332 c 0,0 9.9999997,0 9.9999997,-20 C 10,5.3333323 22,5.3333323 22,5.3333323 c 0,0 13,0 13,19.9999997 0,20 10,20 10,20 z"
+       style="fill:#666666;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <rect
+       y="5.3333321"
+       x="22"
+       height="10"
+       width="10"
+       id="rect837"
+       style="fill:#666666;stroke:none" />
+  </g>
 </svg>
