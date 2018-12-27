@@ -1116,18 +1116,18 @@
   {
     "class": "quick_panel_label",
     "parents": [{"class": "overlay_control"}],
-    "fg": [157, 162, 166],
+    "fg": [97, 103, 108],
     "match_fg": ["accent", 1.0],
-    "selected_fg": [97, 103, 108],
+    "selected_fg": [57, 63, 68],
     "selected_match_fg": ["accent", 1.0]
 },
 
   // Panels sublabels
   {
     "class": "quick_panel_path_label",
-    "fg": [185, 188, 191],
+    "fg": [128, 132, 136],
     "match_fg": [128, 132, 136],
-    "selected_fg": [185, 188, 191],
+    "selected_fg": [128, 132, 136],
     "selected_match_fg": [128, 132, 136]
 },
 
