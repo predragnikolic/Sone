@@ -196,7 +196,7 @@
         "class": "tab_control",
         "attributes": ["file_medium_dark"],
         "layer3.texture": "Sone/common/dark/tab_border.png",
-        "layer3.opacity": 0.05,"layer0.tint": [199, 203, 209],
+        "layer3.opacity": 0.0,"layer0.tint": [199, 203, 209],
     },
     {
         "class": "tab_control",
@@ -245,7 +245,7 @@
     {
         "class": "tab_control",
         "attributes": ["selected", "file_medium_dark"],
-        "layer3.opacity": 0.1,
+        "layer3.opacity": 0.0,
     },
     {
         "class": "tab_control",
@@ -1024,17 +1024,17 @@
 
     {
         "class": "overlay_control",
-        "layer0.texture": "ayu/assets/overlay-shadow.png",
+        "layer0.texture": "Sone/common/overlay-shadow.png",
         "layer0.inner_margin": [15, 35, 15, 25],
         "layer0.opacity": 0.6,
         "layer0.tint": [10, 14, 18],
 
-        "layer1.texture": "ayu/assets/overlay-border.png",
+        "layer1.texture": "Sone/common/overlay-border.png",
         "layer1.inner_margin": [15, 35, 15, 25],
         "layer1.opacity": 1.0,
         "layer1.tint": [200, 200, 200],
 
-        "layer2.texture": "ayu/assets/overlay-bg.png",
+        "layer2.texture": "Sone/common/overlay-bg.png",
         "layer2.inner_margin": [15, 35, 15, 25],
         "layer2.opacity": 1.0,
         "layer2.tint": [255, 255, 255],
