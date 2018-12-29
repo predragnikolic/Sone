@@ -227,9 +227,18 @@
         "tint_modifier": [255, 255, 255, 0.12]
     },
     {
+        // unselected tab background
         "class": "tab_control",
         "attributes": ["file_medium_dark"],
-        "tint_modifier": [255, 255, 255, 0.12],
+        "tint_modifier": [231, 234, 237],
+        "layer0.opacity": 0.0,
+    },
+    {
+        // unselected tab background hover
+        "class": "tab_control",
+        "attributes": ["file_medium_dark", "hover"],
+        "tint_modifier": ["foreground", 255, 255, 255, 0.9],
+        "layer0.opacity": 0.2,
     },
     {
         "class": "tab_control",
@@ -254,10 +263,9 @@
         "layer2.opacity": 1.0
     },
     {
+        // unselected tab text
         "class": "tab_label",
-        "fg": [152, 152, 152],
-        "shadow_color": [0, 0, 0, 0.25],
-        "shadow_offset": [0, -1]
+        "fg": [69, 74, 85],
     },
     {
         "class": "tab_label",
@@ -340,6 +348,13 @@
         "parents": [{"class": "tab_control", "attributes": ["file_light"]}],
         "attributes": ["hover"],
         "layer0.texture": "Theme - Default/common/light/tab_close.png",
+    },
+    // tab close 
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control", "attributes": ["file_medium_dark", "!selected"]}],
+        "layer0.texture": "Theme - Default/common/light/tab_close.png",
+        "layer0.opacity": { "target": 0.3, "speed": 4.0, "interpolation": "smoothstep" },
     },
     {
         "class": "scroll_tabs_left_button",
