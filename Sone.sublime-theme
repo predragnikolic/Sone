@@ -563,7 +563,7 @@
         "class": "panel_control",
         "layer0.tint": [199, 203, 209],
         "layer0.opacity": 1.0,
-        "content_margin": 2
+        "content_margin": [5, 2]
     },
     {
         "class": "panel_control",
@@ -786,7 +786,7 @@
         "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
         "layer0.inner_margin": 4,
         "min_size": [80, 0],
-        "content_margin": [10, 6]
+        "content_margin": [0, 10]
     },
     {
         "class": "button_control",
@@ -812,7 +812,7 @@
         "layer0.texture": "Theme - Default/common/light/icon_button_highlight.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": 2,
-        "content_margin": 2
+        "content_margin": 6
     },
     {
         "class": "icon_button_control",
