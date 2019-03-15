@@ -31,7 +31,7 @@
         // Gutter
         "gutter_foreground": "var(h-b)",
         // Selection
-        "selection": "color(var(black) blend(#fff 96%))", // can't be var(h-s), because of caret 
+        "selection": "var(h-s)", // can't be var(h-s), because of caret 
         "selection_border": "#9977FF77",
         "selection_border_width": "2",
         "inactive_selection": "var(h-s)",
@@ -96,7 +96,7 @@
         },
         {
             "name": "Entity Function Python",
-            "scope": "entity.name.function meta.generic-name.python",
+            "scope": "variable.function meta.generic-name, entity.name.function meta.generic-name",
             "foreground": ["#B0CFFF", "var(blue)"],
             "font_style": "bold"
         },
@@ -301,7 +301,8 @@
         {
             "name": "PHp ->",
             "scope": "punctuation.accessor.arrow",
-            "foreground": "var(pure-white)"
+            "foreground": "var(pure-white)",
+            "font_style": ""
         },
         {
             "name": "@ Annotation",
@@ -335,7 +336,8 @@
         {
             "name": "Variable",
             "scope": "variable.other",
-            "foreground": "var(pure-white)"
+            "foreground": "var(pure-white)",
+            "font_style": "",
         },
         {
             "name": "Variable",
@@ -445,6 +447,12 @@
             "scope": "support.macro",
             "foreground": ["#B0CFFF", "var(blue)"],  
             "font_style": "bold"
+        },
+        // grapqhl
+        {
+            "name": "Type Name",
+            "scope": "meta.type.type",
+            "foreground": "var(pure-white)",  
         },
     ]
 }
