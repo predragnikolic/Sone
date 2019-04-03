@@ -107,9 +107,15 @@
             "font_style": "bold"
         },
         {
+            "name": "React Tag",
+            "scope": " entity.name.tag support.class.component",
+            "foreground": ["var(blue)", "var(purple)"],
+            "font_style": "bold"
+        },
+        {
             "name": "Tags Attribute",
             "scope": "entity.other.attribute-name",
-            "foreground": "var(white)",
+            "foreground": "var(pure-white)",
             "font_style": ""
         },
         {
