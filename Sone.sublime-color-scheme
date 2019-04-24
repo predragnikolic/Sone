@@ -23,6 +23,7 @@
         "background": "var(black)",
         "foreground": "var(white)",
         "caret": "var(green)",
+        "block_caret": "#896fff99",
         "line_highlight": "var(h-s)",
         // Accents
         "misspelling": "var(red)",
