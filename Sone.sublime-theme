@@ -1,4 +1,9 @@
 [
+    {
+        "class": "title_bar",
+        "fg": [48, 48, 48],
+        "bg": [231, 234, 237]
+    },
     // Side Bar
     {
         "class": "sidebar_container",
