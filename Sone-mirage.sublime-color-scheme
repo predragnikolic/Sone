@@ -1,6 +1,7 @@
 {
 	"name": "ayu",
 	"globals": {
+		// "background": "#1f2430",
 		"background": "#1f2430",
 		"foreground": "#cbccc6",
 		"invisibles": "#cbccc64d",
@@ -73,7 +74,7 @@
 		{
 			"name": "Member Variable",
 			"scope": "variable.member",
-			"foreground": "#f28779"
+			"foreground": "#b3c6fc"
 		},
 		{
 			"name": "Language variable",
@@ -154,7 +155,7 @@
 		{
 			"name": "Library function",
 			"scope": "support.function, support.macro",
-			"foreground": "#f28779"
+			"foreground": "#b3c6fc"
 		},
 		{
 			"name": "Imports and packages",
@@ -262,13 +263,13 @@
 			"name": "Markup Italic",
 			"scope": "markup.italic",
 			"font_style": "italic",
-			"foreground": "#f28779"
+			"foreground": "#b3c6fc"
 		},
 		{
 			"name": "Markup Bold",
 			"scope": "markup.bold",
 			"font_style": "bold",
-			"foreground": "#f28779"
+			"foreground": "#b3c6fc"
 		},
 		{
 			"name": "Markup Bold/italic",
