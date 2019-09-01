@@ -2,18 +2,19 @@
     "name": "Sone Color Scheme",
     "variables": {
         "pure-white": "#ffffff",
-        "white": "#c8c8e0",
-        "black": "#393939",
+        "white": "#EBEBF4",
+        "black": "#121212",
 
         "h-i": "#ffffff03", // inactive highlight
         "h-s": "#ffffff10", // small highlight
         "h-b": "#ffffff40", // big highlight
 
         "red": "#FC5F8F",
-        "green": "#2AFF95",
+        "green": "#2AFFC2",
         "blue": "#7799FF",
         "purple": "#9977FF",
-        "yellow": "#FFEF94",
+        "yellow": "#FFF3A9",
+        "salmon": "#FA8072",
 
         "danger": "var(red)",
         "accent": "var(purple)",
@@ -32,7 +33,7 @@
         // Gutter
         "gutter_foreground": "var(h-b)",
         // Selection
-        "selection": "var(h-s)", // can't be var(h-s), because of caret 
+        "selection": "var(h-s)", // can't be var(h-s), because of caret
         "selection_border": "#9977FF77",
         "selection_border_width": "2",
         "inactive_selection": "var(h-s)",
@@ -104,7 +105,7 @@
         {
             "name": "Tag",
             "scope": "entity.name.tag",
-            "foreground": ["var(blue)", "var(purple)"],
+            "foreground": ["var(salmon)", "color(var(salmon) blend(#fff 50%))"],
             "font_style": "bold"
         },
         {
@@ -198,7 +199,7 @@
             "name": "Git Diff View Deleted",
             "scope": "text.grf markup.deleted",
             "foreground": ["var(danger)", "#FF6769"],
-            
+
         },
         {
             "name": "Git Diff View Inserted",
@@ -209,7 +210,7 @@
             "name": "Git Diff View Deleted",
             "scope": "source.diff markup.deleted.diff",
             "foreground": ["var(danger)", "#FF6769"],
-            
+
         },
         // Markdown
         {
@@ -237,7 +238,7 @@
         {
             "name": "Markdown Numbered List",
             "scope": "markup.list.numbered.bullet",
-            "foreground": "var(pure-white)",  
+            "foreground": "var(pure-white)",
         },
         {
             "name": "Markdown Unnumbered List",
@@ -273,7 +274,7 @@
         {
             "name": "Markdown Inline Block",
             "scope": "markup.raw.inline",
-            "foreground": "var(pure-white)",   
+            "foreground": "var(pure-white)",
             "background": "var(h-s)"
         },
         {
@@ -304,7 +305,7 @@
             "foreground": "var(pure-white)"
         },
         // Punctuation
-        
+
         {
             "name": "PHp ->",
             "scope": "punctuation.accessor.arrow",
@@ -318,21 +319,21 @@
         },
         {
             "name": "Function Annotation",
-            "scope": "variable.annotation",         
+            "scope": "variable.annotation",
             "foreground": "var(pure-white)"
         },
         {
             "name": "Js Object Key Literal",
             "scope": "meta.object-literal.key",
             "foreground": "var(pure-white)",
-            
+
         },
         {
             "name": "Function call",
             "scope": "support.function",
             "font_style": "bold",
             "foreground": ["#B0CFFF", "var(blue)"],
-        }, 
+        },
         {
             "name": "Function call 2",
             "scope": "meta.function-call variable.function",
@@ -421,7 +422,7 @@
             "font_style": "bold"
         },
         // String
-        
+
         {
             "name": "String",
             "scope": "string",
@@ -437,29 +438,29 @@
         {
             "name": "Support",
             "scope": "support.class",
-            "foreground": "var(pure-white)",    
+            "foreground": "var(pure-white)",
         },
         {
             "name": "Inheritance",
             "scope": "entity.other.inherited-class",
-            "foreground": "var(pure-white)",  
+            "foreground": "var(pure-white)",
         },
         {
             "name": "Css Property Names",
             "scope": "support.type",
-            "foreground": "var(pure-white)",  
+            "foreground": "var(pure-white)",
         },
         {
             "name": "Rust macros",
             "scope": "support.macro",
-            "foreground": ["#B0CFFF", "var(blue)"],  
+            "foreground": ["#B0CFFF", "var(blue)"],
             "font_style": "bold"
         },
         // grapqhl
         {
             "name": "Type Name",
             "scope": "meta.type.type",
-            "foreground": "var(pure-white)",  
+            "foreground": "var(pure-white)",
         },
     ]
 }
