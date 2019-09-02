@@ -6,7 +6,7 @@
         "black": "#121212",
 
         "h-i": "#ffffff03", // inactive highlight
-        "h-s": "#ffffff10", // small highlight
+        "h-s": "#ffffff09", // small highlight
         "h-b": "#ffffff40", // big highlight
 
         "red": "#FC5F8F",
