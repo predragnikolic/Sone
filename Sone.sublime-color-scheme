@@ -27,7 +27,7 @@
         "block_caret": "#896fff99",
         "line_highlight": "var(h-s)",
         // Accents
-        "misspelling": "var(red)",
+        "misspelling": "var(purple)",
         "fold_marker": "var(h-b)",
         "accent": "var(accent)",
         // Gutter
@@ -426,7 +426,7 @@
         {
             "name": "String",
             "scope": "string",
-            "foreground": "var(white)"
+            "foreground": "#ccc"
         },
         {
             "name": "Quotes",
