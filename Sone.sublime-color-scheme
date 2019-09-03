@@ -11,7 +11,7 @@
 
         "red": "#FC5F8F",
         "green": "#2AFFC2",
-        "blue": "#7799FF",
+        "blue": "#C1D8FF",
         "purple": "#9977FF",
         "yellow": "#FFF3A9",
         "salmon": "#FA8072",
@@ -247,8 +247,8 @@
         },
         {
             "name": "Markdown Link",
-            "scope": "markup.underline.link",
-            "foreground": ["var(blue)", "var(green)"],
+            "scope": ".link",
+            "foreground": "#91E0FF",
         },
         {
             "name": "Markdown Link Description",
