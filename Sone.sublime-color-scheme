@@ -2,7 +2,7 @@
     "name": "Sone Color Scheme",
     "variables": {
         "pure-white": "#ffffff",
-        "white": "#EBEBF4",
+        "white": "#C5C5CC",
         "black": "#121212",
 
         "h-i": "#ffffff03", // inactive highlight
