@@ -140,6 +140,18 @@
             "font_style": "bold"
         },
         {
+            "name": "Keyword",
+            "scope": "keyword.control.flow",
+            "foreground": "var(red)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword.control.conditional",
+            "foreground": "var(red)",
+            "font_style": "bold"
+        },
+        {
             "name": "Keyword For Spread",
             "scope": "keyword.operator.spread",
             "foreground": ["var(blue)", "var(green)"]
@@ -153,7 +165,7 @@
         {
             "name": "Import JS Modules JSCustom",
             "scope": "keyword.control.import-export",
-            "foreground": ["#F3C9AD", "color(#F3C9AD blend(#fff 50%))"],
+            "foreground": "var(red)",
             "font_style": "bold"
         },
         {
