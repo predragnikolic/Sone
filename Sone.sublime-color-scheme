@@ -151,6 +151,12 @@
             "font_style": "bold"
         },
         {
+            "name": "Import JS Modules JSCustom",
+            "scope": "keyword.control.import-export",
+            "foreground": ["#F3C9AD", "color(#F3C9AD blend(#fff 50%))"],
+            "font_style": "bold"
+        },
+        {
             "name": "Is Not In Pyton",
             "scope": "keyword.operator.logical",
             "foreground": ["var(green)", "var(blue)"],
