@@ -228,9 +228,20 @@
     },
     {
         "class": "tab_control",
-        "attributes": ["file_dark"],
-        "tint_modifier": [231, 234, 237, 0.8],
-        "layer0.opacity": 0.7,
+        "attributes": ["!selected"],
+        "layer0.texture": "Sone/common/transparent_tab_bar.png",
+        "layer0.opacity": 1.0,
+        "layer1.opacity": 0.0,
+        "layer3.texture": "Sone/common/tab_border.png",
+        "layer3.opacity": 0.4,
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["!selected", "hover"],
+        "layer0.texture": "Sone/common/tab_shadow.png",
+        "tint_modifier": [255, 255, 255, 1.0],
+        "layer1.opacity": 1.0,
+        "layer3.texture": "Sone/common/tab_border.png",
     },
     {
         // unselected tab background
