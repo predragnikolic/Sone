@@ -321,6 +321,12 @@
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "layer0.texture": "Theme - Default/common/dark/tab_dirty.png",
         "layer0.tint": "#2AFFC2",
+    },
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
+        "layer0.texture": "Theme - Default/common/dark/tab_dirty.png",
+        "layer0.tint": "#2AFFC2",
         "layer0.opacity": 1.0,
     },
     {
