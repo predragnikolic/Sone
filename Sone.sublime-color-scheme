@@ -2,11 +2,11 @@
     "name": "Sone Color Scheme",
     "variables": {
         "pure-white": "#ffffff",
-        "white": "#EBEBF4",
-        "black": "#121212",
+        "white": "#C5C5CC",
+        "black": "#191919",
 
         "h-i": "#ffffff03", // inactive highlight
-        "h-s": "#ffffff10", // small highlight
+        "h-s": "#ffffff09", // small highlight
         "h-b": "#ffffff40", // big highlight
 
         "red": "#FC5F8F",
@@ -148,6 +148,12 @@
             "name": "Import JS Modules",
             "scope": "keyword.operator.module",
             "foreground": ["var(green)", "var(blue)"],
+            "font_style": "bold"
+        },
+        {
+            "name": "Import JS Modules JSCustom",
+            "scope": "keyword.control.import-export",
+            "foreground": ["#F3C9AD", "color(#F3C9AD blend(#fff 50%))"],
             "font_style": "bold"
         },
         {
