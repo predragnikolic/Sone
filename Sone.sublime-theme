@@ -1051,7 +1051,7 @@
     // Status Bar
     {
         "class": "status_bar",
-        "layer0.tint": [100, 80, 215],
+        "layer0.tint": [130, 150, 255],
         "layer0.opacity": 1.0,
         "content_margin": [8, 0, 8, 0]
     },
