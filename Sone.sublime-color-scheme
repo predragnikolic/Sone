@@ -65,6 +65,12 @@
         },
         // Constant
         {
+            "name": "Unused",
+            "scope": "unused",
+            "foreground_adjust": "l(- 40%)",
+            "background": "#00000001"
+        },
+        {
             "name": "Number",
             "scope": "constant.numeric",
             "foreground": "var(purple)",
