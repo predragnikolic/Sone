@@ -175,6 +175,12 @@
             "font_style": "bold"
         },
         {
+            "name": "Import JS Modules JSCustom",
+            "scope": "keyword.control.import",
+            "foreground": "var(red)",
+            "font_style": "bold"
+        },
+        {
             "name": "Is Not In Pyton",
             "scope": "keyword.operator.logical",
             "foreground": "var(red)",
