@@ -3,15 +3,15 @@
     "variables": {
         "pure-white": "#ffffff",
         "white": "#C5C5CC",
-        "black": "#151217",
+        "black": "#0E0A11",
 
         "h-i": "#ffffff03", // inactive highlight
-        "h-s": "#ffffff20", // small highlight
+        "h-s": "#ffffff10", // small highlight
         "h-b": "#ffffff40", // big highlight
 
         "red": "#FC5F8F",
-        "green": "#2AFFC2",
-        "blue": "#8296ff",
+        "green": "#7CF69D",
+        "blue": "#82FEFF",
         "purple": "#8296ff",
         "yellow": "#FFF3A9",
         "salmon": "#FA8072",
@@ -456,7 +456,7 @@
         {
             "name": "String",
             "scope": "string",
-            "foreground": "#ccc"
+            "foreground": "#BAB5B5"
         },
         {
             "name": "Quotes",
