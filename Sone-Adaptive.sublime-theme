@@ -246,14 +246,14 @@
     {
         // unselected tab background
         "class": "tab_control",
-        "attributes": ["file_medium_dark"],
         "tint_modifier":  ["background", 0, 0, 0, 0.3],
         "layer0.opacity": 0.0,
     },
     {
         "class": "tab_control",
         "attributes": ["file_medium"],
-        "tint_modifier": [0, 0, 0, 0.18]
+        "tint_modifier": [0, 0, 0, 0.18],
+        "layer0.opacity": 0.0,
     },
     {
         "class": "tab_control",
