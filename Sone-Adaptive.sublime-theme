@@ -439,14 +439,14 @@
     // Quick Panel
     {
         "class": "overlay_control",
-        "layer0.tint": "#1e192a",
+        "layer0.tint": "var(--background)",
         "layer0.opacity": 1.0,
         "content_margin": 4
     },
     {
         "class": "quick_panel",
         "row_padding": 6,
-        "layer0.tint": "#1e192a",
+        "layer0.tint": "var(--background)",
         "layer0.opacity": 1.0,
         "dark_content": false
     },
@@ -816,7 +816,7 @@
     {
         "class": "text_line_control",
         "layer0.texture": "Sone/common/dark/input.png",
-        "layer0.tint": "#1e192a",
+        "layer0.tint": "var(--background)",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 4,
         "content_margin": 4
@@ -844,7 +844,7 @@
         "class": "button_control",
         "layer0.texture": "Theme - Default/common/dark/button.png",
         "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
-        "layer0.tint": "#1e192a",
+        "layer0.tint": "var(--background)",
         "layer0.inner_margin": 4,
         "min_size": [80, 0],
         "content_margin": [0, 10]
@@ -1117,7 +1117,7 @@
 
   {
     "class": "mini_quick_panel_row",
-    "layer0.tint": "#1e192a",
+    "layer0.tint": "var(--background)",
     "layer0.inner_margin": [2, 2, 2, 2],
     "layer0.opacity": 1.0
 },
@@ -1135,7 +1135,7 @@
   {
     "class": "quick_panel",
     "row_padding": [32, 12],
-    "layer0.tint": "#1e192a",
+    "layer0.tint": "var(--background)",
     "layer0.opacity": 1.0
 },
 
@@ -1154,7 +1154,7 @@
   {
     "class": "quick_panel_row",
     "parents": [{"class": "overlay_control"}],
-    "layer0.tint": "#1e192a",
+    "layer0.tint": "var(--background)",
     "layer0.opacity": 1.0
 },
 
