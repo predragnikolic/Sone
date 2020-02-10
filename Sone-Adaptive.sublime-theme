@@ -388,6 +388,7 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["file_medium_dark", "dirty", "!selected"]}],
         "layer0.texture": "Theme - Default/common/dark/tab_dirty.png",
+        "layer0.opacity": 1.0
     },
     {
         "class": "tab_close_button",
