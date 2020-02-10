@@ -9,14 +9,14 @@
         "h-s": "#ffffff10", // small highlight
         "h-b": "#ffffff40", // big highlight
 
-        "red": "#FC5F8F",
+        "red": "#FA9589",
         "green": "#7CF69D",
         "blue": "#82FEFF",
         "purple": "#8296ff",
         "yellow": "#FFF3A9",
         "salmon": "#FA8072",
 
-        "danger": "var(red)",
+        "danger": "#FC5F8F",
         "accent": "var(purple)",
     },
     "globals": {
