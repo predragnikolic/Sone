@@ -7,7 +7,7 @@
     // Side Bar
     {
         "class": "sidebar_container",
-        "layer0.tint": ["background", 0, 0, 0, 0.3],
+        "layer0.tint": ["background", 0, 0, 0, 0.2],
         "layer0.opacity": 1.0,
         "content_margin": 0
     },
@@ -166,7 +166,7 @@
         "tint_index": 0,
         "tab_height": 34,
         "tab_overlap": 16,
-        "tint_modifier":  ["background", 0, 0, 0, 0.3]
+        "tint_modifier":  ["background", 0, 0, 0, 0.2]
     },
     {
         "class": "tabset_control",
@@ -246,7 +246,7 @@
     {
         // unselected tab background
         "class": "tab_control",
-        "tint_modifier":  ["background", 0, 0, 0, 0.3],
+        "tint_modifier":  ["background", 0, 0, 0, 0.2],
         "layer0.opacity": 0.0,
     },
     {
@@ -497,7 +497,7 @@
         "border_color": ["background", 255, 255, 255, 0.25],
         "border_size": 6,
         // vertical separator pane
-        "border_color": ["background", 0, 0, 0, 0.3],
+        "border_color": ["background", 0, 0, 0, 0.2],
     },
     {
         "class": "minimap_control",
@@ -616,13 +616,13 @@
     // Panels
     {
         "class": "panel_control",
-        "layer0.tint": ["background", 0, 0, 0, 0.3],
+        "layer0.tint": ["background", 0, 0, 0, 0.2],
         "layer0.opacity": 1.0,
         "content_margin": [5,2]
     },
     {
         "class": "console_panel",
-        "layer0.tint": ["background", 0, 0, 0, 0.3],
+        "layer0.tint": ["background", 0, 0, 0, 0.2],
         "layer0.opacity": 1.0,
         "content_margin": [5, 2]
     },
