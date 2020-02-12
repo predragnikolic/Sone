@@ -1222,4 +1222,17 @@
         "layer0.tint": "#ffffff",
         "content_margin": [10, 11]
     },
+    {
+        "class": "auto_complete_kind_name_label",
+        "font.size": 11,
+        "color": [0, 0, 0, 0.7],
+        "border_color": "#2AFFC2",
+        "background_color": "#2AFFC2",
+        "content_margin": [3, 0],
+        "font.italic": false
+    },
+    {
+        "class": "kind_label",
+        "font.italic": false
+    }
 ]
