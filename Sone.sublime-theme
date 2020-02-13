@@ -249,7 +249,7 @@
         "class": "tab_control",
         "attributes": ["file_medium_dark"],
         "tint_modifier": [231, 234, 237, 0.8],
-        "layer0.opacity": 0.2,
+        "layer0.opacity": 0.0,
     },
     {
         "class": "tab_control",
