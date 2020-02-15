@@ -50,11 +50,6 @@
     },
     {
         "class": "sidebar_label",
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "fg": "var(--foreground)",
-    },
-    {
-        "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
         "settings": ["bold_folder_labels"],
         "font.bold": true
@@ -157,7 +152,19 @@
         "layer0.opacity": 0.8,
         "content_margin": [9, 8]
     },
-
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "fg": "var(--accent)"
+    },
+        {
+        "class": "icon_file_type",
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.tint": "var(--accent)",
+        "layer0.opacity": 0.8,
+        "content_margin": [9, 8]
+    },
+    
     // Tabs
     {
         "class": "tabset_control",
