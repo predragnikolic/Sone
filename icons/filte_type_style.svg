@@ -47,7 +47,7 @@
      id="namedview4"
      showgrid="true"
      inkscape:zoom="31.289477"
-     inkscape:cx="11.665497"
+     inkscape:cx="4.7622177"
      inkscape:cy="10.518788"
      inkscape:window-x="20"
      inkscape:window-y="20"
@@ -70,17 +70,17 @@
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;"
-     x="-1"
+     x="0"
      y="7.3333321"
      id="text817"
      inkscape:export-xdpi="72"
      inkscape:export-ydpi="72"><tspan
        sodipodi:role="line"
        id="tspan815"
-       x="-1"
-       y="42.723957"></tspan></text>
+       x="0"
+       y="42.723957" /></text>
   <g
-     transform="matrix(-1,0,0,1,24,-3.8232422e-8)"
+     transform="matrix(-1,0,0,1,25,-3.8232422e-8)"
      id="g822-3"
      style="fill:#ffffff"
      inkscape:export-xdpi="72"
@@ -88,25 +88,25 @@
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;"
-     x="-1"
+     x="0"
      y="7.3333321"
      id="text817-9"
      inkscape:export-xdpi="72"
      inkscape:export-ydpi="72"><tspan
        sodipodi:role="line"
        id="tspan815-1"
-       x="-1"
+       x="0"
        y="42.723957" /></text>
   <g
      style="fill:#ffffff"
-     transform="matrix(-1,0,0,1,24,-3.8232422e-8)"
+     transform="matrix(-1,0,0,1,25,-3.8232422e-8)"
      id="g822-3-2"
      inkscape:export-xdpi="72"
      inkscape:export-ydpi="72" />
   <g
      id="g988"
      style="fill:#ffffff"
-     transform="translate(-2)"
+     transform="translate(-1)"
      inkscape:export-xdpi="72"
      inkscape:export-ydpi="72">
     <g
@@ -126,7 +126,7 @@
     <path
        inkscape:connector-curvature="0"
        id="path982"
-       d="m 11,6.3333321 v -2 l 5,0 5,5 -9,8.9999999 -1,-2 7,-6.9999999 -3,-3 z"
+       d="m 11,6.3333321 v -2 h 5 l 5,5 -9,8.9999999 -1,-2 7,-6.9999999 -3,-3 z"
        style="fill:#ffffff;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        sodipodi:nodetypes="ccccccccc" />
   </g>
