@@ -1243,5 +1243,10 @@
     {
         "class": "kind_label",
         "font.italic": false
+    },
+        {
+        "class": "quick_panel",
+        "layer0.tint": "var(--background)",
+        "layer0.opacity": 1.0
     }
 ]
