@@ -34,8 +34,8 @@
     {
         "class": "tree_row",
         "attributes": ["selected"],
-        "layer0.tint": [199, 203, 209],
-        "layer0.opacity": 1.0,
+        "layer0.tint": [69, 74, 85],
+        "layer0.opacity": 0.17,
     },
     {
         "class": "sidebar_heading",
@@ -96,15 +96,17 @@
     },
     {
         "class": "icon_folder",
-        "layer0.texture": "Theme - Default/common/light/folder_closed.png",
-        "layer0.opacity": 0.3,
+        "layer0.texture": "Theme - Default/common/dark/folder_closed.png",
+        "layer0.tint": "var(--background)",
+        "layer0.opacity": 0.5,
         "content_margin": [9, 8]
     },
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-        "layer0.texture": "Theme - Default/common/light/folder_open.png",
-        "layer0.opacity": 0.3,
+        "layer0.texture": "Theme - Default/common/dark/folder_open.png",
+        "layer0.opacity": 0.5,
+        "layer0.tint": "var(--background)",
         "content_margin": [9, 8]
     },
     {
@@ -148,8 +150,8 @@
     },
     {
         "class": "icon_file_type",
-        "layer0.opacity": 0.4,
-        "layer0.tint": [0, 0, 0],
+        "layer0.opacity": 0.5,
+        "layer0.tint": "var(--background)",
         "content_margin": [9, 8]
     },
 
