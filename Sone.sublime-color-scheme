@@ -176,6 +176,11 @@
         },
         {
             "name": "Import JS Modules JSCustom",
+            "scope": "keyword.import",
+            "foreground": ["var(green)", "var(blue)"]        
+        },
+        {
+            "name": "Import JS Modules JSCustom",
             "scope": "keyword.control.import",
             "foreground": "var(red)",
             "font_style": "bold"
