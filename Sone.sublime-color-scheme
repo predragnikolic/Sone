@@ -17,7 +17,7 @@
         "salmon": "#FA8072",
 
         "danger": "#FC5F8F",
-        "accent": "var(purple)",
+        "accent": "var(purple)"
     },
     "globals": {
         // Global Settings
@@ -503,5 +503,10 @@
             "scope": "meta.type.type",
             "foreground": "var(pure-white)",
         },
+        {
+            "name": "object keys",
+            "scope": "meta.mapping.key string.quoted.double",
+            "foreground": "var(pure-white)"
+        }
     ]
 }

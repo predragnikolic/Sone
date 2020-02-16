@@ -9,7 +9,7 @@
         "class": "sidebar_container",
         "layer0.tint": [231, 234, 237],
         "layer0.opacity": 1.0,
-        "content_margin": 0,
+        "content_margin": 0
     },
     {
         "class": "sidebar_tree",
