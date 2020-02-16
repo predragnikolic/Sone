@@ -3,13 +3,13 @@
     "variables": {
         "pure-white": "#ffffff",
         "white": "#C5C5CC",
-        "black": "#202027",
+        "black": "#202726",
 
         "h-i": "#ffffff03", // inactive highlight
         "h-s": "#ffffff10", // small highlight
         "h-b": "#ffffff40", // big highlight
 
-        "red": "#FC5F8F",
+        "red": "#FC5F79",
         "green": "#7CF69D",
         "blue": "#82FEFF",
         "purple": "#8296ff",
