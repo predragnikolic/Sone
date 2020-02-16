@@ -175,9 +175,15 @@
             "font_style": "bold"
         },
         {
+            "name": "FROM TS",
+            "scope": "keyword.control.from.ts",
+            "foreground": "var(red)",
+            "font_style": "bold"
+        },
+        {
             "name": "Import JS Modules JSCustom",
             "scope": "keyword.import",
-            "foreground": ["var(green)", "var(blue)"]        
+            "foreground": "var(red)"        
         },
         {
             "name": "Import JS Modules JSCustom",
