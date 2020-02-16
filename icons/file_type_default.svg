@@ -50,9 +50,9 @@
      inkscape:bbox-nodes="true"
      inkscape:snap-bbox-edge-midpoints="true"
      inkscape:bbox-paths="true"
-     inkscape:zoom="11.601563"
-     inkscape:cx="0.017573012"
-     inkscape:cy="8.6713212"
+     inkscape:zoom="16.407088"
+     inkscape:cx="2.1238177"
+     inkscape:cy="11.37693"
      inkscape:window-x="20"
      inkscape:window-y="20"
      inkscape:window-maximized="0"
@@ -65,36 +65,46 @@
   </sodipodi:namedview>
   <path
      style="fill:#ffffff;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="m 12,0.33333206 1.888142,-4e-8 L 18.5,4.8333321 v 2 H 12 Z"
+     d="m 12,0.33333211 1.888142,-5e-8 L 18.5,4.8333322 V 6.8333321 H 12 Z"
      id="path825"
      inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cccccc" />
+     sodipodi:nodetypes="cccccc"
+     inkscape:export-xdpi="72"
+     inkscape:export-ydpi="72" />
   <rect
-     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.76737618;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.94667113;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="rect827"
-     width="6.3881416"
+     width="7.75"
      height="2.5"
-     x="6"
-     y="0.33333206" />
+     x="5.25"
+     y="0.33333206"
+     inkscape:export-xdpi="72"
+     inkscape:export-ydpi="72" />
   <rect
-     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.73861289;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.73861313;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="rect829"
      width="2.5"
      height="17"
      x="4"
-     y="0.33333206" />
+     y="0.33333206"
+     inkscape:export-xdpi="72"
+     inkscape:export-ydpi="72" />
   <rect
-     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.6088748;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.72488093;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="rect831"
-     width="11"
+     width="12"
      height="2.5"
-     x="6"
-     y="14.833332" />
+     x="5"
+     y="14.833332"
+     inkscape:export-xdpi="72"
+     inkscape:export-ydpi="72" />
   <rect
      style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.46410179;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="rect833"
      width="2.5"
      height="12"
      x="16"
-     y="5.3333321" />
+     y="5.3333321"
+     inkscape:export-xdpi="72"
+     inkscape:export-ydpi="72" />
 </svg>
