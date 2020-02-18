@@ -14,7 +14,7 @@
         "blue": "#82FEFF",
         "purple": "#8296ff",
         "yellow": "#FFF3A9",
-        "salmon": "#FA8072",
+        "salmon": "#FD9D9D",
 
         "danger": "#FC5F8F",
         "accent": "var(purple)"
@@ -111,7 +111,7 @@
         {
             "name": "Tag",
             "scope": "entity.name.tag",
-            "foreground": ["var(salmon)", "color(var(salmon) blend(#fff 50%))"],
+            "foreground": "var(salmon)",
             "font_style": "bold"
         },
         {
