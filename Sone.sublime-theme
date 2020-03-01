@@ -584,9 +584,9 @@
     {
         "class": "auto_complete_label",
         "fg": [0, 0, 0, 0.0],
-        "match_fg": ["accent", 1.0],
+        "match_fg": "#FFF3A9",
         "selected_fg": [0, 0, 0, 0.0],
-        "selected_match_fg": ["accent", 1.0],
+        "selected_match_fg": "#FFF3A9",
         "fg_blend": true
     },
     {
