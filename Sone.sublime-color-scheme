@@ -3,7 +3,7 @@
     "variables": {
         "pure-white": "#ffffff",
         "white": "#C5C5CC",
-        "black": "#202726",
+        "black": "#272020",
 
         "h-i": "#ffffff03", // inactive highlight
         "h-s": "#ffffff10", // small highlight
@@ -23,7 +23,7 @@
         // Global Settings
         "background": "var(black)",
         "foreground": "var(white)",
-        "caret": "var(green)",
+        "caret": "var(yellow)",
         "block_caret": "#896fff99",
         "line_highlight": "var(h-s)",
         // Accents
