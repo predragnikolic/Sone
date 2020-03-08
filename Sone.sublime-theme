@@ -1,4 +1,9 @@
-[
+{
+    "variables":
+    {
+        "purple": "#8296ff",
+    },
+    "rules": [
     {
         "class": "title_bar",
         "fg": [48, 48, 48],
@@ -1171,9 +1176,9 @@
     "class": "quick_panel_label",
     "fg": [157, 162, 166],
     "font.face": "JetBrains Mono Medium",
-    "match_fg": ["accent", 1.0],
+    "match_fg": "var(purple)",
     "selected_fg": [97, 103, 108],
-    "selected_match_fg": ["accent", 1.0]
+    "selected_match_fg": "var(purple)"
 },
 
   // Panel labels
@@ -1181,9 +1186,9 @@
     "class": "quick_panel_label",
     "parents": [{"class": "overlay_control"}],
     "fg": [97, 103, 108],
-    "match_fg": ["accent", 1.0],
+    "match_fg": "var(purple)",
     "selected_fg": [57, 63, 68],
-    "selected_match_fg": ["accent", 1.0]
+    "selected_match_fg": "var(purple)"
 },
 
   // Panels sublabels
@@ -1199,7 +1204,7 @@
   {
     "class": "quick_panel_score_label",
     "fg": [157, 162, 166],
-    "selected_fg": ["accent", 1.0]
+    "selected_fg": "var(purple)"
     },
     {
         "class": "vcs_branch_icon",
@@ -1237,3 +1242,4 @@
         "font.italic": false
     }
 ]
+}
