@@ -72,7 +72,7 @@
         {
             "name": "Number",
             "scope": "constant.numeric",
-            "foreground": "var(purple)",
+            "foreground": "var(salmon)",
         },
         {
             "name": "Character Escape",
