@@ -1231,8 +1231,8 @@
         "class": "vcs_changes_annotation",
         "font.size": 11,
         "color": [0, 0, 0, 0.7],
-        "border_color": "#7CF69D",
-        "background_color": "#7CF69D",
+        "border_color": "var(--accent)",
+        "background_color": "var(--accent)",
         "content_margin": [3, 0]
     },
     {

@@ -15,9 +15,8 @@
         "purple": "#8296ff",
         "yellow": "#FFF3A9",
         "salmon": "#FD9D9D",
-
         "danger": "#FC5F8F",
-        "accent": "var(purple)"
+        "accent": "var(salmon)"
     },
     "globals": {
         // Global Settings
