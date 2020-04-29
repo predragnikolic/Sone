@@ -19,7 +19,6 @@ class ListPackagesInputHandler(sublime_plugin.ListInputHandler):
 
     def list_items(self):
         packages_path = sublime.packages_path()
-        print('packages_path', packages_path)
         plugin_folders = list(os.listdir(packages_path))
 
         items = []
