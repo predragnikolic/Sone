@@ -487,8 +487,8 @@
         },
         {
             "name": "Css Property Names",
-            "scope": "support.type",
-            "foreground": "var(yellow)",
+            "scope": "support.type, meta.function.parameters.annotation meta.qualified-name meta.generic-name",
+            "foreground": "var(white)",
         },
         {
             "name": "Rust macros",
