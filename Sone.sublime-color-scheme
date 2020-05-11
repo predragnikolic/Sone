@@ -3,7 +3,7 @@
     "variables": {
         "pure-white": "#ffffff",
         "white": "#C5C5CC",
-        "black": "#211E26",
+        "black": "#26241E",
 
         "h-i": "#ffffff03", // inactive highlight
         "h-s": "#ffffff10", // small highlight
@@ -488,7 +488,7 @@
         {
             "name": "Css Property Names",
             "scope": "support.type",
-            "foreground": "var(pure-white)",
+            "foreground": "var(yellow)",
         },
         {
             "name": "Rust macros",
