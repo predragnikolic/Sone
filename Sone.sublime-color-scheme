@@ -488,7 +488,7 @@
         {
             "name": "Css Property Names",
             "scope": "support.type, entity.name.type",
-            "foreground": "var(yellow)",
+            "foreground": "var(salmon)",
         },
         {
             "name": "Rust macros",
