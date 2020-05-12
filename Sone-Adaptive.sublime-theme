@@ -560,7 +560,7 @@
     },
     {
         "class": "auto_complete",
-        "row_padding": [4, 4, 4, 4],
+        "row_padding": [0, 0, 0, 0],
         "tint_index": 0,
         "layer0.opacity": 1.0,
         "tint_modifier": ["background", 255, 255, 255, 0.02],
@@ -569,6 +569,14 @@
         "class": "auto_complete",
         "attributes": ["file_light"],
         "tint_modifier": [0, 0, 0, 0.05],
+    },
+     {
+        "class": "kind_container",
+        "content_margin": [5, 5, 5, 5]
+    },
+    {
+        "class": "auto_complete_detail_pane",
+        "tint_modifier": [0, 0, 0, 0.3],
     },
     {
         "class": "scroll_bar_control",
