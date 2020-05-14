@@ -1,6 +1,7 @@
 {
     "variables": {
-        "purple": "#8296ff",
+        "purple": "#9CACFF",
+        "match": "#9CACFF"
     },
             "rules": [
             {
@@ -398,7 +399,7 @@
                 "attributes": ["hover"],
                 "layer0.texture": "Theme - Default/common/light/tab_dirty.png",
             },
-            // tab close 
+            // tab close
             {
                 "class": "tab_close_button",
                 "parents": [{"class": "tab_control", "attributes": ["file_medium_dark", "!selected", "!dirty"]}],
@@ -596,9 +597,9 @@
             {
                 "class": "auto_complete_label",
                 "fg": [0, 0, 0, 0.0],
-                "match_fg": "#FD9D9D",
+                "match_fg": "var(match)",
                 "selected_fg": [0, 0, 0, 0.0],
-                "selected_match_fg": "#FD9D9D",
+                "selected_match_fg": "var(match)",
                 "fg_blend": true
             },
             {
