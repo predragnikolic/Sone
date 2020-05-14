@@ -2,8 +2,8 @@
     "name": "Sone Color Scheme",
     "variables": {
         "pure-white": "#ffffff",
-        "white": "#C5C5CC",
-        "black": "#261E1E",
+        "white": "#CCC5C6",
+        "black": "#33222A",
 
         "h-i": "#ffffff03", // inactive highlight
         "h-s": "#ffffff10", // small highlight
@@ -12,11 +12,14 @@
         "red": "#FD7C8F",
         "green": "#7CF69D",
         "blue": "#82FEFF",
-        "purple": "#8296ff",
+        "purple": "#9CACFF",
         "yellow": "#FFF3A9",
         "salmon": "#FD9D9D",
         "danger": "#FC5F8F",
-        "accent": "var(salmon)"
+        "accent": "var(salmon)",
+
+        "grad1": "#93E3BC",
+        "grad2": "#8EE9C2"
     },
     "globals": {
         // Global Settings
@@ -98,13 +101,13 @@
         {
             "name": "Entity Function",
             "scope": "entity.name.function",
-            "foreground": ["#B0CFFF", "var(blue)"],
+            "foreground": ["var(grad1)", "var(grad2)"],
             "font_style": "bold"
         },
         {
             "name": "Entity Function Python",
             "scope": "variable.function meta.generic-name, entity.name.function meta.generic-name",
-            "foreground": ["#B0CFFF", "var(blue)"],
+            "foreground": ["var(grad1)", "var(grad2)"],
             "font_style": "bold"
         },
         {
@@ -182,7 +185,7 @@
         {
             "name": "Import JS Modules JSCustom",
             "scope": "keyword.import",
-            "foreground": "var(red)"        
+            "foreground": "var(red)"
         },
         {
             "name": "Import JS Modules JSCustom",
@@ -372,13 +375,13 @@
             "name": "Function call",
             "scope": "support.function",
             "font_style": "bold",
-            "foreground": ["#B0CFFF", "var(blue)"],
+            "foreground": ["var(grad1)", "var(grad2)"],
         },
         {
             "name": "Function call 2",
             "scope": "meta.function-call variable.function",
             "font_style": "bold",
-            "foreground": ["#B0CFFF", "var(blue)"],
+            "foreground": ["var(grad1)", "var(grad2)"],
         },
         // Variable
         {
@@ -466,7 +469,7 @@
         {
             "name": "String",
             "scope": "string",
-            "foreground": "#BAB5B5"
+            "foreground": "var(white)"
         },
         {
             "name": "Quotes",
@@ -493,7 +496,7 @@
         {
             "name": "Rust macros",
             "scope": "support.macro",
-            "foreground": ["#B0CFFF", "var(blue)"],
+            "foreground": ["var(grad1)", "var(grad2)"],
             "font_style": "bold"
         },
         // grapqhl
