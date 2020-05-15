@@ -1265,6 +1265,7 @@
             "class": "kind_container",
             "parents": [{"class": "overlay_control"}],
             "content_margin": [10, 10, 10, 10],
+            "layer0.opacity": 0.14
         },
         {
             "class": "kind_label",
