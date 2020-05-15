@@ -3,7 +3,7 @@
     "variables": {
         "pure-white": "#ffffff",
         "white": "#CCC5C6",
-        "black": "#2b292a",
+        "black": "#29262B",
 
         "h-i": "#ffffff03", // inactive highlight
         "h-s": "#ffffff10", // small highlight
@@ -11,14 +11,14 @@
 
         "red": "#FD7C8F",
         "green": "#7CF69D",
-        "blue": "#82FEFF",
+        "blue": "#7EAFD9",
         "purple": "#9CACFF",
         "yellow": "#FFF3A9",
         "salmon": "#FD9D9D",
         "danger": "#FC5F8F",
-        "accent": "var(salmon)",
+        "accent": "#8EE9C2",
 
-        "grad1": "#93E3BC",
+        "grad1": "#93C9E3",
         "grad2": "#8EE9C2"
     },
     "globals": {
@@ -54,7 +54,7 @@
         "bracket_contents_foreground": "var(green)",
         // Tags
         "tags_options": "underline",
-        "tags_foreground": "var(accent)",
+        "tags_foreground": "var(pure-white)",
         // Shadows
         "shadow": "#00000020",
     },
@@ -113,7 +113,7 @@
         {
             "name": "Tag",
             "scope": "entity.name.tag",
-            "foreground": "var(salmon)",
+            "foreground": ["var(purple)", "var(blue)"],
             "font_style": "bold"
         },
         {
@@ -465,7 +465,6 @@
             "font_style": "bold"
         },
         // String
-
         {
             "name": "String",
             "scope": "string",

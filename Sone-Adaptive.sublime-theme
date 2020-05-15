@@ -165,7 +165,7 @@
         "layer0.opacity": 0.8,
         "content_margin": [9, 8]
     },
-    
+
     // Tabs
     {
         "class": "tabset_control",
@@ -1267,5 +1267,27 @@
         "class": "quick_panel",
         "layer0.tint": "var(--background)",
         "layer0.opacity": 1.0
-    }
+    },
+         // kinds in quick panel
+       {
+            "class": "quick_panel",
+            "parents": [{"class": "goto_symbol"}],
+            "row_padding": [0, 0, 0, 0],
+        },
+        {
+            "class": "quick_panel",
+            "parents": [{"class": "goto_symbol_in_project"}],
+            "row_padding": [0, 0, 0, 0],
+        },
+        {
+            "class": "kind_container",
+            "parents": [{"class": "overlay_control"}],
+            "content_margin": [10, 10, 10, 10],
+        },
+        {
+            "class": "kind_label",
+            "parents": [{"class": "overlay_control"}],
+            "font.size": 13
+        },
+         // END kinds in quick panel
 ]
