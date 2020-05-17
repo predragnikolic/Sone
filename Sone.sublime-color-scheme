@@ -3,13 +3,13 @@
     "variables": {
         "pure-white": "#ffffff",
         "white": "#CCC5C6",
-        "black": "#29262B",
+        "black": "#262B26",
 
         "h-i": "#ffffff03", // inactive highlight
         "h-s": "#ffffff10", // small highlight
         "h-b": "#ffffff40", // big highlight
 
-        "red": "#FD7C8F",
+        "red": "#FD867C",
         "green": "#7CF69D",
         "blue": "#7EAFD9",
         "purple": "#9CACFF",
@@ -75,7 +75,7 @@
         {
             "name": "Number",
             "scope": "constant.numeric",
-            "foreground": "var(salmon)",
+            "foreground": "var(yellow)",
         },
         {
             "name": "Character Escape",
