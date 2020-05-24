@@ -161,11 +161,6 @@
         },
         {
             "name": "Keyword For Spread",
-            "scope": "keyword.operator",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "Keyword For Spread",
             "scope": "keyword.operator.spread",
             "foreground": ["var(blue)", "var(green)"]
         },
