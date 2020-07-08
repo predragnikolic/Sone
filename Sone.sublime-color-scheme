@@ -3,17 +3,17 @@
     "variables": {
         "pure-white": "#ffffff",
         "white": "#CCC5C6",
-        "black": "#211E26",
+        "black": "#1E1B1B",
 
         "h-i": "#ffffff03", // inactive highlight
         "h-s": "#ffffff10", // small highlight
         "h-b": "#ffffff40", // big highlight
 
-        "red": "#FD867C",
-        "green": "#81DEB1",
+        "red": "#ff8792",
+        "green": "#81deb1",
         "blue": "#7EAFD9",
         "purple": "#9CACFF",
-        "yellow": "#FAFF93  ",
+        "yellow": "#FAFF93",
         "salmon": "#FD9D9D",
         "danger": "#FC5F8F",
         "accent": "#8EE9C2",
