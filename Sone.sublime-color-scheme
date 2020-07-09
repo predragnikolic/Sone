@@ -527,14 +527,14 @@
             "scope": "region.pinkish",
              // with foreground_adjust a theme can adjust the color of the forground
              // but for that to work you need to set a background. Which in my case is almost transparent, thanks O dat nurd for that trick :)
-            "background": "#ffffff11"
+            "background": "#ffffff10"
         },
         {
             "name": "Unused",
             "scope": "region.cyanish",
              // with foreground_adjust a theme can adjust the color of the forground
              // but for that to work you need to set a background. Which in my case is almost transparent, thanks O dat nurd for that trick :)
-            "background": "#00000040"
+            "background": "#00000030"
         },
     ]
 }
