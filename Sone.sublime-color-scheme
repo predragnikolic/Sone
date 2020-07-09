@@ -446,36 +446,10 @@
             "scope": "storage.modifier.extends",
             "foreground": "var(purple)"
         },
-
         {
-            "name": "Class Keywords",
-            "scope": "storage.type.class",
-            "foreground": ["var(blue)", "var(white)"],
-            "font_style": "bold"
-        },
-        {
-            "name": "Interface Keywords",
-            "scope": "storage.type.interface",
-            "foreground": ["var(blue)", "var(white)"],
-            "font_style": "bold"
-        },
-        {
-            "name": "Implementation Keywords",
-            "scope": "storage.type.impl",
-            "foreground": ["var(blue)", "var(white)"],
-            "font_style": "bold"
-        },
-        {
-            "name": "Struct Keywords",
-            "scope": "storage.type.struct",
-            "foreground": ["var(blue)", "var(white)"],
-            "font_style": "bold"
-        },
-        {
-            "name": "Trait Keywords",
-            "scope": "storage.type.trait",
-            "foreground": ["var(blue)", "var(white)"],
-            "font_style": "bold"
+            "name": "Function",
+            "scope": "storage.type",
+            "foreground":  "var(purple)"
         },
         // String
         {
