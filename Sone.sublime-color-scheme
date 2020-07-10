@@ -220,7 +220,7 @@
         {
             "name": "Css units",
             "scope": "keyword.other.unit",
-            "foreground": "var(white)"
+            "foreground": "var(orange)"
         },
         // Markup
         {
