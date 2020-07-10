@@ -12,10 +12,10 @@
         "red": "#ff8792",
         "green": "#81deb1",
         "blue": "#7EAFD9",
-        "purple": "#9CACFF",
+        "purple": "#ccabff",
         "yellow": "#F6FF96",
         "orange": "#fccb9e",
-        "salmon": "#FD9D9D",
+        "salmon": "#ff9c9c",
         "danger": "#FC5F8F",
         "accent": "#8EE9C2",
 
@@ -151,13 +151,13 @@
         {
             "name": "Keyword",
             "scope": "keyword.control.flow",
-            "foreground": "var(red)",
+            "foreground": "var(salmon)",
             "font_style": "bold"
         },
         {
             "name": "Keyword",
             "scope": "keyword.control.conditional",
-            "foreground": "var(red)",
+            "foreground": "var(salmon)",
             "font_style": "bold"
         },
         {
@@ -174,42 +174,42 @@
         {
             "name": "Import JS Modules JSCustom",
             "scope": "keyword.control.import-export",
-            "foreground": "var(red)",
+            "foreground": "var(salmon)",
             "font_style": "bold"
         },
         {
             "name": "FROM TS",
             "scope": "keyword.control.from.ts",
-            "foreground": "var(red)",
+            "foreground": "var(salmon)",
             "font_style": "bold"
         },
         {
             "name": "Import JS Modules JSCustom",
             "scope": "keyword.import",
-            "foreground": "var(red)"
+            "foreground": "var(salmon)"
         },
         {
             "name": "Import JS Modules JSCustom",
             "scope": "keyword.control.import",
-            "foreground": "var(red)",
+            "foreground": "var(salmon)",
             "font_style": "bold"
         },
         {
             "name": "Is Not In Pyton",
             "scope": "keyword.operator.logical",
-            "foreground": "var(red)",
+            "foreground": "var(salmon)",
             "font_style": "bold"
         },
         {
             "name": "=",
             "scope": "keyword.operator",
-            "foreground": "var(red)",
+            "foreground": "var(salmon)",
             "font_style": "bold"
         },
         {
             "name": "Css @Media",
             "scope": "source.css keyword.control",
-            "foreground": ["var(red)", "var(yellow)"],
+            "foreground": ["var(salmon)", "var(yellow)"],
         },
         {
             "name": "PHP use, new",
@@ -359,7 +359,7 @@
         {
             "name": "PHp ->",
             "scope": "punctuation.accessor.arrow",
-            "foreground": "var(red)",
+            "foreground": "var(salmon)",
             "font_style": ""
         },
         {
@@ -502,13 +502,6 @@
              // with foreground_adjust a theme can adjust the color of the forground
              // but for that to work you need to set a background. Which in my case is almost transparent, thanks O dat nurd for that trick :)
             "background": "#ffffff10"
-        },
-        {
-            "name": "Unused",
-            "scope": "region.cyanish",
-             // with foreground_adjust a theme can adjust the color of the forground
-             // but for that to work you need to set a background. Which in my case is almost transparent, thanks O dat nurd for that trick :)
-            "background": "#00000050"
-        },
+        }
     ]
 }
