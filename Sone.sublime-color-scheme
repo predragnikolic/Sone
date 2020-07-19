@@ -3,7 +3,7 @@
     "variables": {
         "pure-white": "#ffffff",
         "white": "#CCC5C6",
-        "black": "#2f2937", // #1E1B1B
+        "black": "#2d3033", // #1E1B1B
 
         "h-i": "#ffffff03", // inactive highlight
         "h-s": "#ffffff10", // small highlight
