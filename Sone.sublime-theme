@@ -103,7 +103,7 @@
             {
                 "class": "icon_folder",
                 "layer0.texture": "Theme - Default/common/dark/folder_closed.png",
-                "layer0.tint": "var(--background)",
+                "layer0.tint": "#000",
                 "layer0.opacity": 0.4,
                 "content_margin": [9, 8]
             },
@@ -112,7 +112,7 @@
                 "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
                 "layer0.texture": "Theme - Default/common/dark/folder_open.png",
                 "layer0.opacity": 0.4,
-                "layer0.tint": "var(--background)",
+                "layer0.tint": "#000",
                 "content_margin": [9, 8]
             },
             {
@@ -157,7 +157,7 @@
             {
                 "class": "icon_file_type",
                 "layer0.opacity": 0.4,
-                "layer0.tint": "var(--background)",
+                "layer0.tint": "#000",
                 "content_margin": [9, 8]
             },
 
