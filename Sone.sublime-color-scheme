@@ -1,8 +1,8 @@
 {
     "name": "Sone Color Scheme",
     "variables": {
-        "pure-white": "#ffffff",
-        "white": "#CCC5C6",
+        "white": "#ffffff",
+        "gray": "#CCC5C6",
         "black": "#292430", // #1E1B1B
 
         "h-i": "#ffffff03", // inactive highlight
@@ -55,11 +55,16 @@
         "bracket_contents_foreground": "var(green)",
         // Tags
         "tags_options": "underline",
-        "tags_foreground": "var(pure-white)",
+        "tags_foreground": "var(white)",
         // Shadows
         "shadow": "#00000020",
     },
     "rules": [
+        {
+            "name": "Parethiesies",
+            "scope": "punctuation.section.block, punctuation.section.sequence, punctuation.section.mapping",
+            "foreground": "var(gray)"
+        },
         // Comment
         {
             "name": "Comment",
@@ -84,21 +89,11 @@
             "foreground": "var(purple)",
         },
         {
-            "name": "Placeholder",
-            "scope": "constant.other.placeholder",
-            "foreground": "var(blue)"
-        },
-        {
             "name": "True Null False",
             "scope": "constant.language",
             "foreground": "var(purple)"
         },
         // Entity
-        {
-            "name": "Entity",
-            "scope": "entity.name",
-            "foreground": "var(pure-white)",
-        },
         {
             "name": "Entity Function",
             "scope": "entity.name.function",
@@ -124,12 +119,6 @@
             "font_style": "bold"
         },
         {
-            "name": "Tags Attribute",
-            "scope": "entity.other.attribute-name",
-            "foreground": "var(pure-white)",
-            "font_style": ""
-        },
-        {
             "name": "Css Classes And Ids",
             "scope": "source.css entity.other.attribute-name",
             "foreground": ["var(green)", "var(blue)"],
@@ -144,83 +133,9 @@
         // Keyword
         {
             "name": "Keyword",
-            "scope": "keyword.control",
-            "foreground": ["var(green)", "var(blue)"],
+            "scope": "keyword",
+            "foreground":  "var(salmon)",
             "font_style": "bold"
-        },
-        {
-            "name": "Keyword",
-            "scope": "keyword.control.flow",
-            "foreground": "var(salmon)",
-            "font_style": "bold"
-        },
-        {
-            "name": "Keyword",
-            "scope": "keyword.control.conditional",
-            "foreground": "var(salmon)",
-            "font_style": "bold"
-        },
-        {
-            "name": "Keyword For Spread",
-            "scope": "keyword.operator.spread",
-            "foreground": ["var(blue)", "var(green)"]
-        },
-        {
-            "name": "Import JS Modules",
-            "scope": "keyword.operator.module",
-            "foreground": ["var(green)", "var(blue)"],
-            "font_style": "bold"
-        },
-        {
-            "name": "Import JS Modules JSCustom",
-            "scope": "keyword.control.import-export",
-            "foreground": "var(salmon)",
-            "font_style": "bold"
-        },
-        {
-            "name": "FROM TS",
-            "scope": "keyword.control.from.ts",
-            "foreground": "var(salmon)",
-            "font_style": "bold"
-        },
-        {
-            "name": "Import JS Modules JSCustom",
-            "scope": "keyword.import",
-            "foreground": "var(salmon)"
-        },
-        {
-            "name": "Import JS Modules JSCustom",
-            "scope": "keyword.control.import",
-            "foreground": "var(salmon)",
-            "font_style": "bold"
-        },
-        {
-            "name": "Is Not In Pyton",
-            "scope": "keyword.operator.logical",
-            "foreground": "var(salmon)",
-            "font_style": "bold"
-        },
-        {
-            "name": "=",
-            "scope": "keyword.operator",
-            "foreground": "var(salmon)",
-            "font_style": "bold"
-        },
-        {
-            "name": "Css @Media",
-            "scope": "source.css keyword.control",
-            "foreground": ["var(salmon)", "var(yellow)"],
-        },
-        {
-            "name": "PHP use, new",
-            "scope": "keyword.other",
-            "foreground": ["var(green)", "var(blue)"],
-            "font_style": "bold"
-        },
-        {
-            "name": "Css units",
-            "scope": "keyword.other.unit",
-            "foreground": "var(orange)"
         },
         // Markup
         {
@@ -237,12 +152,6 @@
             "name": "Changed",
             "scope": "markup.changed",
             "foreground": "var(yellow)"
-        },
-        // Git Gutter Plutgin
-        {
-            "name": "Untracked gitgutter",
-            "scope": "markup.untracked.git_gutter",
-            "foreground": "var(h-b)"
         },
         // Git Diff View Plugin
         {
@@ -264,72 +173,24 @@
         },
         // Markdown
         {
-            "name": "----",
-            "scope": "markup.heading",
-            "foreground": "var(pure-white)",
-        },
-        {
             "name": "Markdown Italic",
             "scope": "markup.italic",
-            "foreground": "var(pure-white)",
             "font_style": "italic"
         },
         {
             "name": "Markdown Bold",
             "scope": "markup.bold",
-            "foreground": "var(pure-white)",
-        },
-        {
-            "name": "Markdown Strikethrough",
-            "scope": "markup.strikethrough",
-            "foreground": "var(pure-white)",
         },
         // Markdown Lists
-        {
-            "name": "Markdown Numbered List",
-            "scope": "markup.list.numbered.bullet",
-            "foreground": "var(pure-white)",
-        },
-        {
-            "name": "Markdown Unnumbered List",
-            "scope": "punctuation.definition.list_item",
-            "foreground": "var(pure-white)",
-        },
         {
             "name": "Markdown Link",
             "scope": ".link",
             "foreground": "#91E0FF",
         },
-        {
-            "name": "Markdown Link Description",
-            "scope": "meta.link.inline.description",
-            "foreground": "var(pure-white)",
-        },
-        {
-            "name": "Markdown Link Reference",
-            "scope": "meta.link.reference.description",
-            "foreground": "var(pure-white)",
-        },
-        {
-            "name": "Markdown Image Description",
-            "scope": "meta.image.inline.description",
-            "foreground": "var(pure-white)",
-        },
-        {
-            "name": "Markdown Image Reference",
-            "scope": "meta.image.reference.description",
-            "foreground": "var(pure-white)",
-        },
         // Markdown Code blocks
         {
             "name": "Markdown Inline Block",
-            "scope": "markup.raw.inline",
-            "foreground": "var(pure-white)",
-            "background": "var(h-s)"
-        },
-        {
-            "name": "Markdown Code Block",
-            "scope": "markup.raw.code-fence",
+            "scope": "markup.raw.inline, markup.raw.code-fence",
             "background": "var(h-s)"
         },
         {
@@ -338,51 +199,11 @@
             "foreground": "var(h-s)",
             "background": "var(h-b)"
         },
-        {
-            "name": "Markdown --- *** ",
-            "scope": "punctuation.definition.thematic-break",
-            "foreground": "var(pure-white)",
-        },
-        // Meta
-        {
-            "name": "Python Variables",
-            "scope": "meta.generic-name",
-            "foreground": "var(pure-white)"
-        },
-        {
-            "name": "Js Class Property",
-            "scope": "meta.property",
-            "foreground": "var(pure-white)"
-        },
         // Punctuation
-
-        {
-            "name": "PHp ->",
-            "scope": "punctuation.accessor.arrow",
-            "foreground": "var(salmon)",
-            "font_style": ""
-        },
-        {
-            "name": "PHp ->",
-            "scope": "punctuation.accessor",
-            "foreground": "var(white)",
-            "font_style": ""
-        },
         {
             "name": "@ Annotation",
             "scope": "punctuation.definition.annotation",
             "foreground": "var(purple)"
-        },
-        {
-            "name": "Function Annotation",
-            "scope": "variable.annotation",
-            "foreground": "var(pure-white)"
-        },
-        {
-            "name": "Js Object Key Literal",
-            "scope": "meta.object-literal.key",
-            "foreground": "var(pure-white)",
-
         },
         {
             "name": "Function call",
@@ -399,34 +220,8 @@
         // Variable
         {
             "name": "Variable",
-            "scope": "variable.other",
-            "foreground": "var(pure-white)",
-            "font_style": "",
-        },
-        {
-            "name": "Variable",
             "scope": "punctuation.definition.variable",
             "foreground": ["var(blue)", "var(white)"]
-        },
-        {
-            "name": "Arguments",
-            "scope": "variable.parameter",
-            "foreground": "var(pure-white)"
-        },
-        {
-            "name": "Calling Function Method",
-            "scope": "variable.function",
-            "font_style": "bold"
-        },
-        {
-            "name": "Instanciating Classes In Js",
-            "scope": "variable.type",
-            "foreground": "var(pure-white)"
-        },
-        {
-            "name": "Class Attributes And Properties",
-            "scope": "variable.other.member",
-            "foreground": "var(pure-white)"
         },
         {
             "name": "This, Self",
@@ -436,19 +231,8 @@
         },
         // Storage
         {
-            "name": "Private Public Mut Keywords",
-            "scope": "storage.modifier",
-            "font_style": "bold",
-            "foreground": "var(pure-white)"
-        },
-        {
-            "name": "Php extends",
-            "scope": "storage.modifier.extends",
-            "foreground": "var(purple)"
-        },
-        {
             "name": "Function",
-            "scope": "storage.type",
+            "scope": "storage",
             "foreground":  "var(purple)"
         },
         // String
@@ -458,43 +242,9 @@
             "foreground": "var(orange)"
         },
         {
-            "name": "Quotes",
-            "scope": "punctuation.definition.string",
-            "foreground": "var(pure-white)"
-        },
-        // Support
-        // use App\Class; php
-        {
-            "name": "Support",
-            "scope": "support.class",
-            "foreground": "var(pure-white)",
-        },
-        {
-            "name": "Inheritance",
-            "scope": "entity.other.inherited-class",
-            "foreground": "var(pure-white)",
-        },
-        {
-            "name": "Css Property Names",
-            "scope": "support.type, meta.function.parameters.annotation meta.qualified-name meta.generic-name",
-            "foreground": "var(white)",
-        },
-        {
-            "name": "Rust macros",
-            "scope": "support.macro",
-            "foreground": ["var(grad1)", "var(grad2)"],
-            "font_style": "bold"
-        },
-        // grapqhl
-        {
-            "name": "Type Name",
-            "scope": "meta.type.type",
-            "foreground": "var(pure-white)",
-        },
-        {
             "name": "object keys",
             "scope": "meta.mapping.key string.quoted.double",
-            "foreground": "var(pure-white)"
+            "foreground": "var(white)"
         },
         {
             "name": "Used",
