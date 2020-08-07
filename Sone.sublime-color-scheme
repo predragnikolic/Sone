@@ -61,8 +61,8 @@
     },
     "rules": [
         {
-            "name": "Parethiesies",
-            "scope": "punctuation.section.block, punctuation.section.sequence, punctuation.section.mapping",
+            "name": "Parens",
+            "scope": "punctuation.section.block, punctuation.section.group., punctuation.section.sequence, punctuation.section.mapping",
             "foreground": "var(gray)"
         },
         // Comment
