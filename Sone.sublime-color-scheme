@@ -88,6 +88,12 @@
             "scope": "constant.character.escape",
             "foreground": "var(purple)",
         },
+        // LSP "More" link
+        {
+            "name": "Placeholder",
+            "scope": "constant.other.placeholder",
+            "foreground": "var(blue)"
+        },
         {
             "name": "True Null False",
             "scope": "constant.language",
