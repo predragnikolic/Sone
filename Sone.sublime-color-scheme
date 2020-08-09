@@ -61,6 +61,11 @@
     },
     "rules": [
         {
+            "name": "PURPLE KIND",
+            "scope": "notexistent",
+            "foreground": "hsl(300, 30%, 68%)"
+        },
+        {
             "name": "Parens",
             "scope": "punctuation.section.block, punctuation.section.group., punctuation.section.sequence, punctuation.section.mapping",
             "foreground": "var(gray)"
