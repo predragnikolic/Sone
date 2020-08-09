@@ -16,7 +16,7 @@
         "yellow": "#F6FF96",
         "orange": "#fccb9e",
         "salmon": "#ff9c9c",
-        "danger": "#fc5f68",
+        "danger": "#FF7C7C",
         "accent": "#8EE9C2",
 
         "grad1": "#85CECE",
@@ -163,7 +163,7 @@
         {
             "name": "Git Diff View Deleted",
             "scope": "text.grf markup.deleted",
-            "foreground": ["var(danger)", "#FF6769"],
+            "foreground": ["var(danger)", "#ff9d7c"],
 
         },
         {
@@ -174,7 +174,7 @@
         {
             "name": "Git Diff View Deleted",
             "scope": "source.diff markup.deleted.diff",
-            "foreground": ["var(danger)", "#FF6769"],
+            "foreground": ["var(danger)", "#ff9d7c"],
 
         },
         // Markdown
@@ -258,6 +258,8 @@
              // with foreground_adjust a theme can adjust the color of the forground
              // but for that to work you need to set a background. Which in my case is almost transparent, thanks O dat nurd for that trick :)
             "background": "#ffffff10"
-        }
+        },
     ]
 }
+
+
