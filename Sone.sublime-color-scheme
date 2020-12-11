@@ -3,7 +3,7 @@
     "variables": {
         "white": "#ffffff",
         "gray": "#CCC5C6",
-        "black": "#333230", // #1E1B1B, #292430, #192224, #201922
+        "black": "#2b2a2b", // #1E1B1B, #292430, #192224, #201922
 
         "h-i": "#ffffff03", // inactive highlight
         "h-s": "#ffffff10", // small highlight
@@ -13,7 +13,7 @@
         "green": "#81deb1",
         "blue": "#7EAFD9",
         "purple": "#b4b0e4",
-        "yellow": "#F6FF96",
+        "yellow": "#ebf4a1",
         "orange": "#fccb9e",
         "salmon": "#ff9c9c",
         "danger": "#FF7C7C",
