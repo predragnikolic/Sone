@@ -16,9 +16,9 @@
    viewBox="0 0 24 21.333332"
    sodipodi:docname="x.svg"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   inkscape:export-filename="/home/predrag/.config/sublime-text/Packages/Sone/icons/x.png"
-   inkscape:export-xdpi="72"
-   inkscape:export-ydpi="72">
+   inkscape:export-filename="/home/predrag/.config/sublime-text/Packages/Sone/icons/x@3x.png"
+   inkscape:export-xdpi="216"
+   inkscape:export-ydpi="216">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -42,15 +42,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1326"
-     inkscape:window-height="728"
+     inkscape:window-width="1338"
+     inkscape:window-height="737"
      id="namedview4"
      showgrid="true"
      inkscape:zoom="15.644738"
-     inkscape:cx="13.524246"
+     inkscape:cx="-3.3504374"
      inkscape:cy="7.6365491"
-     inkscape:window-x="20"
-     inkscape:window-y="20"
+     inkscape:window-x="13"
+     inkscape:window-y="15"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2">
     <inkscape:grid
