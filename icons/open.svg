@@ -14,11 +14,11 @@
    width="24"
    height="21.333332"
    viewBox="0 0 24 21.333332"
-   sodipodi:docname="file_type_source.svg"
+   sodipodi:docname="folder_open.svg"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   inkscape:export-filename="/home/predrag/.config/sublime-text/Packages/Sone/icons/file_type_source@3x.png"
-   inkscape:export-xdpi="216"
-   inkscape:export-ydpi="216">
+   inkscape:export-filename="/home/predrag/.config/sublime-text/Packages/Sone/icons/folder_open.png"
+   inkscape:export-xdpi="72"
+   inkscape:export-ydpi="72">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -27,6 +27,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -46,19 +47,22 @@
      id="namedview4"
      showgrid="true"
      inkscape:zoom="22.125001"
-     inkscape:cx="10.706713"
-     inkscape:cy="9.344684"
+     inkscape:cx="12.088436"
+     inkscape:cy="10.762141"
      inkscape:window-x="20"
      inkscape:window-y="20"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2">
     <inkscape:grid
        type="xygrid"
-       id="grid827" />
+       id="grid819" />
   </sodipodi:namedview>
   <path
-     style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 17.00832,16.320953 -7.9999998,-14 3.9999998,7 -4.9999998,7 v 0"
-     id="path818"
-     inkscape:connector-curvature="0" />
+     style="fill:none;stroke:#ffffff;stroke-width:1.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 18.00909,8.2333781 -6,5.9999909 -5.9999998,-5.9999909"
+     id="path4528-3-3"
+     inkscape:connector-curvature="0"
+     inkscape:export-xdpi="72"
+     inkscape:export-ydpi="72"
+     sodipodi:nodetypes="ccc" />
 </svg>

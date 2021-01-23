@@ -15,10 +15,10 @@
    height="21.333332"
    viewBox="0 0 24 21.333332"
    sodipodi:docname="file_type_markup.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   inkscape:export-filename="/home/predrag/.config/sublime-text-3/Packages/Sone/icons/file_type_markup.png"
-   inkscape:export-xdpi="72"
-   inkscape:export-ydpi="72">
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   inkscape:export-filename="/home/predrag/.config/sublime-text/Packages/Sone/icons/file_type_markup@3x.png"
+   inkscape:export-xdpi="216"
+   inkscape:export-ydpi="216">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -27,7 +27,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -46,9 +46,9 @@
      inkscape:window-height="728"
      id="namedview4"
      showgrid="true"
-     inkscape:zoom="15.644738"
-     inkscape:cx="17.099899"
-     inkscape:cy="8.6879219"
+     inkscape:zoom="31.289476"
+     inkscape:cx="8.2313056"
+     inkscape:cy="10.380422"
      inkscape:window-x="20"
      inkscape:window-y="20"
      inkscape:window-maximized="0"
@@ -57,20 +57,18 @@
        type="xygrid"
        id="grid819" />
   </sodipodi:namedview>
-  <g
-     id="g840"
-     style="fill:#ffffff"
+  <path
+     style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 8.9999586,6.3232318 -5,5.0000002 5,5 v 0 0"
+     id="path4528"
+     inkscape:connector-curvature="0"
      inkscape:export-xdpi="72"
-     inkscape:export-ydpi="72">
-    <path
-       inkscape:connector-curvature="0"
-       id="path821"
-       d="M 8,6.3333321 H 6 l -5,4.9999999 5,5 h 2 v -2 l -3,-3 3,-2.9999999 z"
-       style="fill:#ffffff;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path821-3"
-       d="m 12,6.3333322 h 2 l 5,4.9999998 -5,5 h -2 v -2 l 3,-3 -3,-2.9999998 z"
-       style="fill:#ffffff;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-  </g>
+     inkscape:export-ydpi="72" />
+  <path
+     style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 14.0101,6.3232319 5,5.0000001 -5,5 v 0 0"
+     id="path4528-3"
+     inkscape:connector-curvature="0"
+     inkscape:export-xdpi="72"
+     inkscape:export-ydpi="72" />
 </svg>

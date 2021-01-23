@@ -15,10 +15,10 @@
    height="21.333332"
    viewBox="0 0 24 21.333332"
    sodipodi:docname="filte_type_style.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   inkscape:export-filename="/home/predrag/.config/sublime-text-3/Packages/Sone/icons/file_type_style.png"
-   inkscape:export-xdpi="72"
-   inkscape:export-ydpi="72">
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   inkscape:export-filename="/home/predrag/.config/sublime-text/Packages/Sone/icons/file_type_style@3x.png"
+   inkscape:export-xdpi="216"
+   inkscape:export-ydpi="216">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -42,15 +42,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1326"
-     inkscape:window-height="728"
+     inkscape:window-width="1338"
+     inkscape:window-height="737"
      id="namedview4"
      showgrid="true"
-     inkscape:zoom="31.289477"
-     inkscape:cx="4.7622177"
-     inkscape:cy="10.518788"
-     inkscape:window-x="20"
-     inkscape:window-y="20"
+     inkscape:zoom="11.062501"
+     inkscape:cx="-4.2920565"
+     inkscape:cy="10.142699"
+     inkscape:window-x="13"
+     inkscape:window-y="15"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2"
      inkscape:snap-bbox="true"
@@ -69,7 +69,7 @@
   </sodipodi:namedview>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000080;fill-opacity:1;stroke:#ffffff;"
      x="0"
      y="7.3333321"
      id="text817"
@@ -82,12 +82,12 @@
   <g
      transform="matrix(-1,0,0,1,25,-3.8232422e-8)"
      id="g822-3"
-     style="fill:#ffffff"
+     style="fill:#000080;stroke:#ffffff"
      inkscape:export-xdpi="72"
      inkscape:export-ydpi="72" />
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000080;fill-opacity:1;stroke:#ffffff;"
      x="0"
      y="7.3333321"
      id="text817-9"
@@ -98,36 +98,15 @@
        x="0"
        y="42.723957" /></text>
   <g
-     style="fill:#ffffff"
+     style="fill:#000080;stroke:#ffffff"
      transform="matrix(-1,0,0,1,25,-3.8232422e-8)"
      id="g822-3-2"
      inkscape:export-xdpi="72"
      inkscape:export-ydpi="72" />
-  <g
-     id="g988"
-     style="fill:#ffffff"
-     transform="translate(-1)"
-     inkscape:export-xdpi="72"
-     inkscape:export-ydpi="72">
-    <g
-       id="g822"
-       style="fill:#ffffff">
-      <g
-         id="g913"
-         style="fill:#ffffff">
-        <path
-           sodipodi:nodetypes="cccccccc"
-           inkscape:connector-curvature="0"
-           id="path821"
-           d="M 12,4.3333321 H 8 l -5,5 9,8.9999999 v -5 -3 -1.9999999 z"
-           style="fill:#ffffff;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      </g>
-    </g>
-    <path
-       inkscape:connector-curvature="0"
-       id="path982"
-       d="m 11,6.3333321 v -2 h 5 l 5,5 -9,8.9999999 -1,-2 7,-6.9999999 -3,-3 z"
-       style="fill:#ffffff;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       sodipodi:nodetypes="ccccccccc" />
-  </g>
+  <path
+     style="fill:none;stroke:#ffffff;stroke-width:1.70000005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 11.349969,17.483376 4,9.3333321 c 5.8533932,-5.8217861 9.205551,-5.1334321 14.338983,0 z"
+     id="path823"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccc" />
 </svg>

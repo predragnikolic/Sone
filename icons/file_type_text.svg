@@ -15,10 +15,10 @@
    height="21.333332"
    viewBox="0 0 24 21.333332"
    sodipodi:docname="file_type_text.svg"
-   inkscape:export-filename="/home/predrag/.config/sublime-text-3/Packages/Sone/icons/file_type_text.png"
+   inkscape:export-filename="/home/predrag/.config/sublime-text/Packages/Sone/icons/file_type_text.png"
    inkscape:export-xdpi="72"
    inkscape:export-ydpi="72"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -27,7 +27,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -42,17 +42,17 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1326"
-     inkscape:window-height="728"
+     inkscape:window-width="1338"
+     inkscape:window-height="737"
      id="namedview4"
      showgrid="true"
      inkscape:snap-bbox="true"
      inkscape:bbox-nodes="true"
      inkscape:zoom="15.644738"
-     inkscape:cx="16.248853"
+     inkscape:cx="13.180729"
      inkscape:cy="8.8218523"
-     inkscape:window-x="20"
-     inkscape:window-y="20"
+     inkscape:window-x="13"
+     inkscape:window-y="15"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2">
     <inkscape:grid
@@ -60,25 +60,19 @@
        id="grid833"
        empspacing="4" />
   </sodipodi:namedview>
-  <rect
-     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.92643404;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="rect831"
-     width="12"
-     height="2.8835156"
-     x="4"
-     y="14.449817" />
-  <rect
-     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.98495793;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="rect831-3"
-     width="12"
-     height="3.0000002"
-     x="4"
-     y="9.3333321" />
-  <rect
-     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.98495793;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="rect831-6"
-     width="12"
-     height="2.9999998"
-     x="4"
-     y="4.3333321" />
+  <path
+     style="fill:none;stroke:#ffffff;stroke-width:1.79999995;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 5.9128182,6.3333321 H 17.912818"
+     id="path815"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#ffffff;stroke-width:1.79999995;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 5.9128182,11.333332 H 17.912818"
+     id="path815-6"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#ffffff;stroke-width:1.79999995;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 5.9128182,16.333332 H 17.912818"
+     id="path815-6-7"
+     inkscape:connector-curvature="0" />
 </svg>
