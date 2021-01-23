@@ -15,10 +15,10 @@
    height="45.333332"
    viewBox="0 0 56 45.333332"
    sodipodi:docname="tab.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   inkscape:export-filename="/home/predrag/.config/sublime-text-3/Packages/Sone/common/tab_shadow.png"
-   inkscape:export-xdpi="72"
-   inkscape:export-ydpi="72">
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   inkscape:export-filename="/home/predrag/.config/sublime-text/Packages/Sone/common/tab@3x.png"
+   inkscape:export-xdpi="216"
+   inkscape:export-ydpi="216">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -27,7 +27,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -53,41 +53,41 @@
      inkscape:snap-center="false"
      inkscape:snap-text-baseline="false"
      inkscape:snap-page="true"
-     inkscape:zoom="5.2058825"
-     inkscape:cx="14.74434"
-     inkscape:cy="31.721993"
+     inkscape:zoom="7.3622296"
+     inkscape:cx="14.435994"
+     inkscape:cy="15.073914"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2">
+     inkscape:current-layer="g843">
     <inkscape:grid
        type="xygrid"
        id="grid14" />
   </sodipodi:namedview>
   <g
      id="g843"
-     style="fill:#f9f9f9">
-    <path
-       inkscape:connector-curvature="0"
-       id="path19"
-       d="m 5,45.333332 c 0,0 10,0 10,-20 C 15,5.3333321 27,5.3333321 27,5.3333321 c 0,0 13,0 13,19.9999999 0,20 10,20 10,20 z"
-       style="fill:#f9f9f9;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path19-3"
-       d="m 11,45.333332 c 0,0 10,0 10,-20 C 21,5.3333321 33,5.3333321 33,5.3333321 c 0,0 13,0 13,19.9999999 0,20 10,20 10,20 z"
-       style="fill:#f9f9f9;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path19-6"
-       d="m 3e-7,45.333332 c 0,0 9.9999997,0 9.9999997,-20 C 10,5.3333323 22,5.3333323 22,5.3333323 c 0,0 13,0 13,19.9999997 0,20 10,20 10,20 z"
-       style="fill:#f9f9f9;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    <rect
-       y="5.3333321"
-       x="22"
-       height="10"
-       width="10"
-       id="rect837"
-       style="fill:#f9f9f9;stroke:none" />
+     style="fill:#ff2a2a">
+    <g
+       id="g3757">
+      <path
+         sodipodi:nodetypes="csscccscc"
+         style="fill:#ffffff;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 5,45.333332 c 0,0 5,0 5.048193,-5.194234 0,0 -0.04819,-8.88092 -0.04819,-14.805766 C 10,17.37546 9.9136222,10.179217 9.9136222,10.179217 10,5.3333321 15.039109,5.201324 15.039109,5.201324 c 0,0 4.733314,0.1356702 6.960891,0.1320083 0,0 13,0 13,19.9999997 0,20 10,20 10,20 z"
+         id="path19-6"
+         inkscape:connector-curvature="0" />
+      <rect
+         style="fill:#ffffff;stroke:none"
+         id="rect837"
+         width="10"
+         height="10"
+         x="22"
+         y="5.3333321" />
+      <path
+         sodipodi:nodetypes="csscccscc"
+         style="fill:#ffffff;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 50,45.333332 c 0,0 -5,0 -5.048193,-5.194234 0,0 0.04819,-8.88092 0.04819,-14.805766 C 45,17.37546 45.086377,10.179217 45.086377,10.179217 44.999997,5.3333322 39.96089,5.2013242 39.96089,5.2013242 c 0,0 -4.733314,0.13567 -6.960891,0.132008 0,0 -13,0 -13,19.9999998 0,20 -9.999998,20 -9.999998,20 z"
+         id="path19-6-6"
+         inkscape:connector-curvature="0" />
+    </g>
   </g>
 </svg>

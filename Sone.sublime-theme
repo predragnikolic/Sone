@@ -3,7 +3,7 @@
         "purple": "#9CACFF",
         "match": "#FD9D9D"
     },
-            "rules": [
+        "rules": [
             {
                 "class": "title_bar",
                 "fg": [48, 48, 48],
@@ -180,7 +180,7 @@
                 "class": "tab_control",
                 "layer0.texture": "Sone/common/tab_shadow.png",
                 "layer0.inner_margin": [19, 0, 19, 0],
-                "layer0.opacity": 0.2,
+                "layer0.opacity": 0.0,
                 "layer1.texture": "Sone/common/tab.png",
                 "layer1.inner_margin": [19, 0, 19, 0],
                 "layer1.opacity": 1.0,
@@ -188,6 +188,7 @@
                 "layer2.inner_margin": [19, 0, 19, 0],
                 "layer2.opacity": 0.0,
                 "layer3.texture": "Sone/common/light/tab_border.png",
+                "layer3.tint": [231, 234, 237],
                 "layer3.inner_margin": [19, 0, 19, 0],
                 "layer3.opacity": 0.0,
                 "tint_index": 1,
