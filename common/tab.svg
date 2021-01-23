@@ -16,9 +16,9 @@
    viewBox="0 0 56 45.333332"
    sodipodi:docname="tab.svg"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   inkscape:export-filename="/home/predrag/.config/sublime-text/Packages/Sone/common/tab@3x.png"
-   inkscape:export-xdpi="216"
-   inkscape:export-ydpi="216">
+   inkscape:export-filename="/home/predrag/.config/sublime-text/Packages/Sone/common/tab@2x.png"
+   inkscape:export-xdpi="144"
+   inkscape:export-ydpi="144">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -53,13 +53,21 @@
      inkscape:snap-center="false"
      inkscape:snap-text-baseline="false"
      inkscape:snap-page="true"
-     inkscape:zoom="7.3622296"
-     inkscape:cx="14.435994"
-     inkscape:cy="15.073914"
+     inkscape:zoom="4"
+     inkscape:cx="37.071519"
+     inkscape:cy="-13.881185"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g843">
+     inkscape:current-layer="g843"
+     inkscape:snap-global="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-nodes="true"
+     inkscape:bbox-nodes="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-smooth-nodes="true">
     <inkscape:grid
        type="xygrid"
        id="grid14" />
@@ -68,11 +76,12 @@
      id="g843"
      style="fill:#ff2a2a">
     <g
-       id="g3757">
+       id="g3757"
+       style="stroke:none;fill:#ffffff">
       <path
          sodipodi:nodetypes="csscccscc"
          style="fill:#ffffff;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 5,45.333332 c 0,0 5,0 5.048193,-5.194234 0,0 -0.04819,-8.88092 -0.04819,-14.805766 C 10,17.37546 9.9136222,10.179217 9.9136222,10.179217 10,5.3333321 15.039109,5.201324 15.039109,5.201324 c 0,0 4.733314,0.1356702 6.960891,0.1320083 0,0 13,0 13,19.9999997 0,20 10,20 10,20 z"
+         d="m 5,45.333332 c 0,0 5,0.194457 5,-5 v -15 c 0,-0.142428 0,-15 0,-15 0.08638,-4.8458849 5,-4.9999999 5,-4.9999999 0,0 4.772404,0.00366 6.999981,2e-7 0,0 13,0 13,19.9999997 0,20 10,20 10,20 z"
          id="path19-6"
          inkscape:connector-curvature="0" />
       <rect
