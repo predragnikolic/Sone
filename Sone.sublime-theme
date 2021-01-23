@@ -1,5 +1,7 @@
 {
     "variables": {
+        "smoke-white": [231, 234, 237],
+        "text": "var(--background)",
         "purple": "#9CACFF",
         "match": "#FD9D9D"
     },
@@ -7,20 +9,20 @@
             {
                 "class": "title_bar",
                 "fg": [48, 48, 48],
-                "bg": [231, 234, 237]
+                "bg": "var(smoke-white)"
             },
             // Side Bar
             {
                 "class": "sidebar_container",
-                "layer0.tint": [231, 234, 237],
+                "layer0.tint": "var(smoke-white)",
                 "layer0.opacity": 1.0,
-                "content_margin": 0
+                "content_margin": [ 8, 0,  8,0]
             },
             {
                 "class": "sidebar_tree",
                 "row_padding": [4, 4, 4, 4],
                 "indent": 20,
-                "indent_offset": 8,
+                "indent_offset": 0,
                 "indent_top_level": false,
                 "dark_content": false,
                 "spacer_rows": false
@@ -51,7 +53,7 @@
             {
                 "class": "sidebar_label",
                 "fg": "#333",
-                "font.face": "JetBrains Mono Lighter",
+                "font.face": "JetBrains Mono",
                 "font.size": 12
             },
             {
@@ -63,9 +65,9 @@
             // Open Files Icons
             {
                 "class": "close_button",
-                "layer0.texture": "Sone/common/light/open_file_close.png",
+                "layer0.texture": "Sone/common/dark/open_file_close.png",
                 "layer0.opacity": { "target": 0.3, "speed": 4.0, "interpolation": "smoothstep" },
-                "layer0.tint": [255, 255, 255],
+                "layer0.tint": "var(text)",
                 "content_margin": [8, 8],
             },
             {
@@ -81,9 +83,9 @@
             {
                 "class": "close_button",
                 "attributes": ["hover", "dirty"],
-                "layer0.texture": "Sone/common/light/open_file_close.png",
+                "layer0.texture": "Sone/common/dark/open_file_close.png",
             },
-            // Folder & File Icons
+            // Folder Icons
             {
                 "class": "disclosure_button_control",
                 "layer0.texture": "Sone/common/light/disclosure_unexpanded.png",
@@ -103,16 +105,16 @@
             {
                 "class": "icon_folder",
                 "layer0.texture": "Sone/common/dark/folder_closed.png",
-                "layer0.tint": "#000",
-                "layer0.opacity": 0.4,
+                "layer0.tint": "var(text)",
+                "layer0.opacity": 0.8,
                 "content_margin": [9, 8]
             },
             {
                 "class": "icon_folder",
                 "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
                 "layer0.texture": "Sone/common/dark/folder_open.png",
-                "layer0.opacity": 0.4,
-                "layer0.tint": "#000",
+                "layer0.tint": "var(text)",
+                "layer0.opacity": 0.8,
                 "content_margin": [9, 8]
             },
             {
@@ -121,43 +123,46 @@
                 {
                     "keyframes":
                     [
-                        "Sone/common/light/folder_loading_01.png",
-                        "Sone/common/light/folder_loading_02.png",
-                        "Sone/common/light/folder_loading_03.png",
-                        "Sone/common/light/folder_loading_04.png",
-                        "Sone/common/light/folder_loading_05.png",
-                        "Sone/common/light/folder_loading_06.png",
-                        "Sone/common/light/folder_loading_07.png",
-                        "Sone/common/light/folder_loading_08.png",
-                        "Sone/common/light/folder_loading_09.png",
-                        "Sone/common/light/folder_loading_10.png",
-                        "Sone/common/light/folder_loading_11.png",
-                        "Sone/common/light/folder_loading_12.png",
-                        "Sone/common/light/folder_loading_13.png",
-                        "Sone/common/light/folder_loading_14.png",
-                        "Sone/common/light/folder_loading_15.png",
-                        "Sone/common/light/folder_loading_16.png",
-                        "Sone/common/light/folder_loading_17.png",
-                        "Sone/common/light/folder_loading_18.png",
-                        "Sone/common/light/folder_loading_19.png",
-                        "Sone/common/light/folder_loading_20.png",
+                        "Sone/common/dark/folder_loading_01.png",
+                        "Sone/common/dark/folder_loading_02.png",
+                        "Sone/common/dark/folder_loading_03.png",
+                        "Sone/common/dark/folder_loading_04.png",
+                        "Sone/common/dark/folder_loading_05.png",
+                        "Sone/common/dark/folder_loading_06.png",
+                        "Sone/common/dark/folder_loading_07.png",
+                        "Sone/common/dark/folder_loading_08.png",
+                        "Sone/common/dark/folder_loading_09.png",
+                        "Sone/common/dark/folder_loading_10.png",
+                        "Sone/common/dark/folder_loading_11.png",
+                        "Sone/common/dark/folder_loading_12.png",
+                        "Sone/common/dark/folder_loading_13.png",
+                        "Sone/common/dark/folder_loading_14.png",
+                        "Sone/common/dark/folder_loading_15.png",
+                        "Sone/common/dark/folder_loading_16.png",
+                        "Sone/common/dark/folder_loading_17.png",
+                        "Sone/common/dark/folder_loading_18.png",
+                        "Sone/common/dark/folder_loading_19.png",
+                        "Sone/common/dark/folder_loading_20.png",
                     ],
                     "loop": true,
                     "frame_time": 0.08,
                 },
-                "layer0.opacity": 0.3,
+                "layer0.tint": "var(text)",
+                "layer0.opacity": 0.8,
                 "content_margin": [9, 8]
             },
             {
                 "class": "icon_folder_dup",
-                "layer0.texture": "Sone/common/light/symlink.png",
-                "layer0.opacity": 0.3,
+                "layer0.texture": "Sone/common/dark/symlink.png",
+                "layer0.tint": "var(text)",
+                "layer0.opacity": 0.8,
                 "content_margin": [9, 8]
             },
+            // File Icons
             {
                 "class": "icon_file_type",
-                "layer0.opacity": 0.4,
-                "layer0.tint": "#000",
+                "layer0.tint": "var(text)",
+                "layer0.opacity": 0.8,
                 "content_margin": [9, 8]
             },
 
@@ -169,7 +174,7 @@
                 "tint_index": 0,
                 "tab_height": 34,
                 "tab_overlap": 16,
-                "tint_modifier": [231, 234, 237]
+                "tint_modifier": "var(smoke-white)"
             },
             {
                 "class": "tabset_control",
@@ -188,7 +193,7 @@
                 "layer2.inner_margin": [19, 0, 19, 0],
                 "layer2.opacity": 0.0,
                 "layer3.texture": "Sone/common/light/tab_border.png",
-                "layer3.tint": [231, 234, 237],
+                "layer3.tint": "var(smoke-white)",
                 "layer3.inner_margin": [19, 0, 19, 0],
                 "layer3.opacity": 0.0,
                 "tint_index": 1,
@@ -498,9 +503,8 @@
             // Views
             {
                 "class": "grid_layout_control",
-                "border_color": ["background", 255, 255, 255, 0.25],
                 "border_size": 2,
-                "border_color": [231, 234, 237],
+                "border_color": "var(smoke-white)",
             },
             {
                 "class": "minimap_control",
@@ -686,7 +690,7 @@
             {
                 "class": "scroll_area_control",
                 "parents": [{"class": "sidebar_container"}],
-                "content_margin": [0, 8, 0, 10]
+                "content_margin": [0, 10, 10, 0]
             },
             {
                 "class": "scroll_bar_control",
@@ -1226,8 +1230,8 @@
             {
                 "class": "vcs_branch_icon",
                 "layer0.texture": "Sone/common/branch.png",
-                "layer0.tint": "#777",
-                "layer0.opacity": 1.0,
+                "layer0.tint": "var(text)",
+                "layer0.opacity": 0.8,
                 "content_margin": [6, 11]
             },
             {
@@ -1241,8 +1245,8 @@
             {
                 "class": "sidebar_button_control",
                 "layer0.texture": "Sone/common/sidebar_button.png",
-                "layer0.opacity": { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" },
-                "layer0.tint": "#777",
+                "layer0.tint": "var(text)",
+                "layer0.opacity": 0.8,
                 "content_margin": [10, 11]
             },
             {
