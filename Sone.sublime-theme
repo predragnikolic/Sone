@@ -1,7 +1,7 @@
 {
     "variables": {
         "smoke-white": [240, 240, 237],
-        "text": "var(--background)",
+        "text": "#333",
         "purple": "#9CACFF",
         "match": "#FD9D9D"
     },
