@@ -393,6 +393,11 @@
             "attributes": ["selected"],
             "layer0.opacity": 1.0
         },
+        // quick_panel annotation
+        {
+            "class": "symbol_container",
+            "content_margin": [4, 0, 10, 0]
+        },
         {
             "class": "quick_panel_row",
             "layer0.tint": "#ccc",
