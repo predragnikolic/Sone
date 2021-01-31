@@ -177,7 +177,7 @@
             "tint_index": 1,
             "tint_modifier": [0, 0, 0, 0.12],
             "accent_tint_index": 2,
-            "content_margin": [26, 8, 22, 4],
+            "content_margin": [20, 8, 14, 4],
             "hit_test_level": 0.3
         },
         {
@@ -392,6 +392,11 @@
             "class": "mini_quick_panel_row",
             "attributes": ["selected"],
             "layer0.opacity": 1.0
+        },
+        // quick_panel annotation
+        {
+            "class": "symbol_container",
+            "content_margin": [4, 0, 10, 0]
         },
         {
             "class": "quick_panel_row",
