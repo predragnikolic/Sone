@@ -264,6 +264,12 @@
              // but for that to work you need to set a background. Which in my case is almost transparent, thanks O dat nurd for that trick :)
             "background": "#ffffff10"
         },
+        // LSP
+        {
+            "scope": "markup.unnecessary",
+            "foreground": "color(rgb(255, 255, 255) alpha(0.4))",
+            "background": "color(var(black) alpha(0.9))"
+        }
     ]
 }
 
