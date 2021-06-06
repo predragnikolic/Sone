@@ -269,6 +269,11 @@
             "scope": "markup.unnecessary",
             "foreground": "color(rgb(255, 255, 255) alpha(0.4))",
             "background": "color(var(black) alpha(0.9))"
+        },
+        {
+            "scope": "markup.highlight",
+            "foreground": "color(rgb(255, 255, 255) alpha(0.4))",
+            "background": "#ffffff16"
         }
     ]
 }
