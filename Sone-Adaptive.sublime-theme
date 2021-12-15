@@ -59,7 +59,7 @@
         "class": "close_button",
         "layer0.texture": "Sone/common/dark/open_file_close.png",
         "layer0.opacity": { "target": 0.3, "speed": 4.0, "interpolation": "smoothstep" },
-        "layer0.tint": [255, 255, 255],
+        "layer0.tint": "var(--foreground)",
         "content_margin": [8, 8],
     },
     {
@@ -103,6 +103,7 @@
     {
         "class": "icon_folder",
         "layer0.texture": "Sone/icons/closed.png",
+        "layer0.tint": "var(--foreground)",
         "layer0.opacity": 0.8,
         "content_margin": [
             9,
@@ -160,7 +161,7 @@
     },
     {
         "class": "icon_file_type",
-        "layer0.tint": [255, 255, 255],
+        "layer0.tint": "var(--foreground)",
         "layer0.opacity": 0.8,
         "content_margin": [9, 8]
     },
@@ -487,7 +488,7 @@
     },
     {
         "class": "popup_control",
-        "layer0.tint": [255, 255, 255],
+        "layer0.tint": "var(--foreground)",
         "layer0.opacity": 1.0
     },
     {
@@ -523,7 +524,7 @@
     },
     {
         "class": "table_row",
-        "layer0.tint": [255, 255, 255],
+        "layer0.tint": "var(--foreground)",
         "layer0.opacity": 0.0
     },
     {
@@ -997,7 +998,7 @@
     // Tool tips[64, 64, 64]
     {
         "class": "tool_tip_control",
-        "layer0.tint": [255, 255, 255],
+        "layer0.tint": "var(--foreground)",
         "layer0.opacity": 0.9,
         "content_margin": [8, 3, 8, 3]
     },
@@ -1010,7 +1011,7 @@
     // Status Bar
     {
         "class": "status_bar",
-        "layer0.tint": ["background", 0, 0, 0,0.4],
+        "layer0.tint": ["background", 0, 0, 0, 0.4],
         "layer0.opacity": 1.0,
         "content_margin": [8, 0, 8, 0]
     },
@@ -1039,8 +1040,8 @@
         "parents": [{"class": "status_bar"}],
         "font.size": 11,
         "font.face": "Fira Code Medium",
-        "fg": [255, 255, 255],
-        "shadow_color": [255, 255, 255, 0.18],
+        "fg": "#ffffff",
+        "shadow_color": [255, 255, 255, 0.3],
         "shadow_offset": [0, 1]
     },
 
@@ -1095,7 +1096,7 @@
   {
     "class": "quick_panel_row",
     "layer0.texture": "",
-    "layer0.tint": [255, 255, 255],
+    "layer0.tint": "var(--foreground)",
     "layer0.inner_margin": 0,
     "layer0.opacity": 1.0
 },
@@ -1114,14 +1115,14 @@
     "class": "quick_panel",
     "parents": [{"class": "overlay_control"}],
     "row_padding": [24, 8],
-    "layer0.tint": [255, 255, 255],
+    "layer0.tint": "var(--foreground)",
     "layer0.opacity": 1.0
 },
 {
     "class": "quick_panel",
     "parents": [{"class": "kind_info"} ],
     "row_padding": [0, 0, 20, 0 ],
-    "layer0.tint": [255, 255, 255 ],
+    "layer0.tint": [255, 255, 255],
     "layer0.opacity": 1.0
 },
 
@@ -1146,7 +1147,7 @@
   {
     "class": "quick_panel_label",
     "parents": [{"class": "overlay_control"}],
-    "fg": ["background", 255,255,255,0.6],
+    "fg": ["foreground", 255,255,255,0.6],
     "match_fg": ["accent", 1.0],
     "selected_fg": "var(--foreground)",
     "selected_match_fg": ["accent", 1.0]
@@ -1155,8 +1156,8 @@
   // Panels sublabels
   {
     "class": "quick_panel_path_label",
-    "fg": ["background", 255,255,255,0.6],
-    "match_fg":  ["background", 255,255,255,0.6],
+    "fg": ["foreground", 255,255,255,0.6],
+    "match_fg":  ["foreground", 255,255,255,0.6],
     "selected_fg": "var(--foreground)",
     "selected_match_fg": "var(--foreground)",
 },
