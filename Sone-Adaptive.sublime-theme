@@ -1117,6 +1117,13 @@
     "layer0.tint": [255, 255, 255],
     "layer0.opacity": 1.0
 },
+{
+    "class": "quick_panel",
+    "parents": [{"class": "kind_info"} ],
+    "row_padding": [0, 0, 20, 0 ],
+    "layer0.tint": [255, 255, 255 ],
+    "layer0.opacity": 1.0
+},
 
   // Quick Panel selected list item style
   {
