@@ -274,8 +274,78 @@
             "scope": "markup.highlight",
             "foreground": "color(rgb(255, 255, 255) alpha(0.4))",
             "background": "#ffffff16"
-        }
+        },
+        // semantic tokens start
+        {
+            "scope": "meta.semantic-token",
+            "background": "#00000001"
+        },
+        {
+            "scope": "storage.type.class.lsp",
+            "foreground": "var(white)"
+        },
+        {
+            "scope": "variable.other.enum.lsp",
+            "foreground": "var(white)"
+        },
+        {
+            "scope": "entity.other.inherited-class.lsp",
+            "foreground": "var(white)"
+        },
+        {
+            "scope": "variable.parameter.generic.lsp",
+            "foreground": "var(white)"
+        },
+        {
+            "scope": "variable.parameter.lsp",
+            "foreground": "var(white)"
+        },
+        {
+            "scope": "variable.other.lsp",
+            "foreground": "var(white)"
+        },
+        {
+            "scope": "constant.other.enum.lsp",
+            "foreground": "var(white)"
+        },
+        {
+            "scope": "variable.function.lsp",
+            "foreground": "var(white)"
+        },
+        {
+            "scope": "variable.macro.lsp",
+            "foreground": "var(white)"
+        },
+        {
+            "scope": "keyword.lsp",
+            "foreground": "var(white)"
+        },
+        {
+            "scope": "storage.modifier.lsp",
+            "foreground": "var(white)"
+        },
+        {
+            "scope": "comment.lsp",
+            "foreground": "var(white)"
+        },
+        {
+            "scope": "string.lsp",
+            "foreground": "var(white)"
+        },
+        {
+            "scope": "constant.numeric.lsp",
+            "foreground": "var(white)"
+        },
+        {
+            "scope": "string.regexp.lsp",
+            "foreground": "var(white)"
+        },
+        {
+            "scope": "keyword.operator.lsp",
+            "foreground": "var(white)"
+        },
+        // semantic tokens start
+
     ]
 }
-
 
