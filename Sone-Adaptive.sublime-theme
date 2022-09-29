@@ -46,7 +46,7 @@
     {
         "class": "sidebar_label",
         "fg": "var(--foreground)",
-        "font.face": "Fira Code Medium",
+        "font.face": "JetBrains Mono Medium",
         "font.size": 13
     },
     {
@@ -982,7 +982,7 @@
         "class": "label_control",
         "fg": "var(--foreground)",
         "font.size": 12,
-        "font.face": "Fira Code Medium"
+        "font.face": "JetBrains Mono Medium"
     },
     {
         "class": "title_label_control",
@@ -1040,7 +1040,7 @@
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
         "font.size": 11,
-        "font.face": "Fira Code Medium",
+        "font.face": "JetBrains Mono Medium",
         "fg": "#ffffff",
         "shadow_color": [255, 255, 255, 0.3],
         "shadow_offset": [0, 1]
@@ -1138,7 +1138,7 @@
   {
     "class": "quick_panel_label",
     "fg": [157, 162, 166],
-    "font.face": "Fira Code Medium",
+    "font.face": "JetBrains Mono Medium",
     "match_fg": ["accent", 1.0],
     "selected_fg": [97, 103, 108],
     "selected_match_fg": ["accent", 1.0]
