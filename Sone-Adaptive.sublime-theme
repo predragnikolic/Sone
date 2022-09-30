@@ -1240,8 +1240,8 @@
         "class": "auto_complete_kind_name_label",
         "font.size": 11,
         "color": [0, 0, 0, 0.7],
-        "border_color": "#2AFFC2",
-        "background_color": "#2AFFC2",
+        "border_color": "var(--accent)",
+        "background_color": "var(--accent)",
         "content_margin": [3, 0],
         "font.italic": false
     },
