@@ -1276,4 +1276,8 @@
             "font.size": 13
         },
          // END kinds in quick panel
+        {
+            "class": "quick_panel_detail_label",
+            "link_color": "var(--accent)"
+        }
 ]
