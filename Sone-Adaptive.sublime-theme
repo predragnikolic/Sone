@@ -9,25 +9,15 @@
         "class": "sidebar_container",
         "layer0.tint": "var(--background)", // TODO: create var in sync with title_bar
         "layer0.opacity": 1.0,
-        "layer1.texture": "Sone/common/separator-sidebar.png",
+        "layer1.texture": "Sone/common/separator-right.png",
         "layer1.inner_margin": [
             1,
-            38,
+            2,
             2,
             1
         ],
         "layer1.opacity": 1,
         "layer1.tint": "#ffffff20",
-        // todo combiner separator-right with separator-sidebar
-        "layer2.texture": "Sone/common/separator-right.png",
-        "layer2.inner_margin": [
-            1,
-            37,
-            2,
-            1
-        ],
-        "layer2.opacity": 1,
-        "layer2.tint": "#ffffff20",
         "layer3.texture": "Sone/common/separator-top.png",
         "layer3.inner_margin": [
             1,
