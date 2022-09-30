@@ -534,7 +534,7 @@
         "row_padding": [0, 0, 0, 0],
         "tint_index": 0,
         "layer0.opacity": 1.0,
-        "tint_modifier": ["background", 255, 255, 255, 0.02],
+        "tint_modifier": "var(--background)",
     },
     {
         "class": "auto_complete",
