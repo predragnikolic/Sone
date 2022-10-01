@@ -541,7 +541,12 @@
     },
     {
         "class": "auto_complete_detail_pane",
-        "tint_modifier": [0, 0, 0, 0.3],
+        "tint_modifier": "var(--background)",
+        "layer1.texture": "Sone/common/separator-rbl.png",
+        "layer1.tint": "#ffffff20",
+        "layer1.inner_margin": 1,
+        "layer1.opacity": 1.0,
+
     },
     {
         "class": "scroll_bar_control",
