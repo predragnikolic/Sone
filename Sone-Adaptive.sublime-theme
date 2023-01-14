@@ -262,7 +262,7 @@
             "class": "tab_control",
             "attributes": ["selected"],
             "layer0.texture": "Sone/common/transparent_tab_bar.png",
-            "layer1.opacity": 0.0,
+            "layer1.opacity": 1.0,
             "layer3.texture": "Sone/common/bitmap.png",
             "layer3.tint": "#ffffff20",
             "layer3.inner_margin": [2, 0,0,20],
