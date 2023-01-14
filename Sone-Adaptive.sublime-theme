@@ -204,16 +204,12 @@
             "content_margin": [0, 0, 8, 0 ],
             "tint_index": 0,
             // "tab_height": 34, // hack #1 for top border
-            "tab_height": 1,
-            "tab_overlap": 16,
+            "tab_height": 40,
+            "tab_overlap": 18,
             "layer1.texture": "Sone/common/separator-top.png",
-            "tint_modifier": "#ffffff20",
-            "layer1.inner_margin": [
-                1,
-                2,
-                1,
-                0
-            ],
+            "layer1.tint": "#ffffff20",
+            "tint_modifier": "var(--background)",
+            "layer1.inner_margin": [1,40,0,0],
             "layer1.opacity": 1.0,
         },
         {
@@ -235,8 +231,8 @@
             "layer2.texture": "Sone/common/tab_highlight.png",
             "layer2.inner_margin": [19, 0, 19, 0 ],
             "layer2.opacity": 0.0,
-            "layer3.texture": "Sone/common/light/tab_border.png",
-            "layer3.tint": ["background", 120, 120, 120, 0.2],
+            "layer3.texture": "Sone/common/light/tabr.png",
+            "layer3.tint": "var(--background)",
             "layer3.inner_margin": [19, 0, 19, 0],
             "layer3.opacity": 0.0,
             "tint_index": 1,
@@ -249,7 +245,7 @@
             "class": "tab_control",
             "attributes": ["dirty"],
             "settings": ["highlight_modified_tabs"],
-            "layer2.opacity": 0.6
+            "layer2.opacity": 0.2
         },
         {
             "class": "tab_control",
@@ -262,18 +258,28 @@
             "settings": ["!show_tab_close_buttons"],
             "content_margin": [26, 10, 26, 4 ]
         },
+                {
+            "class": "tab_control",
+            "attributes": ["selected"],
+            "layer0.texture": "Sone/common/transparent_tab_bar.png",
+            "layer1.opacity": 0.0,
+            "layer3.texture": "Sone/common/bitmap.png",
+            "layer3.tint": "#ffffff20",
+            "layer3.inner_margin": [2, 0,0,20],
+            "layer3.opacity": 1.0,
+        },
         {
             "class": "tab_control",
             "attributes": ["!selected"],
             "layer0.texture": "Sone/common/transparent_tab_bar.png",
             "layer1.opacity": 0.0,
             "layer3.texture": "Sone/common/tab_border.png",
-            "layer3.opacity": 0.4,
+            "layer3.opacity": 1.0,
         },
         {
             "class": "tab_control",
             "attributes": ["!selected", "hover"],
-            "tint_modifier": [255, 255, 255, 0.4 ],
+            "tint_modifier": [255, 255, 255, 0.1 ],
             "layer1.opacity": 0.5,
         },
         {
@@ -285,7 +291,7 @@
         {
             "class": "tab_control",
             "attributes": ["file_medium"],
-            "tint_modifier": [0, 0, 0, 0.18 ]
+            "tint_modifier": "red",
         },
         {
             "class": "tab_control",
@@ -301,7 +307,7 @@
         {
             // unselected tab text
             "class": "tab_label",
-            "fg": [200, 200, 200 ],
+            "fg": ["foreground", 0.5 ],
         },
         {
             "class": "tab_label",
@@ -331,20 +337,22 @@
             "attributes": ["transient"],
             "font.italic": true
         },
+
         // selected tab x
         {
             "class": "tab_close_button",
             "settings": ["show_tab_close_buttons"],
             "layer0.texture": "Sone/icons/x.png",
-            "layer0.tint": "var(--foreground)",
+            "layer0.tint": "transparent",
             "layer0.opacity": {"target": 0.5, "speed": 4.0, "interpolation": "smoothstep"},
-            "content_margin": [9, 8]
+            "content_margin": [7, 8]
         },
         // not selected tab x
         {
             "class": "tab_close_button",
             "parents": [{"class": "tab_control", "attributes": ["!selected"] } ],
-            "layer0.tint": "var(--foreground)",
+            "layer0.tint": "transparent",
+
             "layer0.opacity": {"target": 0.5, "speed": 4.0, "interpolation": "smoothstep"},
         },
         // dirty selected x -> dot
