@@ -337,7 +337,6 @@
             "attributes": ["transient"],
             "font.italic": true
         },
-
         // selected tab x
         {
             "class": "tab_close_button",
@@ -345,7 +344,7 @@
             "layer0.texture": "Sone/icons/x.png",
             "layer0.tint": "transparent",
             "layer0.opacity": {"target": 0.5, "speed": 4.0, "interpolation": "smoothstep"},
-            "content_margin": [7, 8]
+            "content_margin": [10, 9]
         },
         // not selected tab x
         {
@@ -360,15 +359,10 @@
             "class": "tab_close_button",
             "parents": [{"class": "tab_control", "attributes": ["dirty"] } ],
             "layer0.texture": "Sone/common/dark/tab_dirty.png",
-            "layer0.tint": "#2AFFC2",
+            "layer0.tint": "var(--bluish)",
             "layer0.opacity": 1.0,
         },
-        // dirty not selected x -> dot
-        {
-            "class": "tab_close_button",
-            "parents": [{"class": "tab_control", "attributes": ["dirty", "!selected"] } ],
-            "layer0.tint": "var(--foreground)",
-        },
+
         // hover x
         {
             "class": "tab_close_button",
