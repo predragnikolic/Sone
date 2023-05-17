@@ -7,7 +7,7 @@
 
         "h-i": "#ffffff03", // inactive highlight
         "h-s": "#ffffff20", // small highlight
-        "h-b": "#ffffff40", // big highlight
+        "h-b": "#ffffff50", // big highlight
 
         "red": "#ff8792",
         "green": "#81deb1",
@@ -265,11 +265,25 @@
             "background": "#ffffff10"
         },
         // LSP
+                {
+            "scope": "markup.unnecessary.lsp",
+            "foreground_adjust": "l(- 40%)",
+            "background": "#00000001"
+        },
         {
             "scope": "markup.unnecessary",
-            "foreground": "color(rgb(255, 255, 255) alpha(0.4))",
-            "background": "color(var(black) alpha(0.9))"
+            "foreground_adjust": "l(- 40%)",
+            "background": "#00000001"
         },
+        {
+            "scope": "variable.parameter.sighelp.lsp",
+            "foreground": "#ffffff80"
+        },
+        {
+            "scope": "variable.parameter.sighelp.active.lsp",
+            "foreground": "var(orange)"
+        },
+
         {
             "scope": "markup.highlight",
             "foreground": "color(rgb(255, 255, 255) alpha(0.4))",
