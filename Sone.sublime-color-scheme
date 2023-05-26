@@ -359,6 +359,32 @@
             "foreground": "var(white)"
         },
         // semantic tokens start
+        // git diff view
+        // source.diff meta.diff.range.unified meta.range.unified.diff meta.toc-list.line-number.diff
+        {
+            "scope": "meta.diff.range",
+            "foreground": "var(h-b)"
+        },
+        {
+            "scope": "diff.deleted",
+            "background": "color(var(red) alpha(0.1))",
+            "foreground_adjust": "l(+ 5%)"
+        },
+        {
+            "scope": "diff.deleted.char",
+            "background": "color(var(red) alpha(0.3))",
+            "foreground_adjust": "l(+ 5%)"
+        },
+        {
+            "scope": "diff.inserted",
+            "background": "color(var(green) alpha(0.1))",
+            "foreground_adjust": "l(+ 5%)"
+        },
+        {
+            "scope": "diff.inserted.char",
+            "background": "color(var(green) alpha(0.3))",
+            "foreground_adjust": "l(+ 5%)"
+        },
 
     ]
 }
