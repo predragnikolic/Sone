@@ -1,13 +1,16 @@
 {
     "name": "Sone Color Scheme",
     "variables": {
-        "white": "#ffffff",
+        "white": "#ccc",
         "gray": "#CCC5C6",
-        "black": "#090909", // #160319, #012323, #030819, #192224, #201922, #182220
+        "black": "#160319", // #160319, #012323, #030819, #192224, #201922, #182220
 
         "h-i": "#ffffff03", // inactive highlight
         "h-s": "#ffffff20", // small highlight
         "h-b": "#ffffff50", // big highlight
+        "gray_1": "#666",
+        "gray_2": "#bbbbbb80",
+        "gray_3": "#ccc",
 
         "red": "#ff8792",
         "green": "#81deb1",
@@ -65,88 +68,58 @@
             "scope": "notexistent",
             "foreground": "hsl(300, 30%, 68%)"
         },
-        {
-            "name": "Parens",
-            "scope": "punctuation.section.block, punctuation.section.group., punctuation.section.sequence, punctuation.section.mapping",
-            "foreground": "var(gray)"
-        },
         // Comment
         {
             "name": "Comment",
+            "font_style": "italic",
             "scope": "comment",
-            "foreground": "var(h-b)"
-        },
-        // Constant
-        {
-            "name": "Unused",
-            "scope": "unused",
-            "foreground_adjust": "l(- 40%)",
-            "background": "#00000001"
+            "foreground": "var(gray_2)"
         },
         {
-            "name": "Number",
-            "scope": "constant.numeric",
-            "foreground": "var(purple)",
+            "name": "Strings",
+            "scope": "punctuation.definition",
+            "foreground": "var(gray_2)"
         },
         {
-            "name": "Character Escape",
-            "scope": "constant.character.escape",
-            "foreground": "var(purple)",
+            "name": "Blocks",
+            "scope": "punctuation.section.block",
+            "foreground": "var(gray_2)"
         },
-        // LSP "More" link
+        {
+            "name": "Parens",
+            "scope": "punctuation.section.group",
+            "foreground": "var(gray_2)"
+        },
+        {
+            "name": "Parens",
+            "scope": "punctuation.separator | keyword.operator | keyword",
+            "foreground": "var(gray_2)"
+        },
+        {
+            "name": "String",
+            "scope": "string.quoted",
+            "foreground": "var(orange)"
+        },
         {
             "name": "Placeholder",
             "scope": "constant.other.placeholder",
             "foreground": "var(blue)"
         },
         {
-            "name": "True Null False",
-            "scope": "constant.language",
+            "name": "Numbers",
+            "scope": "constant.numeric",
             "foreground": "var(purple)"
         },
-        // Entity
         {
-            "name": "Entity Function",
-            "scope": "entity.name.function",
-            "foreground": ["var(grad1)", "var(grad2)"],
-            "font_style": "bold"
+            "name": "Numbers",
+            "scope": "constant.language.boolean",
+            "foreground": "var(purple)"
         },
+        // LSP "More" link
         {
-            "name": "Entity Function Python",
-            "scope": "variable.function meta.generic-name, entity.name.function meta.generic-name",
-            "foreground": ["var(grad1)", "var(grad2)"],
-            "font_style": "bold"
-        },
-        {
-            "name": "Tag",
-            "scope": "entity.name.tag",
-            "foreground": ["var(purple)", "var(blue)"],
-            "font_style": "bold"
-        },
-        {
-            "name": "React Tag",
-            "scope": " entity.name.tag support.class.component",
-            "foreground": ["var(blue)", "var(purple)"],
-            "font_style": "bold"
-        },
-        {
-            "name": "Css Classes And Ids",
-            "scope": "source.css entity.other.attribute-name",
-            "foreground": ["var(green)", "var(blue)"],
-            "font_style": "bold"
-        },
-        // Invalid
-        // {
-        //     "name": "Invalid",
-        //     "scope": "invalid",
-        //     "foreground": "var(danger)"
-        // },
-        // Keyword
-        {
-            "name": "Keyword",
-            "scope": "keyword",
-            "foreground":  "var(salmon)",
-            "font_style": "bold"
+            "name": "Placeholder",
+            "scope": "constant.other.placeholder",
+            "foreground": "var(blue)"
         },
         // Markup
         {
@@ -210,60 +183,6 @@
             "foreground": "var(h-s)",
             "background": "var(h-b)"
         },
-        // Punctuation
-        {
-            "name": "@ Annotation",
-            "scope": "punctuation.definition.annotation",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "Function call",
-            "scope": "support.function",
-            "font_style": "bold",
-            "foreground": ["var(grad1)", "var(grad2)"],
-        },
-        {
-            "name": "Function call 2",
-            "scope": "meta.function-call variable.function",
-            "font_style": "bold",
-            "foreground": ["var(grad1)", "var(grad2)"],
-        },
-        // Variable
-        {
-            "name": "Variable",
-            "scope": "punctuation.definition.variable",
-            "foreground": ["var(blue)", "var(white)"]
-        },
-        {
-            "name": "This, Self",
-            "scope": "variable.language",
-            "font_style": "italic",
-            "foreground": "var(orange)"
-        },
-        // Storage
-        {
-            "name": "Function",
-            "scope": "storage",
-            "foreground":  "var(purple)"
-        },
-        // String
-        {
-            "name": "String",
-            "scope": "string",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "object keys",
-            "scope": "meta.mapping.key string.quoted.double",
-            "foreground": "var(white)"
-        },
-        {
-            "name": "Used",
-            "scope": "region.pinkish",
-             // with foreground_adjust a theme can adjust the color of the forground
-             // but for that to work you need to set a background. Which in my case is almost transparent, thanks O dat nurd for that trick :)
-            "background": "#ffffff10"
-        },
         // LSP
                 {
             "scope": "markup.unnecessary.lsp",
@@ -289,80 +208,6 @@
             "foreground": "color(rgb(255, 255, 255) alpha(0.4))",
             "background": "#ffffff16"
         },
-        // semantic tokens start
-        {
-            "scope": "meta.semantic-token",
-            "background": "#00000001"
-        },
-        {
-            "scope": "storage.type.class.lsp",
-            "foreground": "var(white)"
-        },
-        {
-            "scope": "variable.other.enum.lsp",
-            "foreground": "var(white)"
-        },
-        {
-            "scope": "entity.other.inherited-class.lsp",
-            "foreground": "var(white)"
-        },
-        {
-            "scope": "variable.parameter.generic.lsp",
-            "foreground": "var(white)"
-        },
-        {
-            "scope": "variable.parameter.lsp",
-            "foreground": "var(white)"
-        },
-        {
-            "scope": "variable.other.lsp",
-            "foreground": "var(white)"
-        },
-        {
-            "scope": "constant.other.enum.lsp",
-            "foreground": "var(white)"
-        },
-        {
-            "scope": "variable.function.lsp",
-            "foreground": "var(grad1)"
-        },
-        {
-            "scope": "variable.declaration.lsp",
-            "foreground": "var(white)"
-        },
-        {
-            "scope": "variable.macro.lsp",
-            "foreground": "var(white)"
-        },
-        {
-            "scope": "keyword.lsp",
-            "foreground": "var(white)"
-        },
-        {
-            "scope": "storage.modifier.lsp",
-            "foreground": "var(white)"
-        },
-        {
-            "scope": "comment.lsp",
-            "foreground": "var(white)"
-        },
-        {
-            "scope": "string.lsp",
-            "foreground": "var(white)"
-        },
-        {
-            "scope": "constant.numeric.lsp",
-            "foreground": "var(white)"
-        },
-        {
-            "scope": "string.regexp.lsp",
-            "foreground": "var(white)"
-        },
-        {
-            "scope": "keyword.operator.lsp",
-            "foreground": "var(white)"
-        },
-        // semantic tokens start
         // git diff view
         // source.diff meta.diff.range.unified meta.range.unified.diff meta.toc-list.line-number.diff
         {
@@ -377,7 +222,7 @@
         {
             "scope": "diff.deleted.char",
             "background": "color(var(red) alpha(0.5))",
-            "foreground_adjust": "l(+ 5%)"
+            "foreground_adjust": "l(- 10%)"
         },
         {
             "scope": "diff.inserted",
