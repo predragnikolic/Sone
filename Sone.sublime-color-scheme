@@ -92,7 +92,7 @@
         },
         {
             "name": "Parens",
-            "scope": "punctuation.separator | keyword.operator | keyword | storage",
+            "scope": "punctuation.separator | keyword.operator | keyword | storage | punctuation",
             "foreground": "var(gray_2)"
         },
         {
