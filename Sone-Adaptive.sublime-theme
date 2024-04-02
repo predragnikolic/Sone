@@ -845,7 +845,7 @@
     {
         "class": "icon_button_control",
         "layer0.texture": "Sone/common/dark/icon_button_highlight.png",
-        "layer0.tint": "color(var(--background) l(20%))",
+        "layer0.tint": "color(var(--background) blend(white 90%))",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": 2,
         "content_margin": 6
