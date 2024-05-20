@@ -232,9 +232,9 @@
             "layer2.inner_margin": [19, 0, 19, 0 ],
             "layer2.opacity": 0.4,
             "layer2.tint": "var(--background)",
-            "layer3.texture": "Sone/common/separator-bottom.png",
+            "layer3.texture": "Sone/common/bitmap.png",
             "layer3.tint": "transparent",
-            "layer3.inner_margin": [0,0,0,2],
+            "layer3.inner_margin": [2,2,2,2],
             "layer3.opacity": 1.0,
             "tint_index": 1,
             "tint_modifier": [0, 0, 0, 0.0],
@@ -262,7 +262,16 @@
         {
             "class": "tab_control",
             "attributes": ["selected" ],
-            "layer3.tint": "var(--accent)",
+            "layer3.tint": "#ffffff40",
+            "layer3.opacity": 1.0,
+        },
+        {
+            "class": "tab_control",
+            "attributes": [
+                "selected",
+                "file_light"
+            ],
+            "layer3.tint": "#000",
             "layer3.opacity": 1.0,
         },
         {
