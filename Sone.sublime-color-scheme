@@ -250,7 +250,7 @@
         {
             "name": "String",
             "scope": "string",
-            "foreground": "var(orange)"
+            "foreground": ["#ff9c9c", "#ffCf9f"]
         },
         {
             "name": "object keys",
