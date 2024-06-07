@@ -281,6 +281,7 @@
         },
         {
             // unselected tab background "class": "tab_control",
+            "class": "tab_control",
             "attributes": ["file_medium_dark"],
             "tint_modifier": [30, 30, 30, 0.2 ],
             "layer0.opacity": 0.0,
@@ -299,7 +300,7 @@
         {
             // unselected tab text
             "class": "tab_label",
-            "fg": ["foreground", 0.5 ],
+            "fg": ["foreground", 0.2 ],
             "font.size": 13
         },
         {
