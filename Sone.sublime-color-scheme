@@ -15,7 +15,7 @@
         "purple": "#b4b0e4",
         "yellow": "#ebf4a1",
         "orange": "#fccb9e",
-        "salmon": "#ff9c9c",
+        "salmon": "#e29d9d",
         "danger": "#FF7C7C",
         "accent": "#fccb9e",
 
@@ -108,13 +108,13 @@
         {
             "name": "Entity Function",
             "scope": "entity.name.function",
-            "foreground": ["var(grad1)", "var(grad2)"],
+            "foreground": ["var(purple)", "var(grad2)"],
             "font_style": "bold"
         },
         {
             "name": "Entity Function Python",
             "scope": "variable.function meta.generic-name, entity.name.function meta.generic-name",
-            "foreground": ["var(grad1)", "var(grad2)"],
+            "foreground": ["var(purple)", "var(grad2)"],
             "font_style": "bold"
         },
         {
@@ -220,13 +220,13 @@
             "name": "Function call",
             "scope": "support.function",
             "font_style": "bold",
-            "foreground": ["var(grad1)", "var(grad2)"],
+            "foreground": ["var(purple)", "var(grad2)"],
         },
         {
             "name": "Function call 2",
             "scope": "meta.function-call variable.function",
             "font_style": "bold",
-            "foreground": ["var(grad1)", "var(grad2)"],
+            "foreground": ["var(purple)", "var(grad2)"],
         },
         // Variable
         {
