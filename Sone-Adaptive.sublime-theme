@@ -525,7 +525,7 @@
         "tint_modifier": "var(--background)",
         "layer1.texture": "Sone/common/separator-border.png",
         "layer1.tint": "#ffffff20",
-        "layer1.inner_margin": 1,
+        "layer1.inner_margin": 2,
         "layer1.opacity": 1.0,
     },
     {
