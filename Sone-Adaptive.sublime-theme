@@ -17,7 +17,7 @@
             1
         ],
         "layer1.opacity": 1,
-        "layer1.tint": "#ffffff20",
+        "layer1.tint": "color(var(--foreground) alpha(0.2))",
         "layer3.texture": "Sone/common/separator-top.png",
         "layer3.inner_margin": [
             1,
@@ -26,7 +26,7 @@
             0
         ],
         "layer3.opacity": 1,
-        "layer3.tint": "#ffffff20",
+        "layer3.tint": "color(var(--foreground) alpha(0.2))",
         "content_margin": 0
     },
     {
@@ -64,7 +64,7 @@
     {
         "class": "sidebar_label",
         "fg": "color(var(--foreground) saturation(-100%))",
-        "font.face": "MonaspaceNeon-Light",
+        "font.face": "Monofoki-Regular",
         "font.size": 12
     },
     {
@@ -207,7 +207,7 @@
             "tab_height": 40,
             "tab_overlap": 18,
             "layer1.texture": "Sone/common/separator-top.png",
-            "layer1.tint": "#ffffff20",
+            "layer1.tint": "color(var(--foreground) alpha(0.2))",
             "tint_modifier": "var(--background)",
             "layer1.inner_margin": [1,40,0,0],
             "layer1.opacity": 1.0,
@@ -301,7 +301,7 @@
             // unselected tab text
             "class": "tab_label",
             "fg": ["foreground", 0.2 ],
-            "font.face": "MonaspaceNeon-Light",
+            "font.face": "Monofoki-Regular",
             "font.size": 13
         },
         {
@@ -524,7 +524,7 @@
         "layer0.opacity": 1.0,
         "tint_modifier": "var(--background)",
         "layer1.texture": "Sone/common/separator-border.png",
-        "layer1.tint": "#ffffff20",
+        "layer1.tint": "color(var(--foreground) alpha(0.2))",
         "layer1.inner_margin": 2,
         "layer1.opacity": 1.0,
     },
@@ -541,10 +541,9 @@
         "class": "auto_complete_detail_pane",
         "tint_modifier": "var(--background)",
         "layer1.texture": "Sone/common/separator-rbl.png",
-        "layer1.tint": "#ffffff20",
+        "layer1.tint": "color(var(--foreground) alpha(0.2))",
         "layer1.inner_margin": 1,
         "layer1.opacity": 1.0,
-
     },
     {
         "class": "scroll_bar_control",
@@ -1022,7 +1021,7 @@
         "class": "label_control",
         "fg": "var(--foreground)",
         "font.size": 12,
-        "font.face": "MonaspaceNeon-Light"
+        "font.face": "Monofoki-Regular"
     },
     {
         "class": "title_label_control",
@@ -1056,7 +1055,7 @@
         "layer0.opacity": 1.0,
         "content_margin": [5, 5, 5, 5],
         "layer1.texture": "Sone/common/separator-top.png",
-        "layer1.tint": "#ffffff20",
+        "layer1.tint":  "color(var(--foreground) alpha(0.2))",
         "layer1.inner_margin": [
             1,
             2,
@@ -1089,7 +1088,7 @@
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
         "font.size": 12,
-        "font.face": "MonaspaceNeon-Light",
+        "font.face": "Monofoki-Regular",
         "fg": "color(var(--foreground) saturation(-100%))",
         "shadow_color": [255, 255, 255, 0.3],
         "shadow_offset": [0, 1]
@@ -1186,7 +1185,7 @@
   {
     "class": "quick_panel_label",
     "fg": [157, 162, 166],
-    "font.face": "MonaspaceNeon-Light",
+    "font.face": "Monofoki-Regular",
     "match_fg": ["accent", 1.0],
     "selected_fg": [97, 103, 108],
     "selected_match_fg": ["accent", 1.0]
