@@ -10,7 +10,7 @@
         "h-b": "#ffffff50", // big highlight
 
         "red": "#ff8792",
-        "green": "#81deb1",
+        "green": "#b8e1d6",
         "blue": "#7EAFD9",
         "purple": "#b4b0e4",
         "yellow": "#ebf4a1",
@@ -115,6 +115,12 @@
             "name": "Entity Function Python",
             "scope": "variable.function meta.generic-name, entity.name.function meta.generic-name",
             "foreground": ["var(purple)", "var(grad2)"],
+            "font_style": "bold"
+        },
+        {
+            "name": "Entity Function Python",
+            "scope": "meta.import keyword.control",
+            "foreground": "var(green)",
             "font_style": "bold"
         },
         {
