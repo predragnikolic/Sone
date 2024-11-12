@@ -1,8 +1,8 @@
 {
     "variables": {
         "kind_keyword_color": "var(--pinkish)",
-        "kind_type_color": "var(--purplish)",
-        "kind_function_color": "var(--redish)",
+        "kind_type_color": "#fccb9e",
+        "kind_function_color": "#fcb6b6",
         "kind_namespace_color": "var(--bluish)",
         "kind_navigation_color": "var(--yellowish)",
         "kind_markup_color": "var(--orangish)",
