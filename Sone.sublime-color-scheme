@@ -3,7 +3,7 @@
     "variables": {
         "white": "#ffffff",
         "gray": "#CCC5C6",
-        "black": "#160319", // #160319, #012323, #030819, #192224, #201922, #182220, #191316
+        "black": "#161619", // #160319, #012323, #030819, #192224, #201922, #182220, #191316
 
         "h-i": "#ffffff03", // inactive highlight
         "h-s": "#ffffff20", // small highlight
@@ -17,7 +17,7 @@
         "orange": "#fccb9e",
         "salmon": "#fcb6b6",
         "danger": "#FF7C7C",
-        "accent": "#fccb9e",
+        "accent": "#facece",
 
         "grad1": "#85CECE",
         "grad2": "#85CECE"
@@ -26,7 +26,7 @@
         // Global Settings
         "background": "var(black)",
         "foreground": "var(white)",
-        "caret": "var(yellow)",
+        "caret": "var(white)",
         "block_caret": "#896fff99",
         "line_highlight": "var(h-s)",
         // Accents

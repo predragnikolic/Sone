@@ -2,8 +2,17 @@
     "variables": {
         "smoke-white": "#fafafa",
         "text": "#333",
-        "purple": "#9CACFF",
-        "match": "#FD9D9D"
+        "purple": "#000",
+        "match": "#FD9D9D",
+
+        "kind_keyword_color": "var(--pinkish)",
+        "kind_type_color": "var(--purplish)",
+        "kind_function_color": "var(--redish)",
+        "kind_namespace_color": "var(--bluish)",
+        "kind_navigation_color": "var(--yellowish)",
+        "kind_markup_color": "var(--orangish)",
+        "kind_variable_color": "var(--cyanish)",
+        "kind_snippet_color": "var(--greenish)",
     },
     "rules": [
         {
@@ -1164,5 +1173,117 @@
             "font.size": 13
         },
         // END kinds in quick panel
+        // kind_container
+        {
+            "class": "kind_container",
+            "parents": [{"class": "auto_complete"}],
+            "content_margin": [5, 2, 6, 4],
+            "layer0.opacity": 0,
+            "layer1.opacity": 1.0,
+            "layer1.inner_margin": [22, 22, 0, 0]
+        },
+        {
+            "class": "kind_container kind_keyword",
+            "layer0.tint": "var(kind_keyword_color)",
+            "layer1.texture": "Sone/kind_icons/kind_keyword.png",
+            "layer1.tint": "var(kind_keyword_color)"
+        },
+        {
+            "class": "kind_container kind_type",
+            "layer0.tint": "var(kind_type_color)",
+            "layer1.texture": "Sone/kind_icons/kind_type.png",
+            "layer1.tint": "var(kind_type_color)"
+        },
+        {
+            "class": "kind_container kind_function",
+            "layer0.tint": "var(kind_function_color)",
+            "layer1.texture": "Sone/kind_icons/kind_function.png",
+            "layer1.tint": "var(kind_function_color)"
+        },
+        {
+            "class": "kind_container kind_namespace",
+            "layer0.tint": "var(kind_namespace_color)",
+            "layer1.texture": "Sone/kind_icons/kind_namespace.png",
+            "layer1.tint": "var(kind_namespace_color)"
+        },
+        {
+            "class": "kind_container kind_navigation",
+            "layer0.tint": "var(kind_navigation_color)",
+            "layer1.texture": "Sone/kind_icons/kind_navigation.png",
+            "layer1.tint": "var(kind_navigation_color)"
+        },
+        {
+            "class": "kind_container kind_markup",
+            "layer0.tint": "var(kind_markup_color)",
+            "layer1.texture": "Sone/kind_icons/kind_markup.png",
+            "layer1.tint": "var(kind_markup_color)"
+        },
+        {
+            "class": "kind_container kind_variable",
+            "layer0.tint": "var(kind_variable_color)",
+            "layer1.texture": "Sone/kind_icons/kind_variable.png",
+            "layer1.tint": "var(kind_variable_color)"
+        },
+        {
+            "class": "kind_container kind_snippet",
+            "layer0.tint": "var(kind_snippet_color)",
+            "layer1.texture": "Sone/kind_icons/kind_snippet.png",
+            "layer1.tint": "var(kind_snippet_color)"
+        },
+        {
+            "class": "kind_container kind_color_redish",
+            "layer0.tint": "var(--redish)",
+            "layer0.opacity": 0.15
+        },
+        {
+            "class": "kind_container kind_color_orangish",
+            "layer0.tint": "var(--orangish)",
+            "layer0.opacity": 0.15
+        },
+        {
+            "class": "kind_container kind_color_yellowish",
+            "layer0.tint": "var(--yellowish)",
+            "layer0.opacity": 0.15
+        },
+        {
+            "class": "kind_container kind_color_greenish",
+            "layer0.tint": "var(--greenish)",
+            "layer0.opacity": 0.15
+        },
+        {
+            "class": "kind_container kind_color_cyanish",
+            "layer0.tint": "var(--cyanish)",
+            "layer0.opacity": 0.15
+        },
+        {
+            "class": "kind_container kind_color_bluish",
+            "layer0.tint": "var(--bluish)",
+            "layer0.opacity": 0.15
+        },
+        {
+            "class": "kind_container kind_color_purplish",
+            "layer0.tint": "var(--purplish)",
+            "layer0.opacity": 0.15
+        },
+        {
+            "class": "kind_container kind_color_pinkish",
+            "layer0.tint": "var(--pinkish)",
+            "layer0.opacity": 0.15
+        },
+        {
+            "class": "kind_container kind_color_dark",
+            "layer0.tint": "black",
+            "layer0.opacity": 0.15
+        },
+        {
+            "class": "kind_container kind_color_light",
+            "layer0.tint": "white",
+            "layer0.opacity": 0.15
+        },
+        {
+            "class": "kind_label",
+            "font.size": 15,
+            "color": "transparent"
+        }
     ]
 }
