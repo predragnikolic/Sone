@@ -355,7 +355,7 @@
         },
         {
             "class": "show_tabs_dropdown_button",
-            "layer0.texture": "Sone/icons/open.png",
+            "layer0.texture": "Sone/common/arrow-down.png",
             "layer0.tint": "#000",
             "layer0.opacity": {"target": 0.4, "speed": 4.0, "interpolation": "smoothstep"},
             "content_margin": [9, 10 ]
