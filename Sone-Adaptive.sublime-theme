@@ -212,7 +212,7 @@
     {
         "class": "tabset_control",
         "layer0.opacity": 1.0,
-        "content_margin": [0, 0, 8, 0 ],
+        "content_margin": [10, 0],
         "tint_index": 0,
             // "tab_height": 34, // hack #1 for top border
             "tab_height": 40,
@@ -379,30 +379,43 @@
         },
         {
             "class": "scroll_tabs_left_button",
-            "layer0.texture": "Sone/common/light/tab_scroll_left.png",
-            "layer0.opacity": {"target": 0.6, "speed": 4.0, "interpolation": "smoothstep"},
-            "content_margin": [9, 10 ]
+            "content_margin": [
+                12,
+                15
+            ],
+            "layer0.texture": "ayu/assets/arrow-left.png",
+            "layer0.tint": "var(--foreground)",
+            "layer0.opacity": 0.4
         },
         {
             "class": "scroll_tabs_left_button",
-            "attributes": ["hover"],
-            "layer0.opacity": {"target": 0.8, "speed": 4.0, "interpolation": "smoothstep"}
+            "attributes": [
+                "hover"
+            ],
+            "layer0.opacity": 1
         },
         {
             "class": "scroll_tabs_right_button",
-            "layer0.texture": "Sone/common/light/tab_scroll_right.png",
-            "layer0.opacity": {"target": 0.6, "speed": 4.0, "interpolation": "smoothstep"},
-            "content_margin": [9, 10 ]
+            "content_margin": [
+                12,
+                15
+            ],
+            "layer0.texture": "ayu/assets/arrow-right.png",
+            "layer0.tint": "var(--foreground)",
+            "layer0.opacity": 0.4
         },
         {
             "class": "scroll_tabs_right_button",
-            "attributes": ["hover"],
-            "layer0.opacity": {"target": 0.8, "speed": 4.0, "interpolation": "smoothstep"}
+            "attributes": [
+                "hover"
+            ],
+            "layer0.opacity": 1
         },
         {
             "class": "show_tabs_dropdown_button",
-            "layer0.texture": "Sone/icons/tab_dropdown.png",
-            "layer0.opacity": {"target": 0.7, "speed": 4.0, "interpolation": "smoothstep"},
+            "layer0.texture": "Sone/icons/open.png",
+            "layer0.tint": "var(--foreground)",
+            "layer0.opacity": {"target": 0.4, "speed": 4.0, "interpolation": "smoothstep"},
             "content_margin": [9, 10 ]
         },
         {

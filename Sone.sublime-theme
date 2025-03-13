@@ -154,7 +154,7 @@
         {
             "class": "tabset_control",
             "layer0.opacity": 1.0,
-            "content_margin": [0, 0, 8, 0 ],
+            "content_margin": [10, 0],
             "tint_index": 0,
             "tab_height": 34,
             "tab_overlap": 16,
@@ -343,8 +343,9 @@
         },
         {
             "class": "show_tabs_dropdown_button",
-            "layer0.texture": "Sone/icons/tab_dropdown.png",
-            "layer0.opacity": {"target": 0.7, "speed": 4.0, "interpolation": "smoothstep"},
+            "layer0.texture": "Sone/icons/open.png",
+            "layer0.tint": "var(--foreground)",
+            "layer0.opacity": {"target": 0.4, "speed": 4.0, "interpolation": "smoothstep"},
             "content_margin": [9, 10 ]
         },
         {
