@@ -1176,7 +1176,7 @@
         // kind_container
         {
             "class": "kind_container",
-            "parents": [{"class": "auto_complete"}],
+            // "parents": [{"class": "auto_complete"}],
             "content_margin": [5, 2, 6, 4],
             "layer0.opacity": 0,
             "layer1.opacity": 1.0,

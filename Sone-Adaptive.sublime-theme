@@ -1275,11 +1275,6 @@
             "row_padding": [0, 0, 0, 0],
         },
         {
-            "class": "kind_container",
-            "parents": [{"class": "overlay_control"}],
-            "content_margin": [10, 10, 10, 10],
-        },
-        {
             "class": "kind_label",
             "parents": [{"class": "overlay_control"}],
             "font.size": 12
@@ -1292,7 +1287,7 @@
         // kind_container
         {
             "class": "kind_container",
-            "parents": [{"class": "auto_complete"}],
+            // "parents": [{"class": "auto_complete"}],
             "content_margin": [5, 2, 6, 4],
             "layer0.opacity": 0,
             "layer1.opacity": 1.0,

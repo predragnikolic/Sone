@@ -3,7 +3,7 @@
     "variables": {
         "white": "#ffffff",
         "gray": "#CCC5C6",
-        "black": "#161619", // #160319, #012323, #030819, #192224, #201922, #182220, #191316
+        "black": "#111111", // #160319, #012323, #030819, #192224, #201922, #182220, #191316
 
         "h-i": "#ffffff03", // inactive highlight
         "h-s": "#ffffff20", // small highlight
@@ -126,13 +126,13 @@
         {
             "name": "Tag",
             "scope": "entity.name.tag",
-            "foreground": ["var(purple)", "var(blue)"],
+            "foreground": ["var(purple)", "var(grad2)"],
             "font_style": "bold"
         },
         {
             "name": "React Tag",
             "scope": " entity.name.tag support.class.component",
-            "foreground": ["var(blue)", "var(purple)"],
+            "foreground": ["var(purple)", "var(grad2)"],
             "font_style": "bold"
         },
         {
