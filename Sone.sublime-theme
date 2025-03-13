@@ -1181,7 +1181,8 @@
             "content_margin": [5, 2, 6, 4],
             "layer0.opacity": 0,
             "layer1.opacity": 1.0,
-            "layer1.inner_margin": [22, 22, 0, 0]
+            "layer1.inner_margin": [22, 22, 0, 0],
+            "layer1.tint": "transparent"
         },
         {
             "class": "kind_container kind_keyword",
