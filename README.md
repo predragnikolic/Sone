@@ -14,5 +14,5 @@ From the command palette:
 
 * Git status icons in the sidebar and kind icons used in the autocompletion popup and the *Goto Symbol…* panels are derived from [Octicons](https://github.com/primer/octicons) (licensed under the [MIT license](https://github.com/jwortmann/brackets-theme/blob/master/licenses/Octicons/LICENSE)), [GitLab SVGs](https://gitlab.com/gitlab-org/gitlab-svgs) (licensed under the [MIT license](https://github.com/jwortmann/brackets-theme/blob/master/licenses/GitLabSVGs/LICENSE)) and [Codicons](https://github.com/microsoft/vscode-codicons) (licensed under [CC BY 4.0](https://github.com/jwortmann/brackets-theme/blob/master/licenses/Codicons/LICENSE)).
 
-> [!TIP] Cleaner UI
-> Set `"enable_tab_scrolling": false` in `Preferences.sublime-settings` to remove arrows in the tab bar.
+> [!TIP]
+> For a cleaner UI, set `"enable_tab_scrolling": false` in `Preferences.sublime-settings` to remove arrows in the tab bar.
