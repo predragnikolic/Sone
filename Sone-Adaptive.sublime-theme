@@ -383,7 +383,7 @@
                 12,
                 15
             ],
-            "layer0.texture": "ayu/assets/arrow-left.png",
+            "layer0.texture": "Sone/common/arrow-left.png",
             "layer0.tint": "var(--foreground)",
             "layer0.opacity": 0.4
         },
@@ -400,7 +400,7 @@
                 12,
                 15
             ],
-            "layer0.texture": "ayu/assets/arrow-right.png",
+            "layer0.texture": "Sone/common/arrow-right.png",
             "layer0.tint": "var(--foreground)",
             "layer0.opacity": 0.4
         },
