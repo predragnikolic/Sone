@@ -635,6 +635,11 @@
         "layer0.tint": [235, 237, 239]
     },
     {
+        "class": "switch_project_panel",
+        "parents": [{"class": "switch_project_window"}],
+        "layer0.tint": "var(--background)"
+    },
+    {
         "class": "panel_grid_control",
         "inside_spacing": 8,
         "outside_hspacing": 4,
