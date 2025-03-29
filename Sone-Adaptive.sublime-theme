@@ -485,10 +485,13 @@
     // Views
     {
         "class": "grid_layout_control",
-        "border_color": ["background", 255, 255, 255, 0.25],
         "border_size": 6,
         // vertical separator pane
         "border_color": ["background", 0, 0, 0, 0.2],
+    },
+    {
+        "class": "popup_shadow",
+        "layer0.opacity": 0 // hide shadow of hover popup
     },
     {
         "class": "minimap_control",
@@ -555,7 +558,7 @@
     {
         "class": "auto_complete",
         "attributes": ["file_light"],
-        "tint_modifier": [0, 0, 0, 0.05],
+        "tint_modifier": [0, 0, 0, 0.02],
     },
     {
         "class": "auto_complete_detail_pane",
@@ -568,7 +571,7 @@
     {
         "class": "scroll_bar_control",
         "parents": [{"class": "popup_control auto_complete_popup"}],
-        "tint_modifier": [0, 0, 0, 0.05],
+        "tint_modifier": [0, 0, 0, 0.02],
     },
     {
         "class": "scroll_bar_control",
