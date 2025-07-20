@@ -13,8 +13,8 @@
         "green": "#b8e1d6",
         "blue": "#7EAFD9",
         "purple": "#b4b0e4",
-        "yellow": "#ebf4a1",
-        "orange": "#fccb9e",
+        "yellow": "#fcd49e",
+        "orange": "#f6ac90",
         "salmon": "#fcb6b6",
         "danger": "#FF7C7C",
         "accent": "#facece",
@@ -25,7 +25,7 @@
     "globals": {
         // Global Settings
         "background": "var(black)",
-        "foreground": "var(white)",
+        "foreground": "var(white),",
         "caret": "var(white)",
         "block_caret": "#896fff99",
         "line_highlight": "var(h-s)",
@@ -109,37 +109,37 @@
             "name": "Entity Function",
             "scope": "entity.name.function",
             "foreground": ["var(purple)", "var(grad2)"],
-            "font_style": "bold"
+            "font_style": ""
         },
         {
             "name": "Entity Function Python",
             "scope": "variable.function meta.generic-name, entity.name.function meta.generic-name",
             "foreground": ["var(purple)", "var(grad2)"],
-            "font_style": "bold"
+            "font_style": ""
         },
         {
             "name": "Entity Function Python",
             "scope": "meta.import keyword.control",
             "foreground": "var(green)",
-            "font_style": "bold"
+            "font_style": ""
         },
         {
             "name": "Tag",
             "scope": "entity.name.tag",
             "foreground": ["var(purple)", "var(grad2)"],
-            "font_style": "bold"
+            "font_style": ""
         },
         {
             "name": "React Tag",
             "scope": " entity.name.tag support.class.component",
             "foreground": ["var(purple)", "var(grad2)"],
-            "font_style": "bold"
+            "font_style": ""
         },
         {
             "name": "Css Classes And Ids",
             "scope": "source.css entity.other.attribute-name",
             "foreground": ["var(green)", "var(blue)"],
-            "font_style": "bold"
+            "font_style": ""
         },
         // Invalid
         // {
@@ -152,7 +152,7 @@
             "name": "Keyword",
             "scope": "keyword",
             "foreground":  "var(salmon)",
-            "font_style": "bold"
+            "font_style": ""
         },
         // Markup
         {
@@ -195,8 +195,8 @@
             "font_style": "italic"
         },
         {
-            "name": "Markdown Bold",
-            "scope": "markup.bold",
+            "name": "Markdown ",
+            "scope": "markup.",
         },
         // Markdown Lists
         {
@@ -225,13 +225,13 @@
         {
             "name": "Function call",
             "scope": "support.function",
-            "font_style": "bold",
+            "font_style": "",
             "foreground": ["var(purple)", "var(grad2)"],
         },
         {
             "name": "Function call 2",
             "scope": "meta.function-call variable.function",
-            "font_style": "bold",
+            "font_style": "",
             "foreground": ["var(purple)", "var(grad2)"],
         },
         // Variable
@@ -244,7 +244,7 @@
             "name": "This, Self",
             "scope": "variable.language",
             "font_style": "italic",
-            "foreground": "var(orange)"
+            "foreground": "var(yellow)"
         },
         // Storage
         {
@@ -256,7 +256,7 @@
         {
             "name": "String",
             "scope": "string",
-            "foreground": "var(orange)"
+            "foreground": "var(yellow)"
         },
         {
             "name": "object keys",
@@ -373,7 +373,7 @@
         },
         {
             "scope": "diff.deleted",
-            "background": "color(var(red) alpha(0.1))",
+            "background": "color(var(red) alpha(0.2))",
             "foreground_adjust": "l(+ 5%)"
         },
         {
