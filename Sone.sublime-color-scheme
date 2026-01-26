@@ -238,7 +238,7 @@
         {
             "name": "Variable",
             "scope": "punctuation.definition.variable",
-            "foreground": ["var(blue)", "var(white)"]
+            "foreground": "var(blue)"
         },
         {
             "name": "This, Self",

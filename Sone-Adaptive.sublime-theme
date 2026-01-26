@@ -41,6 +41,17 @@
         "content_margin": 0
     },
     {
+        "class": "sidebar_container",
+        "settings": ["sidebar_on_right"],
+        "layer1.texture": "Theme - Sone/common/separator-left.png",
+        "layer1.inner_margin": [
+            2,
+            2,
+            2,
+            1
+        ],
+    },
+    {
         "class": "sidebar_tree",
         "row_padding": [8, 10, 10, 8],
         "indent": 20,
