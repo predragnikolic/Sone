@@ -2,5 +2,6 @@
 // sublime=""
 // ext="sublime-settings"
 {
+    "color_scheme": "Packages/Theme - Sone/Widget - Sone-Adaptive.hidden-color-scheme",
   "draw_shadows": false
 }

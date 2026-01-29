@@ -4,7 +4,7 @@
         "text": "#333",
         "purple": "#000",
         "match": "#FD9D9D",
-
+        "font_face": "system",
         "kind_keyword_color": "var(--pinkish)",
         "kind_type_color": "#fccb9e",
         "kind_function_color": "#fcb6b6",
@@ -62,7 +62,7 @@
         {
             "class": "sidebar_label",
             "fg": "var(text)",
-            "font.face": "JetBrains Mono",
+            "font.face": "var(font_face)",
             "font.size": 12
         },
         // Open Files Icons
@@ -963,7 +963,7 @@
             "class": "label_control",
             "fg": [64, 64, 64 ],
             "font.size": 12,
-            "font.face": "JetBrains Mono Lighter"
+            "font.face": "var(font_face)",
         },
         {
             "class": "title_label_control",
@@ -1019,7 +1019,7 @@
             "class": "label_control",
             "parents": [{"class": "status_bar"} ],
             "font.size": 11,
-            "font.face": "JetBrains Mono Lighter",
+            "font.face": "var(font_face)",
             "fg": [0, 0, 0 ],
             "shadow_color": [255, 255, 255, 0.18 ],
             "shadow_offset": [0, 1 ]
@@ -1100,7 +1100,7 @@
         {
             "class": "quick_panel_label",
             "fg": [157, 162, 166 ],
-            "font.face": "JetBrains Mono Lighter",
+            "font.face": "var(font_face)",
             "match_fg": "var(purple)",
             "selected_fg": [97, 103, 108 ],
             "selected_match_fg": "var(purple)"
@@ -1298,6 +1298,6 @@
             "class": "kind_label",
             "font.size": 15,
             "color": "transparent"
-        }
+        },
     ]
 }
