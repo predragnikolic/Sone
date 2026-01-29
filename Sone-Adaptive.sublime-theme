@@ -92,7 +92,7 @@
     },
     {
         "class": "sidebar_label",
-        "fg": "color(var(--foreground) saturation(-100%))",
+        "fg": "color(var(--foreground) a(0.7))",
         "font.face": "var(font_face)",
         "font.size": 13
     },
@@ -220,12 +220,11 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "fg": "var(--accent)"
+        "fg": "var(--foreground)",
     },
     {
         "class": "icon_file_type",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.tint": "var(--accent)",
         "content_margin": 8
     },
 
