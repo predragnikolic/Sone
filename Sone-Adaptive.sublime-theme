@@ -658,7 +658,7 @@
     {
         "class": "panel_control",
         "parents": [{"class": "switch_project_window"}],
-        "layer0.tint": [235, 237, 239]
+        "layer0.tint": "var(--background)"
     },
     {
         "class": "switch_project_panel",
@@ -685,7 +685,7 @@
     // Dialogs
     {
         "class": "dialog",
-        "layer0.tint": [235, 237, 239],
+        "layer0.tint": "var(--background)",
         "layer0.opacity": 1.0
     },
     {
@@ -695,7 +695,7 @@
     },
     {
         "class": "progress_gauge_control",
-        "layer0.tint": [171, 177, 186],
+        "layer0.tint": "color(var(--foreground) alpha(0.2))",
         "layer0.opacity": 1.0,
         "content_margin": [0, 6]
     },
@@ -826,7 +826,7 @@
     {
         "class": "scroll_bar_control",
         "parents": [{"class": "switch_project_window"}],
-        "layer0.tint": [235, 237, 239],
+        "layer0.tint": "var(--background)",
         "tint_index": -1
     },
     // Scroll Bars (Overlay)
@@ -897,7 +897,7 @@
     {
         "class": "button_control",
         "parents": [{"class": "dialog"}],
-        "layer0.tint": [171, 177, 186],
+        "layer0.tint": "color(var(--foreground) alpha(0.2))",
     },
     {
         "class": "icon_button_group",
