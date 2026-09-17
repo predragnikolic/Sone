@@ -94,7 +94,7 @@
             "layer0.texture": "Theme - Sone/icons/closed.png",
             "layer0.tint": "var(text)",
             "layer0.opacity": 0.8,
-            "content_margin": [9, 8]
+            "content_margin": 8
         },
         {
             "class": "icon_folder",
@@ -102,7 +102,7 @@
             "layer0.texture": "Theme - Sone/icons/open.png",
             "layer0.tint": "var(text)",
             "layer0.opacity": 0.8,
-            "content_margin": [9, 8]
+            "content_margin": 8
         },
         {
             "class": "icon_folder_loading",
@@ -134,21 +134,21 @@
             },
             "layer0.tint": "var(text)",
             "layer0.opacity": 0.8,
-            "content_margin": [9, 8]
+            "content_margin": 8
         },
         {
             "class": "icon_folder_dup",
             "layer0.texture": "Theme - Sone/common/dark/symlink.png",
             "layer0.tint": "var(text)",
             "layer0.opacity": 0.8,
-            "content_margin": [9, 8]
+            "content_margin": 8
         },
         // File Icons
         {
             "class": "icon_file_type",
             "layer0.tint": "var(text)",
             "layer0.opacity": 0.8,
-            "content_margin": [9, 8]
+            "content_margin": 8
         },
         // Tabs
         {

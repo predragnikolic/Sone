@@ -3,7 +3,7 @@
     "variables": {
         "white": "#ffffff",
         "gray": "#CCC5C6",
-        "black": "#111",
+        "black": "#010101",
 
         "h-i": "#ffffff03", // inactive highlight
         "h-s": "#ffffff20", // small highlight
