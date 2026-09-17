@@ -12,6 +12,7 @@
     "rules": [
     {
         "class": "title_bar",
+        "settings": ["themed_title_bar"],
         "fg": "var(--foreground)",
         "bg": "var(--background)", // TODO: create var in sync with sidebar_container
     },
