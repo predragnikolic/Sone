@@ -1,6 +1,20 @@
 {
     "icons": {
         "txt": "file_type_text",
+        // add your extensions missing extensions here
+        "sublime-file-icons": "file_type_sublime",
+        "sublime-theme": "file_type_sublime",
+        "sublime-color-scheme": "file_type_sublime",
+        "hidden-color-scheme": "file_type_sublime",
+        "sublime-menu": "file_type_sublime",
+        "sublime-commands": "file_type_sublime",
+        "sublime-keymap": "file_type_sublime",
+        "sublime-settings": "file_type_sublime",
+        "sublime-syntax": "file_type_sublime",
+        "pyi": "file_type_python",
+
+        // from zed icons
+        "txt": "file_type_text",
         "LICENSE": "file_type_license",
         "README": "file_type_readme",
         "README.md": "file_type_readme",
