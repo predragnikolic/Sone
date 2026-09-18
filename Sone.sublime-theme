@@ -91,7 +91,7 @@
         // Folder Icons
         {
             "class": "icon_folder",
-            "layer0.texture": "Theme - Sone/icons/closed.png",
+            "layer0.texture": "Theme - Sone/icons/file_type_folder.png",
             "layer0.tint": "var(text)",
             "layer0.opacity": 0.8,
             "content_margin": 8
@@ -99,7 +99,7 @@
         {
             "class": "icon_folder",
             "parents": [{"class": "tree_row", "attributes": ["expanded"] } ],
-            "layer0.texture": "Theme - Sone/icons/open.png",
+            "layer0.texture": "Theme - Sone/icons/file_type_folder_open.png",
             "layer0.tint": "var(text)",
             "layer0.opacity": 0.8,
             "content_margin": 8
