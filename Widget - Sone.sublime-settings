@@ -1,7 +1,6 @@
-// prefix="Widget - "
-// sublime=""
-// ext="sublime-settings"
 {
-  "color_scheme": "Packages/Theme - Sone/Widget - Sone.hidden-color-scheme",
-  "draw_shadows": false
+	"color_scheme": "Widget - Sone.hidden-color-scheme",
+	"draw_shadows": false,
+	"caret_extra_top": 1,
+	"caret_extra_bottom": 1,
 }
