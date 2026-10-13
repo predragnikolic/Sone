@@ -176,7 +176,7 @@
             "layer1.texture": "Theme - Sone/common/tab.png",
             "layer1.inner_margin": [19, 0, 19, 0 ],
             "layer1.opacity": 1.0,
-            "layer2.texture": "Theme - Sone/common/tab_highlight.png",
+            "layer2.texture": "Theme - Sone/common/tab.png",
             "layer2.inner_margin": [19, 0, 19, 0 ],
             "layer2.opacity": 0.0,
             "layer3.texture": "Theme - Sone/common/light/tab_border.png",
