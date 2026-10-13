@@ -372,27 +372,8 @@
         },
         // Quick Panel
         {
-            "class": "overlay_control",
-            "layer0.tint": [235, 237, 239 ],
-            "layer0.opacity": 1.0,
-            "content_margin": 4
-        },
-        {
             "class": "quick_panel",
-            "row_padding": 6,
-            "layer0.tint": [235, 237, 239 ],
-            "layer0.opacity": 1.0,
             "dark_content": false,
-        },
-        {
-            "class": "mini_quick_panel_row",
-            "layer0.tint": "#ccc",
-            "layer0.opacity": 0.0
-        },
-        {
-            "class": "mini_quick_panel_row",
-            "attributes": ["selected"],
-            "layer0.opacity": 1.0
         },
         // quick_panel annotation
         {
@@ -400,33 +381,9 @@
             "content_margin": [4, 0, 10, 0]
         },
         {
-            "class": "quick_panel_row",
-            "layer0.tint": "#ccc",
-            "layer0.opacity": 0.0
-        },
-        {
-            "class": "quick_panel_row",
-            "attributes": ["selected"],
-            "layer0.opacity": 1.0
-        },
-        {
-            "class": "quick_panel_label",
-            "fg": [69, 74, 85 ],
-            "match_fg": [0, 0, 0 ],
-            "selected_fg": [46, 49, 56 ],
-            "selected_match_fg": [0, 0, 0 ]
-        },
-        {
             "class": "quick_panel_label",
             "parents": [{"class": "mini_quick_panel_row"} ],
             "font.size": 14
-        },
-        {
-            "class": "quick_panel_path_label",
-            "fg": [115, 125, 140 ],
-            "match_fg": [92, 100, 112 ],
-            "selected_fg": [92, 100, 112 ],
-            "selected_match_fg": [69, 74, 85 ]
         },
         // Views
         {
@@ -491,10 +448,6 @@
             "tint_index": 0,
             "layer0.opacity": 1.0,
             "tint_modifier": [255, 255, 255, 0.05 ],
-        },
-        {
-            "class": "kind_container",
-            "content_margin": [5, 5, 5, 5 ]
         },
         {
             "class": "auto_complete_detail_pane",
@@ -694,11 +647,6 @@
             "class": "scroll_bar_control",
             "parents": [{"class": "sidebar_container"} ],
             "layer0.opacity": 0.0,
-        },
-        {
-            "class": "scroll_bar_control",
-            "parents": [{"class": "sidebar_container"} ],
-            "attributes": ["horizontal"],
         },
         {
             "class": "scroll_track_control",
@@ -997,17 +945,6 @@
             "content_margin": [8, 0, 8, 0 ]
         },
         {
-            "class": "panel_button_control",
-            "layer0.texture": "Theme - Sone/common/light/panels_button.png",
-            "layer0.opacity": {"target": 0.4, "speed": 4.0, "interpolation": "smoothstep"},
-            "content_margin": [12, 11 ]
-        },
-        {
-            "class": "panel_button_control",
-            "attributes": ["hover"],
-            "layer0.opacity": {"target": 0.6, "speed": 4.0, "interpolation": "smoothstep"},
-        },
-        {
             "class": "status_container",
             "content_margin": [8, 0, 0, 0 ]
         },
@@ -1123,12 +1060,6 @@
             "selected_fg": [128, 132, 136 ],
             "selected_match_fg": [128, 132, 136 ]
         },
-        // Panels data / score
-        {
-            "class": "quick_panel_score_label",
-            "fg": [157, 162, 166 ],
-            "selected_fg": "var(purple)"
-        },
         {
             "class": "vcs_branch_icon",
             "layer0.texture": "Theme - Sone/common/branch.png",
@@ -1174,17 +1105,6 @@
             "class": "quick_panel",
             "parents": [{"class": "goto_symbol_in_project"} ],
             "row_padding": [0, 0, 0, 0 ],
-        },
-        {
-            "class": "kind_container",
-            "parents": [{"class": "overlay_control"} ],
-            "content_margin": [10, 10, 10, 10 ],
-            "layer0.opacity": 0.14
-        },
-        {
-            "class": "kind_label",
-            "parents": [{"class": "overlay_control"} ],
-            "font.size": 13
         },
         // END kinds in quick panel
         // kind_container

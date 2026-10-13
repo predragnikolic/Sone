@@ -141,28 +141,6 @@
     },
     // Folder & File Icons
     {
-        "class": "disclosure_button_control",
-        "layer0.texture": "Theme - Sone/common/dark/disclosure_unexpanded.png",
-        "layer0.opacity": { "target": 0.3, "speed": 4.0, "interpolation": "smoothstep" },
-        "content_margin": [0, 0]
-    },
-    {
-        "class": "disclosure_button_control",
-        "attributes": ["expanded"],
-        "layer0.texture": "Theme - Sone/common/dark/disclosure_expanded.png",
-    },
-    {
-        "class": "disclosure_button_control",
-        "attributes": [
-            "hover"
-        ],
-        "layer0.opacity": {
-            "target": 0.5,
-            "speed": 4.0,
-            "interpolation": "smoothstep"
-        },
-    },
-    {
         "class": "icon_folder",
         "layer0.texture": "Theme - Sone/icons/closed.png",
         "layer0.tint": "var(--foreground)",
@@ -453,56 +431,13 @@
 
     // Quick Panel
     {
-        "class": "overlay_control",
-        "layer0.tint": "var(--background)",
-        "layer0.opacity": 1.0,
-        "content_margin": 4
-    },
-    {
         "class": "quick_panel",
-        "row_padding": 6,
-        "layer0.tint": "var(--background)",
-        "layer0.opacity": 1.0,
         "dark_content": false
-    },
-    {
-        "class": "mini_quick_panel_row",
-        "layer0.tint": [199, 203, 209],
-        "layer0.opacity": 0.0
-    },
-    {
-        "class": "mini_quick_panel_row",
-        "attributes": ["selected"],
-        "layer0.opacity": 1.0
-    },
-    {
-        "class": "quick_panel_row",
-        "layer0.tint": [199, 203, 209],
-        "layer0.opacity": 0.0
-    },
-    {
-        "class": "quick_panel_row",
-        "attributes": ["selected"],
-        "layer0.opacity": 1.0
-    },
-    {
-        "class": "quick_panel_label",
-        "fg": [69, 74, 85],
-        "match_fg": [0, 0, 0],
-        "selected_fg": [46, 49, 56],
-        "selected_match_fg": [0, 0, 0]
     },
     {
         "class": "quick_panel_label",
         "parents": [{"class": "mini_quick_panel_row"}],
         "font.size": 15
-    },
-    {
-        "class": "quick_panel_path_label",
-        "fg": [115, 125, 140],
-        "match_fg": [92, 100, 112],
-        "selected_fg": [92, 100, 112],
-        "selected_match_fg": [69, 74, 85]
     },
 
     // Views
@@ -789,11 +724,6 @@
         "class": "scroll_bar_control",
         "parents": [{"class": "sidebar_container"}],
         "layer0.opacity": 0.0,
-    },
-    {
-        "class": "scroll_bar_control",
-        "parents": [{"class": "sidebar_container"}],
-        "attributes": ["horizontal"],
     },
     {
         "class": "scroll_track_control",
@@ -1116,17 +1046,6 @@
         "layer1.opacity": 1.0,
     },
     {
-        "class": "panel_button_control",
-        "layer0.texture": "Theme - Sone/common/dark/panels_button.png",
-        "layer0.opacity": { "target": 0.4, "speed": 4.0, "interpolation": "smoothstep" },
-        "content_margin": [12, 11]
-    },
-    {
-        "class": "panel_button_control",
-        "attributes": ["hover"],
-        "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
-    },
-    {
         "class": "status_container",
         "content_margin": [8, 0, 0, 0]
     },
@@ -1185,9 +1104,7 @@
 
   {
     "class": "quick_panel",
-    "row_padding": [32, 12],
-    "layer0.tint": "var(--background)",
-    "layer0.opacity": 1.0
+    "row_padding": [32, 12]
 },
 
   // Quick Panel row default style (project manager)
@@ -1213,16 +1130,12 @@
   {
     "class": "quick_panel",
     "parents": [{"class": "overlay_control"}],
-    "row_padding": [24, 8],
-    "layer0.tint": "var(--foreground)",
-    "layer0.opacity": 1.0
+    "row_padding": [24, 8]
 },
 {
     "class": "quick_panel",
     "parents": [{"class": "kind_info"} ],
-    "row_padding": [0, 0, 20, 0 ],
-    "layer0.tint": [255, 255, 255],
-    "layer0.opacity": 1.0
+    "row_padding": [0, 0, 20, 0]
 },
 
   // Quick Panel selected list item style
@@ -1259,13 +1172,6 @@
     "match_fg":  ["foreground", 255,255,255,0.6],
     "selected_fg": "var(--foreground)",
     "selected_match_fg": "var(--foreground)",
-},
-
-  // Panels data / score
-  {
-    "class": "quick_panel_score_label",
-    "fg": [157, 162, 166],
-    "selected_fg": ["accent", 1.0]
 },
 {
     "class": "vcs_branch_icon",
@@ -1317,11 +1223,6 @@
             "class": "quick_panel",
             "parents": [{"class": "goto_symbol_in_project"}],
             "row_padding": [0, 0, 0, 0],
-        },
-        {
-            "class": "kind_label",
-            "parents": [{"class": "overlay_control"}],
-            "font.size": 15
         },
          // END kinds in quick panel
          {
