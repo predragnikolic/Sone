@@ -1190,5 +1190,10 @@
             "layer0.tint": "color(var(--background) blend(black 95%))",
             "layer1.tint": "color(var(--background) lightness(- 20%))"
         },
+        {
+            "class": "popup_shadow",
+            "layer0.opacity": 0 // hide shadow of hover popup
+        },
+
     ]
 }
