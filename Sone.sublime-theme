@@ -253,6 +253,7 @@
             // unselected tab text
             "class": "tab_label",
             "fg": [69, 74, 85 ],
+            "font.face": "var(font_face)",
         },
         {
             "class": "tab_label",

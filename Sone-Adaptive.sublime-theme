@@ -1072,7 +1072,7 @@
         "class": "label_control",
         "fg": "var(--foreground)",
         "font.size": 15,
-        "font.face": "Lilex-Regular"
+        "font.face": "var(font_face)"
     },
     {
         "class": "title_label_control",
