@@ -1,12 +1,24 @@
 """Plays the Sone-Adaptive tab line comet animation when a tab becomes selected.
 
-The animation itself is a looping keyframe texture in the theme (looping keyframes
-make Sublime redraw continuously, even with no mouse activity). Keyframes also
-restart whenever a tab's attributes change (hover, left_of_hover, ...), so the
-theme only applies them while the in-memory `sone_tab_line_active` preference
-is true. This plugin turns it on when a tab is activated and off again once the
-animation is over; afterwards the selected tab shows the static line, so
-hovering can't replay it. The setting is never saved to disk.
+HACK: AI-generated ("vibe coded") workaround, not a proper solution.
+TODO: remove this plugin, and the sone_tab_line_active rules in
+Sone-Adaptive.sublime-theme, once Sublime Text offers a better way to play a
+tab keyframe animation once (e.g. keyframes that don't restart on unrelated
+attribute changes like hover/left_of_hover, and that keep redrawing while they
+play).
+
+Why it exists: a keyframe texture on the `selected` rule restarts whenever a
+tab's attributes change (hover, left_of_hover, right_of_hover, ...), so it
+replays as the mouse moves over the tab bar, even with "loop": false. So the
+theme only applies the (looping) keyframes while the in-memory
+`sone_tab_line_active` preference is true. This plugin turns it on when a tab is
+activated and off again once the animation is over; afterwards the selected tab
+shows the static line, so hovering can't replay it. The setting is never saved
+to disk.
+
+Known limitation: Sublime doesn't reliably redraw the tab bar while the
+keyframes play, so when switching via the keyboard or the sidebar the animation
+can stall or skip to the end.
 """
 import threading
 import time
@@ -15,9 +27,10 @@ import sublime
 import sublime_plugin
 
 SETTING = "sone_tab_line_active"
-# one loop = 33 comet frames + 30 resting frames (63 * 16.6ms ~= 1.05s); turn the
-# rule off in the middle of the resting padding so it never starts a second comet
-DURATION = (33 + 15) * 0.0166
+# one loop = 15 comet frames + 8 resting frames at 30fps (23 * 33ms ~= 0.77s);
+# turn the rule off in the middle of the resting padding so it never starts a
+# second animation, and stops Sublime redrawing the loop as early as possible
+DURATION = (15 + 4) * 0.0333
 
 _lock = threading.Lock()
 _token = 0

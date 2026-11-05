@@ -269,7 +269,6 @@
         {
             "class": "tab_control",
             "attributes": ["selected" ],
-            "settings": ["!sone_tab_line_active"],
             // same look as the old "#ffffff40" tint: the 25% is baked into tab_line.png
             "layer3.tint": "#ffffff",
             "layer3.texture": "Theme - Sone/common/tab_line.png",
@@ -280,8 +279,10 @@
                 "selected",
                 "file_light"
             ],
+            // light schemes: same resting line as dark ones, tinted black, so the
+            // animation (also tinted black below) ends exactly on it
             "layer3.tint": "#000",
-            "layer3.texture": "Theme - Sone/common/bitmap.png",
+            "layer3.texture": "Theme - Sone/common/tab_line.png",
         },
         {
             "class": "tab_control",
@@ -302,15 +303,20 @@
         {
             "class": "tab_control",
             "attributes": ["dirty", "selected"],
-            "settings": ["highlight_modified_tabs", "!sone_tab_line_active"],
+            "settings": ["highlight_modified_tabs"],
             "layer2.opacity": 1.0
         },
+        // HACK: AI-generated ("vibe coded") workaround, see sone_tab_animation.py.
+        // TODO: remove this rule and sone_tab_animation.py once Sublime Text offers
+        // a better way to play a tab keyframe animation once.
         // tab line comet animation: sone_tab_animation.py turns sone_tab_line_active
         // on when a tab is activated and off once the animation is over, so the
-        // keyframes play once and hovering can't replay them afterwards
+        // keyframes play once and hovering can't replay them afterwards.
+        // "highlighted" = the tab with input focus, so selected tabs in other
+        // groups keep their resting line instead of animating too
         {
             "class": "tab_control",
-            "attributes": ["selected"],
+            "attributes": ["selected", "highlighted"],
             "settings": ["sone_tab_line_active"],
             "layer3.tint": "#ffffff",
             "layer3.texture": {
@@ -330,46 +336,6 @@
                     "Theme - Sone/common/tab_line/line_13.png",
                     "Theme - Sone/common/tab_line/line_14.png",
                     "Theme - Sone/common/tab_line/line_15.png",
-                    "Theme - Sone/common/tab_line/line_16.png",
-                    "Theme - Sone/common/tab_line/line_17.png",
-                    "Theme - Sone/common/tab_line/line_18.png",
-                    "Theme - Sone/common/tab_line/line_19.png",
-                    "Theme - Sone/common/tab_line/line_20.png",
-                    "Theme - Sone/common/tab_line/line_21.png",
-                    "Theme - Sone/common/tab_line/line_22.png",
-                    "Theme - Sone/common/tab_line/line_23.png",
-                    "Theme - Sone/common/tab_line/line_24.png",
-                    "Theme - Sone/common/tab_line/line_25.png",
-                    "Theme - Sone/common/tab_line/line_26.png",
-                    "Theme - Sone/common/tab_line/line_27.png",
-                    "Theme - Sone/common/tab_line/line_28.png",
-                    "Theme - Sone/common/tab_line/line_29.png",
-                    "Theme - Sone/common/tab_line/line_30.png",
-                    "Theme - Sone/common/tab_line/line_31.png",
-                    "Theme - Sone/common/tab_line/line_32.png",
-                    "Theme - Sone/common/tab_line/line_33.png",
-                    "Theme - Sone/common/tab_line.png",
-                    "Theme - Sone/common/tab_line.png",
-                    "Theme - Sone/common/tab_line.png",
-                    "Theme - Sone/common/tab_line.png",
-                    "Theme - Sone/common/tab_line.png",
-                    "Theme - Sone/common/tab_line.png",
-                    "Theme - Sone/common/tab_line.png",
-                    "Theme - Sone/common/tab_line.png",
-                    "Theme - Sone/common/tab_line.png",
-                    "Theme - Sone/common/tab_line.png",
-                    "Theme - Sone/common/tab_line.png",
-                    "Theme - Sone/common/tab_line.png",
-                    "Theme - Sone/common/tab_line.png",
-                    "Theme - Sone/common/tab_line.png",
-                    "Theme - Sone/common/tab_line.png",
-                    "Theme - Sone/common/tab_line.png",
-                    "Theme - Sone/common/tab_line.png",
-                    "Theme - Sone/common/tab_line.png",
-                    "Theme - Sone/common/tab_line.png",
-                    "Theme - Sone/common/tab_line.png",
-                    "Theme - Sone/common/tab_line.png",
-                    "Theme - Sone/common/tab_line.png",
                     "Theme - Sone/common/tab_line.png",
                     "Theme - Sone/common/tab_line.png",
                     "Theme - Sone/common/tab_line.png",
@@ -382,8 +348,15 @@
                 // loop so Sublime keeps redrawing it without mouse activity; the
                 // plugin turns the rule off after one cycle, inside the resting padding
                 "loop": true,
-                "frame_time": 0.0166
+                "frame_time": 0.0333
             },
+        },
+        // light schemes: the same frames tinted black (dark glowing dots on a light tab)
+        {
+            "class": "tab_control",
+            "attributes": ["selected", "highlighted", "file_light"],
+            "settings": ["sone_tab_line_active"],
+            "layer3.tint": "#000",
         },
         {
             // unselected tab text
