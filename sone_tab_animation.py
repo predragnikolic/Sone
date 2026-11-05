@@ -15,9 +15,10 @@ import sublime
 import sublime_plugin
 
 SETTING = "sone_tab_line_active"
-# one loop = 33 comet frames + 30 resting frames (63 * 16.6ms ~= 1.05s); turn the
-# rule off in the middle of the resting padding so it never starts a second comet
-DURATION = (33 + 15) * 0.0166
+# one loop = 15 comet frames + 8 resting frames at 30fps (23 * 33ms ~= 0.77s);
+# turn the rule off in the middle of the resting padding so it never starts a
+# second animation, and stops Sublime redrawing the loop as early as possible
+DURATION = (15 + 4) * 0.0333
 
 _lock = threading.Lock()
 _token = 0
