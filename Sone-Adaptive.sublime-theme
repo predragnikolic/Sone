@@ -279,8 +279,10 @@
                 "selected",
                 "file_light"
             ],
+            // light schemes: same resting line as dark ones, tinted black, so the
+            // animation (also tinted black below) ends exactly on it
             "layer3.tint": "#000",
-            "layer3.texture": "Theme - Sone/common/bitmap.png",
+            "layer3.texture": "Theme - Sone/common/tab_line.png",
         },
         {
             "class": "tab_control",
@@ -348,6 +350,13 @@
                 "loop": true,
                 "frame_time": 0.0333
             },
+        },
+        // light schemes: the same frames tinted black (dark glowing dots on a light tab)
+        {
+            "class": "tab_control",
+            "attributes": ["selected", "highlighted", "file_light"],
+            "settings": ["sone_tab_line_active"],
+            "layer3.tint": "#000",
         },
         {
             // unselected tab text
