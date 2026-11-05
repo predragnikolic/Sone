@@ -304,6 +304,9 @@
             "settings": ["highlight_modified_tabs"],
             "layer2.opacity": 1.0
         },
+        // HACK: AI-generated ("vibe coded") workaround, see sone_tab_animation.py.
+        // TODO: remove this rule and sone_tab_animation.py once Sublime Text offers
+        // a better way to play a tab keyframe animation once.
         // tab line comet animation: sone_tab_animation.py turns sone_tab_line_active
         // on when a tab is activated and off once the animation is over, so the
         // keyframes play once and hovering can't replay them afterwards.
